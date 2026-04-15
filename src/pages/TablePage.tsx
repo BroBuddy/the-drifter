@@ -20,10 +20,6 @@ const data: RuleItem[] = [
         tag: 'r201d',
         title: 'Table D – Loot Table',
     },
-    {
-        tag: 'r201e',
-        title: 'Table E – Loot Event Table',
-    },
 ]
 
 function TablePage() {

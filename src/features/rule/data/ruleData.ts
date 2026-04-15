@@ -666,10 +666,7 @@ const ruleData: Rule[] = [
         tag: 'r201d',
         title: 'Table D',
         desc: ['Loot Table – Loot Suit'],
-        note: [
-            "* There's more! Roll again on the same suit.",
-            'For Q, K, A results, roll on Table D2 Loot Event Table',
-        ],
+        note: ["* There's more! Roll again on the same suit."],
         tables: [
             {
                 cols: ['1D10', '❌ N.', '♣️ L.', '♦️ M.', '♥️ H.', '♠️ H.'],
@@ -683,13 +680,6 @@ const ruleData: Rule[] = [
                     ['10', 'Q', 'K', 'A', 'A', '$150*'],
                 ],
             },
-        ],
-    },
-    {
-        tag: 'r201e',
-        title: 'Table E',
-        desc: ['Loot Event Table'],
-        tables: [
             {
                 cols: ['1D6', 'Q', 'K', 'A'],
                 rows: [
