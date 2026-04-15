@@ -17,19 +17,19 @@ const eventData: Event[] = [
                     ],
                     [
                         '2-3',
-                        'Attempt a Finesse skill test (Table C/♥/Finesse-2)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                        'Attempt a Finesse skill test (Table C/♥️/Finesse-2)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
                     ],
                     [
                         '4',
-                        'Attempt a Finesse skill test (Table C/♥/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                        'Attempt a Finesse skill test (Table C/♥️/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
                     ],
                     [
                         '5',
-                        'Attempt a Finesse skill test (Table C/♦/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                        'Attempt a Finesse skill test (Table C/♦️/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
                     ],
                     [
                         '6',
-                        'You sneak up on him and apprehend him.\nBounty Suit up one.\nLoot Suit:♥(Table D1).\nTo get your reward bring him to the nearest town.\nRecord “Hex#any town/reward/E231“ under your Points of Interest R102.',
+                        'You sneak up on him and apprehend him.\nBounty Suit up one.\nLoot Suit:♥️(Table D1).\nTo get your reward bring him to the nearest town.\nRecord “Hex#any town/reward/E231“ under your Points of Interest R102.',
                     ],
                 ],
             },
@@ -96,7 +96,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'If your Bounty Suit is ✖ go to Roll Result 4\nThe father chases you off the property with a shotgun.\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = You spot the trap and flee; E234\nFAIL = You are caught in the trap and taken away; E075',
+                        'If your Bounty Suit is ❌ go to Roll Result 4\nThe father chases you off the property with a shotgun.\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = You spot the trap and flee; E234\nFAIL = You are caught in the trap and taken away; E075',
                     ],
                     [
                         '3',
@@ -104,7 +104,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'If your Bounty Suit is ♥ or ♠ the father chases you off the property with a shotgun.\nThe family tells you she was kidnapped by Bandits.\nRoll a D6 to determine the direction of the Bandits:\n1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW\nand then roll a D6, to determine how many hexes away.\nRecord “Hex#/kidnapping/E197” under your Points of Interest R102.',
+                        'If your Bounty Suit is ♥️ or ♠️ the father chases you off the property with a shotgun.\nThe family tells you she was kidnapped by Bandits.\nRoll a D6 to determine the direction of the Bandits:\n1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW\nand then roll a D6, to determine how many hexes away.\nRecord “Hex#/kidnapping/E197” under your Points of Interest R102.',
                     ],
                     [
                         '5',
@@ -134,7 +134,7 @@ const eventData: Event[] = [
         title: 'Desert Hunting',
         desc: [
             'You forage for food.',
-            'Attempt a Hunch skill test (Table C/♥/Hunch-1)R111.',
+            'Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111.',
             'PASS = You find appropriate sustenance.',
             'You (and any partners) heal one Wound Level.',
             'Roll on the Event Table (Table A).',
@@ -158,11 +158,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'The den owner has been arrested.\nBounty Suit up one.\nAttempt a Finesse skill test (Table C/♥/Finesse-1)R111.\nPASS = You slip out of town.\nMove to any adjacent hex; E095\nFAIL = You are spotted; E155',
+                        'The den owner has been arrested.\nBounty Suit up one.\nAttempt a Finesse skill test (Table C/♥️/Finesse-1)R111.\nPASS = You slip out of town.\nMove to any adjacent hex; E095\nFAIL = You are spotted; E155',
                     ],
                     [
                         '3',
-                        'If you have a Bounty Suit of ♥ or ♠; E103\nYou meet with the den owner and he pays you $20.',
+                        'If you have a Bounty Suit of ♥️ or ♠️; E103\nYou meet with the den owner and he pays you $20.',
                     ],
                     [
                         '4-5',
@@ -186,19 +186,19 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'A diseased outcast.\nAttempt a Hunch skill test (Table C/♦/Hunch-1) R111.\nPASS = You avoid getting too close and scuttle off; E007\nFAIL = Your body is unable to fight off the disease.\nYou don’t live much longer and have an uncomfortable death.\nYou are dead.',
+                        'A diseased outcast.\nAttempt a Hunch skill test (Table C/♦️/Hunch-1) R111.\nPASS = You avoid getting too close and scuttle off; E007\nFAIL = Your body is unable to fight off the disease.\nYou don’t live much longer and have an uncomfortable death.\nYou are dead.',
                     ],
                     [
                         '2',
-                        'An ugly Bandit.\nHe attacks you R110. Initiative R110b.\nBandit: Finesse: 2; Weapon: Pistol♦; Loot Suit:✖(Table D1).',
+                        'An ugly Bandit.\nHe attacks you R110. Initiative R110b.\nBandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:❌(Table D1).',
                     ],
                     [
                         '3',
-                        'A handsome Bounty Hunter.\nHe attacks you R110. Initiative R110f.\nBounty Hunter: Finesse: 2; Weapon: Rifle♥; Loot Suit:♦(Table D1)\nIf you win the combat, Bounty Suit up one; E240',
+                        'A handsome Bounty Hunter.\nHe attacks you R110. Initiative R110f.\nBounty Hunter: Finesse: 2; Weapon: Rifle♥️; Loot Suit:♦️(Table D1)\nIf you win the combat, Bounty Suit up one; E240',
                     ],
                     [
                         '4',
-                        'If you have any partners; E082\nThey give into your demands.\nBounty Suit up one.\nLoot Suit:♦ (Table D1).',
+                        'If you have any partners; E082\nThey give into your demands.\nBounty Suit up one.\nLoot Suit:♦️ (Table D1).',
                     ],
                     [
                         '5-6',
@@ -206,19 +206,19 @@ const eventData: Event[] = [
                     ],
                     [
                         '7',
-                        'They give into your threats.\nBounty Suit up one.\nLoot Suit:♦ (Table D1).',
+                        'They give into your threats.\nBounty Suit up one.\nLoot Suit:♦️ (Table D1).',
                     ],
                     [
                         '8',
-                        'Attempt a Hunch Skill Test (Table C/♥/Hunch-2)R111.\nPASS = They give into your threats.\nBounty Suit up one.\nLoot Suit:♥ (Table D1).\nFAIL = They have nothing of value.\nBounty Suit up one.',
+                        'Attempt a Hunch Skill Test (Table C/♥️/Hunch-2)R111.\nPASS = They give into your threats.\nBounty Suit up one.\nLoot Suit:♥️ (Table D1).\nFAIL = They have nothing of value.\nBounty Suit up one.',
                     ],
                     [
                         '9',
-                        'Attempt a Hunch Skill Test (Table C/♥/Hunch-1)R111.\nPASS = They give into your threats.\nLoot Suit:♥ (Table D1).\nFAIL = Nothing of value.\nBounty Suit up one; E234',
+                        'Attempt a Hunch Skill Test (Table C/♥️/Hunch-1)R111.\nPASS = They give into your threats.\nLoot Suit:♥️ (Table D1).\nFAIL = Nothing of value.\nBounty Suit up one; E234',
                     ],
                     [
                         '10',
-                        'They give into your threats.\nYou find $8 + Loot Suit:♠ (Table D1).',
+                        'They give into your threats.\nYou find $8 + Loot Suit:♠️ (Table D1).',
                     ],
                 ],
             },
@@ -230,7 +230,7 @@ const eventData: Event[] = [
         desc: ['He explains his anger. Roll a D6:'],
         tables: [
             {
-                cols: ['D6', 'Outcome'],
+                cols: ['1D6', 'Outcome'],
                 rows: [
                     [
                         '1',
@@ -265,7 +265,7 @@ const eventData: Event[] = [
         title: 'Mountain or Marshland Hunting',
         desc: [
             'You forage for food.',
-            'Attempt a Hunch skill test(Table C/♦/Hunch-2)R111.',
+            'Attempt a Hunch skill test(Table C/♦️/Hunch-2)R111.',
             'PASS = You find appropriate sustenance.',
             'You (and any partners) heal one Wound Level; E095',
             'FAIL = You become ill.',
@@ -277,7 +277,7 @@ const eventData: Event[] = [
         title: 'Forest or Grassland Hunting',
         desc: [
             'You forage for food.',
-            'Attempt a Hunch skill test(Table C/♣/Hunch-1)R111.',
+            'Attempt a Hunch skill test(Table C/♣️/Hunch-1)R111.',
             'PASS = You find appropriate sustenance.',
             'You (and any partner) heals one Wound Level.',
             'Roll on the Event Table (Table A).',
@@ -293,7 +293,7 @@ const eventData: Event[] = [
         ],
         tables: [
             {
-                cols: ['D6', 'Outcome'],
+                cols: ['1D6', 'Outcome'],
                 rows: [
                     [
                         '1',
@@ -301,7 +301,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'The pelt is in fair condition.\nThe trapper pays you $3.\nShortly after, you are confronted by a bitter person from your past.\nDraw!\nAttempt a Finesse skill test (Table C/♦/Finesse-1)R111.\nPASS = You shot him first, right between the eyes.\nLoot Suit:♣(Table D1).\nFAIL = He shot you first, right between your eyes.\nYou are dead.',
+                        'The pelt is in fair condition.\nThe trapper pays you $3.\nShortly after, you are confronted by a bitter person from your past.\nDraw!\nAttempt a Finesse skill test (Table C/♦️/Finesse-1)R111.\nPASS = You shot him first, right between the eyes.\nLoot Suit:♣️(Table D1).\nFAIL = He shot you first, right between your eyes.\nYou are dead.',
                     ],
                     [
                         '3',
@@ -325,7 +325,7 @@ const eventData: Event[] = [
         desc: ['Roll a D6:'],
         tables: [
             {
-                cols: ['D6', 'Outcome'],
+                cols: ['1D6', 'Outcome'],
                 rows: [
                     [
                         '1',
@@ -334,11 +334,11 @@ const eventData: Event[] = [
                     ['2', 'She insists you take her charm and goes home; E047'],
                     [
                         '3-4',
-                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her charm and goes home; E242',
+                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her charm and goes home; E242',
                     ],
                     [
                         '5',
-                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥/Hunch-1)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her gold charm and heads home; E040',
+                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥️/Hunch-1)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her gold charm and heads home; E040',
                     ],
                     [
                         '6',
@@ -353,13 +353,13 @@ const eventData: Event[] = [
         title: 'Quicksand',
         desc: [
             'You and your horse contend with quicksand.',
-            'Attempt a Hunch skill test (Table C/♥/Hunch-1)R111.',
+            'Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111.',
             'PASS = +1 Karma. You and your horse get out before the situation becomes more serious; E215',
             'FAIL = You struggle with the sinking earth. Roll a D6:',
         ],
         tables: [
             {
-                cols: ['D6', 'Outcome'],
+                cols: ['1D6', 'Outcome'],
                 rows: [
                     [
                         '1',
@@ -367,7 +367,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'The ordeal was harrowing but you pulled through with no immediate consequences.\nIf your Bounty Suit is ✖; E153\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = You spot the trap and flee.\nFAIL = You are caught by the trap and taken away; E075',
+                        'The ordeal was harrowing but you pulled through with no immediate consequences.\nIf your Bounty Suit is ❌; E153\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = You spot the trap and flee.\nFAIL = You are caught by the trap and taken away; E075',
                     ],
                     [
                         '3',
@@ -398,19 +398,19 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'If your Bounty Suit is ♠️ you are spotted; E155 You meet with the prospectors. Attempt a Hunch skill test (Table C/♠️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = +1 Karma. Go to Roll Result 7',
+                        'If your Bounty Suit is ♠️️ you are spotted; E155 You meet with the prospectors. Attempt a Hunch skill test (Table C/♠️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = +1 Karma. Go to Roll Result 7',
                     ],
                     [
                         '2-3',
-                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
                     ],
                     [
                         '4',
-                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♦️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
                     ],
                     [
                         '5',
-                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♣️/Hunch-1)R111. PASS = +1 Karma. Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♣️️/Hunch-1)R111. PASS = +1 Karma. Go to Roll Result 6 FAIL = Go to Roll Result 7',
                     ],
                     [
                         '6',
@@ -440,7 +440,7 @@ const eventData: Event[] = [
         title: 'Preacher',
         desc: [
             'You arrive at the preachers home to confront him on his deception.',
-            'Attempt a Hunch skill test (Table C/♦️/Hunch-3)R111.',
+            'Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111.',
             'PASS = Roll a D6 (see table below).',
             'FAIL = Roll a D6 (see second table below).',
         ],
@@ -450,7 +450,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'He growls and attacks R110. Initiative R110c. Shaggy Priest: Finesse: 4; Weapon: talons ♥️; Loot Suit: ♦️(Table D1).',
+                        'He growls and attacks R110. Initiative R110c. Shaggy Priest: Finesse: 4; Weapon: talons ♥️️; Loot Suit: ♦️️(Table D1).',
                     ],
                     [
                         '2',
@@ -458,19 +458,19 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'He is willing to buy your silence. Bounty Suit up two. Loot Suit:♦️(Table D1).',
+                        'He is willing to buy your silence. Bounty Suit up two. Loot Suit:♦️️(Table D1).',
                     ],
                     [
                         '4',
-                        'He is willing to buy your silence. Bounty Suit up one. Loot Suit:♥️(Table D1).',
+                        'He is willing to buy your silence. Bounty Suit up one. Loot Suit:♥️️(Table D1).',
                     ],
                     [
                         '5',
-                        'He is willing to buy your silence. Loot Suit:♥️(Table D1).',
+                        'He is willing to buy your silence. Loot Suit:♥️️(Table D1).',
                     ],
                     [
                         '6',
-                        'He is willing to buy your silence. Loot Suit:♠️(Table D1).',
+                        'He is willing to buy your silence. Loot Suit:♠️️(Table D1).',
                     ],
                 ],
             },
@@ -491,7 +491,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '5',
-                        'You press him further. Attempt a Hunch skill test (Table C/♦️/Hunch-3)R111. PASS = Go to Roll Result 6 FAIL = Roll again on this Table.',
+                        'You press him further. Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111. PASS = Go to Roll Result 6 FAIL = Roll again on this Table.',
                     ],
                     [
                         '6',
@@ -515,11 +515,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'The trail runs cold. A short time after.. If your Bounty Suit is ❌; E022 You are roped into a trap by a clever Bounty Hunter. Attempt a Hunch skill test (Table C/♥️/Hunch-2)R111. PASS = You spot the trap and flee; E234 FAIL = You are caught by the trap and taken away; E075',
+                        'The trail runs cold. A short time after.. If your Bounty Suit is ❌; E022 You are roped into a trap by a clever Bounty Hunter. Attempt a Hunch skill test (Table C/♥️️/Hunch-2)R111. PASS = You spot the trap and flee; E234 FAIL = You are caught by the trap and taken away; E075',
                     ],
                     [
                         '4',
-                        'You track the runaway. Attempt a Hunch skill test (Table C/♦️/Hunch-2)R111. PASS = You have located the runaways tracks. Roll D6 direction (1-N;2-NE;3-SE;4-S;5-SW;6-NW). Record “Hex#/runaway/E191” under your Points of Interest R102. FAIL = The trail runs cold; E055',
+                        'You track the runaway. Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = You have located the runaways tracks. Roll D6 direction (1-N;2-NE;3-SE;4-S;5-SW;6-NW). Record “Hex#/runaway/E191” under your Points of Interest R102. FAIL = The trail runs cold; E055',
                     ],
                     [
                         '5',
@@ -542,7 +542,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        "If your Bounty Suit is ♠️ you are spotted and the authorities give chase; E155 +1 Karma. The sheriff informs you it's the wrong man.",
+                        "If your Bounty Suit is ♠️️ you are spotted and the authorities give chase; E155 +1 Karma. The sheriff informs you it's the wrong man.",
                     ],
                     [
                         '2',
@@ -550,11 +550,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'A friend of the bounty confronts you. Draw! Attempt a Finesse skill test (Table C/♦️/Finesse-2)R111. PASS = You shot him first, right between the eyes. Loot Suit:♣️(Table D1). FAIL = He shot you first, right between your eyes. You are dead. If you win the combat, you receive a $75 reward.',
+                        'A friend of the bounty confronts you. Draw! Attempt a Finesse skill test (Table C/♦️️/Finesse-2)R111. PASS = You shot him first, right between the eyes. Loot Suit:♣️️(Table D1). FAIL = He shot you first, right between your eyes. You are dead. If you win the combat, you receive a $75 reward.',
                     ],
                     [
                         '4',
-                        "Attempt a Hunch skill test (Table C/♦️/Hunch-2)R111. PASS = You are given the reward of $75. FAIL = The sheriff informs you it's the wrong man; E234",
+                        "Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = You are given the reward of $75. FAIL = The sheriff informs you it's the wrong man; E234",
                     ],
                     [
                         '5',
@@ -581,15 +581,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'You are spotted by patrolling soldiers R110. Initiative R110b. Soldier: Finesse: 3; Weapon: Rifle♥️; Loot Suit:- Soldier: Finesse: 2; Weapon: Rifle♥️; Loot Suit:- If you win the combat, go to Roll Result 4',
+                        'You are spotted by patrolling soldiers R110. Initiative R110b. Soldier: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:- Soldier: Finesse: 2; Weapon: Rifle♥️️; Loot Suit:- If you win the combat, go to Roll Result 4',
                     ],
                     [
                         '3-4',
-                        'You work on wiring the bridge. Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table.',
+                        'You work on wiring the bridge. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table.',
                     ],
                     [
                         '5',
-                        'You work on wiring the bridge. Attempt a Hunch skill test (Table C/♦️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table.',
+                        'You work on wiring the bridge. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table.',
                     ],
                     [
                         '6',
@@ -620,7 +620,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'He reveals his strategy for the future of the West. Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111. PASS = Go to Roll Result 5. FAIL = Go to Roll Result 3.',
+                        'He reveals his strategy for the future of the West. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 5. FAIL = Go to Roll Result 3.',
                     ],
                     [
                         '5',
@@ -628,7 +628,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'You rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️(Table D1).',
+                        'You rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️️(Table D1).',
                     ],
                 ],
             },
@@ -643,7 +643,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        '+1 Karma. The abode is empty and has been booby trapped with dynamite. Roll to determine any damage for you and then each partner (Table B/♠️).',
+                        '+1 Karma. The abode is empty and has been booby trapped with dynamite. Roll to determine any damage for you and then each partner (Table B/♠️️).',
                     ],
                     [
                         '2',
@@ -651,15 +651,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'He was waiting for you. He attacks R110. Initiative R110d. Murderer: Finesse: 3; Weapon: Rifle♥️; Loot Suit:♦️(Table D1). If you win the combat, record “Hex#any town/reward/E205” under your Points of Interest R102.',
+                        'He was waiting for you. He attacks R110. Initiative R110d. Murderer: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:♦️️(Table D1). If you win the combat, record “Hex#any town/reward/E205” under your Points of Interest R102.',
                     ],
                     [
                         '4',
-                        'You confront him. Attempt a Hunch skill test (Table C/♥️/Hunch-2)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He attacks R110. Initiative R110b. Murderer: Finesse: 3; Weapon: Rifle♥️; Loot Suit:♦️(Table D1). If you win the combat, you stow him on the back of your horse and record “Hex#any town/reward/E205” under your Points of Interest R102.',
+                        'You confront him. Attempt a Hunch skill test (Table C/♥️️/Hunch-2)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He attacks R110. Initiative R110b. Murderer: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:♦️️(Table D1). If you win the combat, you stow him on the back of your horse and record “Hex#any town/reward/E205” under your Points of Interest R102.',
                     ],
                     [
                         '5',
-                        'You confront him. Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He convinces you that he has information far more valuable than his bounty. You let him go; E204',
+                        'You confront him. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He convinces you that he has information far more valuable than his bounty. You let him go; E204',
                     ],
                     [
                         '6',
@@ -678,7 +678,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'If your Bounty Suit is ♠️ you are spotted and the authorities give chase E155 +1 Karma. The land barons already appropriated the property.',
+                        'If your Bounty Suit is ♠️️ you are spotted and the authorities give chase E155 +1 Karma. The land barons already appropriated the property.',
                     ],
                     [
                         '2',
@@ -686,7 +686,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'The auction begins and you stall the land baron. Attempt a Hunch skill test (Table C/♦️/Hunch-1)R111. PASS = You may buy back the land for $25. If you buy back the land for $25, go to Roll Result 6 If you don’t buy back the land for $25 the barons win the bid. FAIL = +1 Karma. The land barons win the bid.',
+                        'The auction begins and you stall the land baron. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = You may buy back the land for $25. If you buy back the land for $25, go to Roll Result 6 If you don’t buy back the land for $25 the barons win the bid. FAIL = +1 Karma. The land barons win the bid.',
                     ],
                     [
                         '4-5',
@@ -710,23 +710,23 @@ const eventData: Event[] = [
                     ['1', 'She is in love with the bandit leader; E095'],
                     [
                         '2-3',
-                        'They attack you R110. Initiative R110c. Bandit: Finesse: 3; Weapon: Rifle♥️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: -. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: -. If you win the combat, go to Roll Result 6',
+                        'They attack you R110. Initiative R110c. Bandit: Finesse: 3; Weapon: Rifle♥️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, go to Roll Result 6',
                     ],
                     [
                         '4',
-                        'They attack you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Rifle♥️️; Loot Suit: ♣️ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: -. If you win the combat, go to Roll Result 6',
+                        'They attack you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ♣️️ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, go to Roll Result 6',
                     ],
                     [
                         '5',
-                        'You are attacked R110. Initiative R110b. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: ♣️ (Table D1). Bandit: Finesse: 1; Weapon: Pistol♦️; Loot Suit: -. The remaining bandits flee. If you win the combat, go to Roll Result 7',
+                        'You are attacked R110. Initiative R110b. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1). Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: -. The remaining bandits flee. If you win the combat, go to Roll Result 7',
                     ],
                     [
                         '6',
-                        'You face the Bandit leader. He attacks you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: ♦️ (Table D1). If you win the combat, go to Roll Result 7',
+                        'You face the Bandit leader. He attacks you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♦️️ (Table D1). If you win the combat, go to Roll Result 7',
                     ],
                     [
                         '7',
-                        'You release the girl from her bonds. Attempt a Hunch skill test (Table C/♦️/Hunch-2) R111. PASS = E187. FAIL = She thanks you and rides home. You take the Bandits stash. Loot Suit: ♥️️ (Table D1); E234',
+                        'You release the girl from her bonds. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = E187. FAIL = She thanks you and rides home. You take the Bandits stash. Loot Suit: ♥️️️ (Table D1); E234',
                     ],
                 ],
             },
@@ -743,7 +743,7 @@ const eventData: Event[] = [
                     ['1', '+1 Karma. Wrong animal; E243'],
                     [
                         '2',
-                        'You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: ♣️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Pistol♦️; Loot Suit: -',
+                        'You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: -',
                     ],
                     [
                         '3',
@@ -751,15 +751,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'You continue to track the albino deer. Attempt a Hunch skill test (Table C/♦️/Hunch-2) R111. PASS = You have located the tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Deer/E198” under Points of Interest R102. FAIL = Wrong animal.',
+                        'You continue to track the albino deer. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You have located the tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Deer/E198” under Points of Interest R102. FAIL = Wrong animal.',
                     ],
                     [
                         '5',
-                        'You have found the albino deer! Attempt a Finesse skill test (Table C/♦️/Finesse-1) R111. PASS = You have taken down the albino deer. Record “Hex#any town/reward/E186” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle.',
+                        'You have found the albino deer! Attempt a Finesse skill test (Table C/♦️️/Finesse-1) R111. PASS = You have taken down the albino deer. Record “Hex#any town/reward/E186” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle.',
                     ],
                     [
                         '6',
-                        'You have found the albino deer! Attempt a Finesse skill test (Table C/♦️/Finesse-2) R111. PASS = You have taken down the albino deer. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4',
+                        'You have found the albino deer! Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = You have taken down the albino deer. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4',
                     ],
                 ],
             },
@@ -776,7 +776,7 @@ const eventData: Event[] = [
                     ['1', '+1 Karma. Wrong animal; E243'],
                     [
                         '2',
-                        'You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Rifle♥️️; Loot Suit: ♦️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit: ❌. Bandit: Finesse: 1; Weapon: Pistol♦️; Loot Suit: ❌',
+                        'You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ♦️️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ❌. Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: ❌',
                     ],
                     [
                         '3',
@@ -784,15 +784,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'You continue to track the albino bear. Attempt a Hunch skill test (Table C/♥️️/Hunch-1) R111. PASS = +1 Karma. You have located the bears tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Bear/E199” under Points of Interest R102. FAIL = Wrong animal.',
+                        'You continue to track the albino bear. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = +1 Karma. You have located the bears tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Bear/E199” under Points of Interest R102. FAIL = Wrong animal.',
                     ],
                     [
                         '5',
-                        'You have found the albino bear! Attempt a Finesse skill test (Table C/♥️️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/bear reward/E027” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E095',
+                        'You have found the albino bear! Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/bear reward/E027” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E095',
                     ],
                     [
                         '6',
-                        'You have found the albino bear! Attempt a Finesse skill test (Table C/♦️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4',
+                        'You have found the albino bear! Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4',
                     ],
                 ],
             },
@@ -812,11 +812,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'It was an uncomfortable sleep but sleep none the less. The next day.. If your Bounty Suit is ❌, you meet a frightened farmhand; E206 You are ambushed by two foreign Bounty Hunters R110. Initiative R110c. Bounty Hunter: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ♣️️ (Table D1). Bounty Hunter: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, Bounty Suit up one.',
+                        'It was an uncomfortable sleep but sleep none the less. The next day.. If your Bounty Suit is ❌, you meet a frightened farmhand; E206 You are ambushed by two foreign Bounty Hunters R110. Initiative R110c. Bounty Hunter: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit: ♣️️️ (Table D1). Bounty Hunter: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit: -. If you win the combat, Bounty Suit up one.',
                     ],
                     [
                         '3',
-                        'If you have a Red Trinket, go to Roll Result 5. In the middle of the night you are attacked by a frantic, bug-eyed fiend R110. Initiative R110f. Bug-Eyed Fiend: Finesse: 3; Weapon: bite♦️️; Loot Suit: E010',
+                        'If you have a Red Trinket, go to Roll Result 5. In the middle of the night you are attacked by a frantic, bug-eyed fiend R110. Initiative R110f. Bug-Eyed Fiend: Finesse: 3; Weapon: bite♦️️️; Loot Suit: E010',
                     ],
                     [
                         '4',
@@ -837,7 +837,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        '+1 Karma. It’s actually an outcast with a contagious disease. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You keep your distance. FAIL = You get too close. A Partner of your choice dies. If you have no partners, you are dead.',
+                        '+1 Karma. It’s actually an outcast with a contagious disease. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You keep your distance. FAIL = You get too close. A Partner of your choice dies. If you have no partners, you are dead.',
                     ],
                     [
                         '2',
@@ -845,7 +845,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '3-4',
-                        'Attempt a Hunch skill test (Table C/♦️️/Hunch-1) R111. PASS = You (and any partners) heal one Wound Level. She likes you and gives you a token; E047. FAIL = She comes in silence and leaves in silence.',
+                        'Attempt a Hunch skill test (Table C/♦️️️/Hunch-1) R111. PASS = You (and any partners) heal one Wound Level. She likes you and gives you a token; E047. FAIL = She comes in silence and leaves in silence.',
                     ],
                     [
                         '5-6',
@@ -877,15 +877,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'Unable to locate the animals tracks. Later that day, you are confronted by drunk Bandits R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Knife♣️️; Loot Suit: -',
+                        'Unable to locate the animals tracks. Later that day, you are confronted by drunk Bandits R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Knife♣️️️; Loot Suit: -',
                     ],
                     [
                         '4-5',
-                        'You continue to track the prize crocodile. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = You have located the crocodiles tracks. Roll a 1d6 to determine which adjacent hex the albino crocodile went: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino croc/E202” under Points of Interest R102. FAIL = +1 Karma. Wrong animal. Roll on the Event Table (Table A).',
+                        'You continue to track the prize crocodile. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You have located the crocodiles tracks. Roll a 1d6 to determine which adjacent hex the albino crocodile went: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino croc/E202” under Points of Interest R102. FAIL = +1 Karma. Wrong animal. Roll on the Event Table (Table A).',
                     ],
                     [
                         '6',
-                        'You have found the albino crocodile! Attempt a Finesse skill test (Table C/♥️️️/Finesse-1) R111. PASS = You have taken down the albino crocodile. To collect your reward, record “Hex#any town/reward/E157” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E007',
+                        'You have found the albino crocodile! Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You have taken down the albino crocodile. To collect your reward, record “Hex#any town/reward/E157” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E007',
                     ],
                 ],
             },
@@ -905,11 +905,11 @@ const eventData: Event[] = [
                     ['2', 'You are ambushed by a platoon of federales; E075'],
                     [
                         '3-4',
-                        'You quietly navigate through the prison. Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = Go to Roll Result 5. FAIL = You are captured and taken prisoner; E075',
+                        'You quietly navigate through the prison. Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = Go to Roll Result 5. FAIL = You are captured and taken prisoner; E075',
                     ],
                     [
                         '5',
-                        'You are forced to improvise a ruse on the guards. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = You are captured and taken prisoner; E075',
+                        'You are forced to improvise a ruse on the guards. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = You are captured and taken prisoner; E075',
                     ],
                     [
                         '6',
@@ -937,7 +937,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = You have further questions. Roll again on this table. FAIL = He tells you a convincing lie and then rides off; E007',
+                        'Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You have further questions. Roll again on this table. FAIL = He tells you a convincing lie and then rides off; E007',
                     ],
                     [
                         '4',
@@ -967,15 +967,15 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'If your Bounty Suit is ♠️️ you are spotted and the authorities give chase; E155. +1 Karma. The sheriff informs you it’s the wrong man and he is released.',
+                        'If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. The sheriff informs you it’s the wrong man and he is released.',
                     ],
                     [
                         '2',
-                        'The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♥️️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. Shortly after; E146',
+                        'The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♥️️️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. Shortly after; E146',
                     ],
                     [
                         '3-4',
-                        'The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♦️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. You check for available bounties; E087',
+                        'The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♦️️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. You check for available bounties; E087',
                     ],
                     [
                         '5',
@@ -1039,12 +1039,12 @@ const eventData: Event[] = [
                     ['1', 'It is getting late; E200'],
                     [
                         '2',
-                        'If you have a Red Trinket, go to Roll Result 3. You are attacked by two veve covered maniacs R110. Initiative R110f. Maniac: Finesse: 3; Weapon: machete♦️️; Loot Suit:X(Table D1). Maniac: Finesse: 2; Weapon: sickle♦️️; Loot Suit:-',
+                        'If you have a Red Trinket, go to Roll Result 3. You are attacked by two veve covered maniacs R110. Initiative R110f. Maniac: Finesse: 3; Weapon: machete♦️️️; Loot Suit:X(Table D1). Maniac: Finesse: 2; Weapon: sickle♦️️️; Loot Suit:-',
                     ],
                     ['3', 'It is getting late; E072'],
                     [
                         '4',
-                        'If you have a Red Trinket, go to Roll Result 5. You are attacked by a drooling fiend R110. Initiative R110f. Fiend: Finesse: 2; Weapon: bite♦️️; Loot Suit:♦️️(Table D1). If you win the combat; E215',
+                        'If you have a Red Trinket, go to Roll Result 5. You are attacked by a drooling fiend R110. Initiative R110f. Fiend: Finesse: 2; Weapon: bite♦️️️; Loot Suit:♦️️️(Table D1). If you win the combat; E215',
                     ],
                     [
                         '5',
@@ -1075,7 +1075,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '3-4',
-                        'He says he can’t pay you, he was just robbed. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = He gives into your threats; E242. FAIL = +1 Karma. He is sorry but he can’t give you what he doesn’t have; E234',
+                        'He says he can’t pay you, he was just robbed. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He gives into your threats; E242. FAIL = +1 Karma. He is sorry but he can’t give you what he doesn’t have; E234',
                     ],
                     [
                         '5',
@@ -1083,7 +1083,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'The dapper man is very pleased and hands you $50. You then rob him. Bounty Suit up one. Loot Suit:♠️️(Table D1) + E120',
+                        'The dapper man is very pleased and hands you $50. You then rob him. Bounty Suit up one. Loot Suit:♠️️️(Table D1) + E120',
                     ],
                 ],
             },
@@ -1105,7 +1105,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'You must fend off two attacking Ruffians R110. Initiative R110b. Brute: Finesse: 1; Weapon: Pistol♦️️; Loot Suit:X(Table D1). Brute: Finesse: 1; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, go to Roll Result 3',
+                        'You must fend off two attacking Ruffians R110. Initiative R110b. Brute: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:X(Table D1). Brute: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, go to Roll Result 3',
                     ],
                     [
                         '3',
@@ -1121,7 +1121,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'It was uneventful. You then rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️️(Table D1).',
+                        'It was uneventful. You then rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️️️(Table D1).',
                     ],
                 ],
             },
@@ -1146,7 +1146,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $3. Roll this Hunch skill test again. FAIL = They are sorry, they don’t have any available work; E095',
+                        'You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $3. Roll this Hunch skill test again. FAIL = They are sorry, they don’t have any available work; E095',
                     ],
                     [
                         '5',
@@ -1154,7 +1154,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $5. Roll this Hunch skill test again. FAIL = They are sorry, they no longer have any available work; E234',
+                        'You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $5. Roll this Hunch skill test again. FAIL = They are sorry, they no longer have any available work; E234',
                     ],
                 ],
             },
@@ -1176,7 +1176,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'A blitz by the opposition. A showering of cannon fire decimates the encampment. Attempt a Finesse skill test (Table C/♦️️/Finesse-3) R111. PASS = You escape the bombardment with just a mild dusting; E234. FAIL = Roll to determine any damage for you and then each partner (Table B/♠️️).',
+                        'A blitz by the opposition. A showering of cannon fire decimates the encampment. Attempt a Finesse skill test (Table C/♦️️️/Finesse-3) R111. PASS = You escape the bombardment with just a mild dusting; E234. FAIL = Roll to determine any damage for you and then each partner (Table B/♠️️️).',
                     ],
                     [
                         '3',
@@ -1188,7 +1188,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '5',
-                        'The captain isn’t here but a wagon has arrived, that is holding loot. You rob the wagon and go AWOL. Loot Suit:♠️️(Table D1).',
+                        'The captain isn’t here but a wagon has arrived, that is holding loot. You rob the wagon and go AWOL. Loot Suit:♠️️️(Table D1).',
                     ],
                     [
                         '6',
@@ -1208,36 +1208,36 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'A diseased passenger. Attempt a Hunch Skill test (Table C/♦️️/Hunch-1) R111. PASS = You avoid getting too close and scuttle off. Roll on the Event Table (Table A). FAIL = Your body is unable to fight off the disease. You are dead.',
+                        'A diseased passenger. Attempt a Hunch Skill test (Table C/♦️️️/Hunch-1) R111. PASS = You avoid getting too close and scuttle off. Roll on the Event Table (Table A). FAIL = Your body is unable to fight off the disease. You are dead.',
                     ],
                     [
                         '2',
-                        'The passengers are drunk Bandits. They attack R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:♣️️(Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, E053',
+                        'The passengers are drunk Bandits. They attack R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:♣️️️(Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:- Bandit: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, E053',
                     ],
                     [
                         '3',
-                        'One of the passengers is a famous Bounty Hunter R110. Initiative R110f. Bounty Hunter: Finesse: 4; Weapon: Pistol♦️️; Loot Suit:♦️️(Table D1).',
+                        'One of the passengers is a famous Bounty Hunter R110. Initiative R110f. Bounty Hunter: Finesse: 4; Weapon: Pistol♦️️️; Loot Suit:♦️️️(Table D1).',
                     ],
                     [
                         '4',
-                        'If you have any partners; E082. They give into your demands. Loot Suit:♦️️(Table D1).',
+                        'If you have any partners; E082. They give into your demands. Loot Suit:♦️️️(Table D1).',
                     ],
                     ['5-6', 'Nothing of value. Bounty Suit up one.'],
                     [
                         '7',
-                        'If you have any partners; E082. They give into your threats. Bounty Suit up one. Loot Suit:♦️️(Table D1).',
+                        'If you have any partners; E082. They give into your threats. Bounty Suit up one. Loot Suit:♦️️️(Table D1).',
                     ],
                     [
                         '8',
-                        'Attempt a Hunch Skill Test (Table C/♥️️️/Hunch-2) R111. PASS = They give into your threats. Bounty Suit up one. Loot Suit:♥️️️(Table D1). FAIL = Nothing of value. They are very aggravated with your harassment. Bounty Suit up one; E095',
+                        'Attempt a Hunch Skill Test (Table C/♥️️️️/Hunch-2) R111. PASS = They give into your threats. Bounty Suit up one. Loot Suit:♥️️️️(Table D1). FAIL = Nothing of value. They are very aggravated with your harassment. Bounty Suit up one; E095',
                     ],
                     [
                         '9',
-                        'Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = They give into your threats. You steal $10 + Loot Suit:♥️️️(Table D1). FAIL = Nothing of value. They are very upset by the harassment. They have political contacts. Bounty Suit up two.',
+                        'Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They give into your threats. You steal $10 + Loot Suit:♥️️️️(Table D1). FAIL = Nothing of value. They are very upset by the harassment. They have political contacts. Bounty Suit up two.',
                     ],
                     [
                         '10',
-                        'They are affluent and give into your threats. You steal $30 + Loot Suit:♠️️(Table D1).',
+                        'They are affluent and give into your threats. You steal $30 + Loot Suit:♠️️️(Table D1).',
                     ],
                 ],
             },
@@ -1264,15 +1264,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = $25 + Loot Suit: ♥️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
+                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = $25 + Loot Suit: ♥️️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
                     ],
                     [
                         '5',
-                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = $50 + Loot Suit: ♥️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
+                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = $50 + Loot Suit: ♥️️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
                     ],
                     [
                         '6',
-                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You win $75 + Loot Suit: ♠️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
+                        'You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You win $75 + Loot Suit: ♠️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7',
                     ],
                     ['7', 'You are fed to crocodiles. You are dead.'],
                 ],
@@ -1295,11 +1295,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'They are being held up by Bandits R110. Initiative R110e. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit:♣️️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, go to Roll Result 11',
+                        'They are being held up by Bandits R110. Initiative R110e. Bandit: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit:♣️️️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, go to Roll Result 11',
                     ],
                     [
                         '3',
-                        'You meet the passenger. It is a war recruitment officer. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = He encourages you to come to town to enlist. Record “Hex#any town/recruitment/E224” under your Points of Interest R102. FAIL = You exchange pleasantries then he bids you farewell; E234',
+                        'You meet the passenger. It is a war recruitment officer. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He encourages you to come to town to enlist. Record “Hex#any town/recruitment/E224” under your Points of Interest R102. FAIL = You exchange pleasantries then he bids you farewell; E234',
                     ],
                     [
                         '4',
@@ -1311,11 +1311,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♦️️(Table D1). FAIL = +1 Karma. You accidentally cause more damage. Bounty Suit up one.',
+                        'They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♦️️️(Table D1). FAIL = +1 Karma. You accidentally cause more damage. Bounty Suit up one.',
                     ],
                     [
                         '7',
-                        'They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♥️️️(Table D1). FAIL = You are unable to fix the stagecoach. Roll on the Event Table (Table A).',
+                        'They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♥️️️️(Table D1). FAIL = You are unable to fix the stagecoach. Roll on the Event Table (Table A).',
                     ],
                     [
                         '8',
@@ -1331,7 +1331,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '11',
-                        'The driver thanks you and offers to take you to any town. If you accept, place your token on any hex with a town. If you don’t accept, instead, he rewards you $2 + Loot Suit:♣️(Table D1).',
+                        'The driver thanks you and offers to take you to any town. If you accept, place your token on any hex with a town. If you don’t accept, instead, he rewards you $2 + Loot Suit:♣️️(Table D1).',
                     ],
                 ],
             },
@@ -1339,9 +1339,9 @@ const eventData: Event[] = [
                 cols: ['1d6', 'Outcome'],
                 rows: [
                     ['1', 'Nothing of value.'],
-                    ['2', 'Bounty Suit up one. Loot Suit:♣️️(Table D1).'],
-                    ['3-4', 'Loot Suit:♣️️(Table D1).'],
-                    ['5', 'Loot Suit:♥️️️(Table D1).'],
+                    ['2', 'Bounty Suit up one. Loot Suit:♣️️️(Table D1).'],
+                    ['3-4', 'Loot Suit:♣️️️(Table D1).'],
+                    ['5', 'Loot Suit:♥️️️️(Table D1).'],
                     ['6', 'E019'],
                 ],
             },
@@ -1359,9 +1359,9 @@ const eventData: Event[] = [
                 rows: [
                     [
                         'Bandit 1',
-                        'Finesse 2; Weapon: Rifle ♥️️️; Loot Suit: ♣️️ (Table D1)',
+                        'Finesse 2; Weapon: Rifle ♥️️️️; Loot Suit: ♣️️️ (Table D1)',
                     ],
-                    ['Bandit 2', 'Finesse 2; Weapon: Pistol ♦️️; Loot Suit: -'],
+                    ['Bandit 2', 'Finesse 2; Weapon: Pistol ♦️️️; Loot Suit: -'],
                 ],
             },
             {
@@ -1386,11 +1386,11 @@ const eventData: Event[] = [
                     ['1', 'You get lost; E207'],
                     [
                         '2',
-                        'You keep with your direction. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = You maneuver the fog without causing much delay; E007. FAIL = +1 Karma. You seem to be going in circles. It finally lifts after a time. Roll on the Event Table (Table A).',
+                        'You keep with your direction. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You maneuver the fog without causing much delay; E007. FAIL = +1 Karma. You seem to be going in circles. It finally lifts after a time. Roll on the Event Table (Table A).',
                     ],
                     [
                         '3',
-                        'If you have a Red Trinket, go to Roll Result 5. You are jumped by two veve-covered grunts R110. Initiative R110f. Maniac: Finesse 2; Weapon: machete♦️️; Loot Suit: ♣️️ (Table D1). Maniac: Finesse 2; Weapon: knife♣️️; Loot Suit: -',
+                        'If you have a Red Trinket, go to Roll Result 5. You are jumped by two veve-covered grunts R110. Initiative R110f. Maniac: Finesse 2; Weapon: machete♦️️️; Loot Suit: ♣️️️ (Table D1). Maniac: Finesse 2; Weapon: knife♣️️️; Loot Suit: -',
                     ],
                     [
                         '4',
@@ -1437,15 +1437,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '2-3',
-                        'The lout threatens to kill her if you come any closer. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = You talk him into letting her go. He releases her and begins to sob uncontrollably; E006. FAIL = He kills her in front of you and then rushes you R110. Initiative R110e. Jealous Lout: Finesse 2; Weapon: Knife♣️️; Loot Suit: ♦️️ (Table D1). If you win the combat; E007.',
+                        'The lout threatens to kill her if you come any closer. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You talk him into letting her go. He releases her and begins to sob uncontrollably; E006. FAIL = He kills her in front of you and then rushes you R110. Initiative R110e. Jealous Lout: Finesse 2; Weapon: Knife♣️️️; Loot Suit: ♦️️️ (Table D1). If you win the combat; E007.',
                     ],
                     [
                         '4',
-                        'The lout calls you out to a showdown. Draw! Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = You shoot him dead between the eyes; E006. FAIL = He shoots you between the eyes. You are dead.',
+                        'The lout calls you out to a showdown. Draw! Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = You shoot him dead between the eyes; E006. FAIL = He shoots you between the eyes. You are dead.',
                     ],
                     [
                         '5',
-                        'The lout is resting in his home. Attempt a Finesse skill test (Table C/♦️️/Finesse-1) R111. PASS = You sneak up on him and he does not fight back; E006. FAIL = He spots you and attacks R110. Initiative R110e. Lout: Finesse 2; Weapon: Knife♣️️; Loot Suit: ♥️️️ (Table D1). If you win the combat; E006.',
+                        'The lout is resting in his home. Attempt a Finesse skill test (Table C/♦️️️/Finesse-1) R111. PASS = You sneak up on him and he does not fight back; E006. FAIL = He spots you and attacks R110. Initiative R110e. Lout: Finesse 2; Weapon: Knife♣️️️; Loot Suit: ♥️️️️ (Table D1). If you win the combat; E006.',
                     ],
                     [
                         '6',
@@ -1471,12 +1471,12 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1.',
+                        'Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1.',
                     ],
                     ['3', 'He convinces you to hear him out; E080'],
                     [
                         '4-5',
-                        'Attempt a Finesse skill test (Table C/♥️️️/Finesse-1) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1.',
+                        'Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1.',
                     ],
                     [
                         '6',
@@ -1498,7 +1498,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'A jilted lover barges in on you and the lady R110. Initiative R110c. You can only use Fists or a Knife. Partners will not assist. Jealous Lover: Finesse 2; Weapon: Fist ❌; Loot Suit: ♣️️ (Table D1). If you win the combat, Bounty Suit up one. Go to Roll Result 5.',
+                        'A jilted lover barges in on you and the lady R110. Initiative R110c. You can only use Fists or a Knife. Partners will not assist. Jealous Lover: Finesse 2; Weapon: Fist ❌; Loot Suit: ♣️️️ (Table D1). If you win the combat, Bounty Suit up one. Go to Roll Result 5.',
                     ],
                     [
                         '2-3',
@@ -1514,7 +1514,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'You rob her. Bounty Suit up one. Loot Suit: ♥️️️ (Table D1). Move to any adjacent hex; E095.',
+                        'You rob her. Bounty Suit up one. Loot Suit: ♥️️️️ (Table D1). Move to any adjacent hex; E095.',
                     ],
                 ],
             },
@@ -1536,7 +1536,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'During the concert you sneak off to find valuables. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = Bounty Suit up one. Loot Suit: ♥️️️ (Table D1). FAIL = They chase you off the property. Bounty Suit up one.',
+                        'During the concert you sneak off to find valuables. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Bounty Suit up one. Loot Suit: ♥️️️️ (Table D1). FAIL = They chase you off the property. Bounty Suit up one.',
                     ],
                     [
                         '3',
@@ -1572,7 +1572,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'There are grimy bandits hiding here. They attack R110. Initiative R110b. Bandits: Finesse 2/2/1; Weapon: Pistol♦️️; Loot Suit: ♦️️ (Table D1) + E053',
+                        'There are grimy bandits hiding here. They attack R110. Initiative R110b. Bandits: Finesse 2/2/1; Weapon: Pistol♦️️️; Loot Suit: ♦️️️ (Table D1) + E053',
                     ],
                     ['3', 'E098'],
                     [
@@ -1585,7 +1585,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'A runaway is hiding here. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = The runaway trusts you to bring them to safety. Roll a 1d4 location: 1-1,6; 2-5,3; 3-8,1; 4-10,0. Record “Hex#/runaway/E016” R102. FAIL = The runaway disappears into the night.',
+                        'A runaway is hiding here. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = The runaway trusts you to bring them to safety. Roll a 1d4 location: 1-1,6; 2-5,3; 3-8,1; 4-10,0. Record “Hex#/runaway/E016” R102. FAIL = The runaway disappears into the night.',
                     ],
                 ],
             },
@@ -1647,7 +1647,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'If your Bounty Suit is ♠️️ you are spotted and the authorities give chase; E155. You enlist and are sent to a military training camp. Roll a 1d4 for location: 1-1,7; 2-7,20; 3-11,4; 4-20,11. Move your token; E018',
+                        'If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. You enlist and are sent to a military training camp. Roll a 1d4 for location: 1-1,7; 2-7,20; 3-11,4; 4-20,11. Move your token; E018',
                     ],
                     [
                         '4-5',
@@ -1700,7 +1700,7 @@ const eventData: Event[] = [
         title: 'Bounty',
         desc: [
             'You tracked your target to this location but he isn’t here.',
-            'Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111.',
+            'Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111.',
         ],
         tables: [
             {
@@ -1799,11 +1799,11 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'If you have a Bounty Suit of ♥️️️ or ♠️️ you are spotted and the authorities give chase; E155. +1 Karma. She never shows, so you release the captive.',
+                        'If you have a Bounty Suit of ♥️️️️ or ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. She never shows, so you release the captive.',
                     ],
                     [
                         '2',
-                        'If you have a Bounty Suit of ♠️️ you are spotted and the authorities give chase; E155. She never shows. You take him into the Sheriff’s office for a reward. You get $10.',
+                        'If you have a Bounty Suit of ♠️️️ you are spotted and the authorities give chase; E155. She never shows. You take him into the Sheriff’s office for a reward. You get $10.',
                     ],
                     [
                         '3',
@@ -1833,11 +1833,11 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'You meet the fugitive and he takes you along on an “easy heist”. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = Loot Suit: ♣️️ (Table D1). You part ways. Move to any adjacent hex; E095. FAIL = The fugitive gets away with the loot. He abandons you and you are arrested; E075',
+                        'You meet the fugitive and he takes you along on an “easy heist”. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Loot Suit: ♣️️️ (Table D1). You part ways. Move to any adjacent hex; E095. FAIL = The fugitive gets away with the loot. He abandons you and you are arrested; E075',
                     ],
                     [
                         '2',
-                        'If you have a Bounty Suit of ♥️️️ or ♠️️ you are spotted and the authorities give chase; E155. +1 Karma. He has been incarcerated...again.',
+                        'If you have a Bounty Suit of ♥️️️️ or ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. He has been incarcerated...again.',
                     ],
                     [
                         '3-4',
@@ -1849,7 +1849,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'He has crept his way into being the local bank’s “security”. He turns a blind eye for you. Loot Suit: ♠️️ (Table D1); E233',
+                        'He has crept his way into being the local bank’s “security”. He turns a blind eye for you. Loot Suit: ♠️️️ (Table D1); E233',
                     ],
                 ],
             },
@@ -1871,7 +1871,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'An obnoxious patron gets too touchy with the mariachi player. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = +1 Karma. The patron backs off. Go to Roll Result 6. FAIL = He attacks you R110. Initiative R110b. Drunk patron: Finesse 2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1). If you win the combat, go to Roll Result 6',
+                        'An obnoxious patron gets too touchy with the mariachi player. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = +1 Karma. The patron backs off. Go to Roll Result 6. FAIL = He attacks you R110. Initiative R110b. Drunk patron: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1). If you win the combat, go to Roll Result 6',
                     ],
                     [
                         '3-4',
@@ -1909,23 +1909,23 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        'Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = You evade their pursuit; E007. FAIL = +1 Karma. Go to Roll Result 7',
+                        'Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = You evade their pursuit; E007. FAIL = +1 Karma. Go to Roll Result 7',
                     ],
                     [
                         '2',
-                        'Attempt a Finesse skill test (Table C/♥️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 7',
+                        'Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 7',
                     ],
                     [
                         '3',
-                        'Attempt a Finesse skill test (Table C/♥️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 8',
+                        'Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 8',
                     ],
                     [
                         '4',
-                        'Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = +1 Karma. You evade their pursuit. FAIL = Go to Roll Result 8',
+                        'Attempt a Finesse skill test (Table C/♦️️️/Finesse-2) R111. PASS = +1 Karma. You evade their pursuit. FAIL = Go to Roll Result 8',
                     ],
                     [
                         '5',
-                        'Attempt a Finesse skill test (Table C/♦️️/Finesse-1) R111. PASS = You evade their pursuit; E234. FAIL = +1 Karma. Go to Roll Result 8',
+                        'Attempt a Finesse skill test (Table C/♦️️️/Finesse-1) R111. PASS = You evade their pursuit; E234. FAIL = +1 Karma. Go to Roll Result 8',
                     ],
                     ['6', 'You evade their pursuit; E053'],
                 ],
@@ -1935,11 +1935,11 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '7',
-                        'You engage them in combat R110. Initiative R110c. Bandits: Finesse 2/2/2/2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1). If you win, Bounty Suit up one.',
+                        'You engage them in combat R110. Initiative R110c. Bandits: Finesse 2/2/2/2; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1). If you win, Bounty Suit up one.',
                     ],
                     [
                         '8',
-                        'You engage them in combat R110. Initiative R110b. Bandits: Finesse 2/2/1/1; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1).',
+                        'You engage them in combat R110. Initiative R110b. Bandits: Finesse 2/2/1/1; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1).',
                     ],
                 ],
             },
@@ -1961,7 +1961,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2-3',
-                        'The railroad workers start a revolt and begin to throw stones. Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = You get away without injury. Roll on the Event Table (Table A). FAIL = Roll damage for you and each partner (Table B/♦️️).',
+                        'The railroad workers start a revolt and begin to throw stones. Attempt a Finesse skill test (Table C/♦️️️/Finesse-2) R111. PASS = You get away without injury. Roll on the Event Table (Table A). FAIL = Roll damage for you and each partner (Table B/♦️️️).',
                     ],
                     [
                         '4',
@@ -1969,11 +1969,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '5',
-                        'You engage a well dressed man who is overseeing this project. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = He takes you to his railcar; E194. FAIL = +1 Karma. He has no need for you and you leave. Roll on Event Table (Table A).',
+                        'You engage a well dressed man who is overseeing this project. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = He takes you to his railcar; E194. FAIL = +1 Karma. He has no need for you and you leave. Roll on Event Table (Table A).',
                     ],
                     [
                         '6',
-                        'You quietly rob the company wagon. Loot Suit: ♥️️️ (Table D1).',
+                        'You quietly rob the company wagon. Loot Suit: ♥️️️️ (Table D1).',
                     ],
                 ],
             },
@@ -1997,11 +1997,11 @@ const eventData: Event[] = [
                     ],
                     [
                         '3',
-                        'You spend the day with the family. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = Go to Roll Result 5. FAIL = You are thanked and you part ways; E234',
+                        'You spend the day with the family. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Go to Roll Result 5. FAIL = You are thanked and you part ways; E234',
                     ],
                     [
                         '4-5',
-                        'You spend quality time with the family. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = The family gives you a family heirloom; E019',
+                        'You spend quality time with the family. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = The family gives you a family heirloom; E019',
                     ],
                     [
                         '6',
@@ -2027,7 +2027,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'If your Bounty Suit is ♠️️ you are spotted and the authorities give chase; E155. He convinces you to invest in his company. You pay him $10.',
+                        'If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. He convinces you to invest in his company. You pay him $10.',
                     ],
                     [
                         '3',
@@ -2035,7 +2035,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '4',
-                        'You confront him. Attempt a Hunch skill test (Table C/♥️️️/Hunch-2) R111. PASS = He pays you to keep quiet. Bounty Suit up one. He gives you $5 + Loot Suit: ♥️️️ (Table D1). FAIL = His lawman relative arrives; E155',
+                        'You confront him. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He pays you to keep quiet. Bounty Suit up one. He gives you $5 + Loot Suit: ♥️️️️ (Table D1). FAIL = His lawman relative arrives; E155',
                     ],
                     [
                         '5',
@@ -2043,7 +2043,7 @@ const eventData: Event[] = [
                     ],
                     [
                         '6',
-                        'You confront him and he pays you hush money. He gives you $25 + Loot Suit: ♠️️ (Table D1).',
+                        'You confront him and he pays you hush money. He gives you $25 + Loot Suit: ♠️️️ (Table D1).',
                     ],
                 ],
             },
@@ -2055,7 +2055,7 @@ const eventData: Event[] = [
         desc: [
             'If you are not on a Town hex; E035',
             'A terrible plague is spreading around town and into the surrounding area.',
-            'Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111.',
+            'Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111.',
             'PASS = You recognize the signs and keep your distance from any of the infected. Move to any adjacent hex. Roll on the Event Table (Table A).',
             'FAIL = You fail to recognize the signs and find yourself infected with the terrible disease. Roll a 1d6:',
         ],
@@ -2069,15 +2069,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        '+1 Karma. Pain is intense. Roll damage for you and each partner (Table B/♠️️); E007',
+                        '+1 Karma. Pain is intense. Roll damage for you and each partner (Table B/♠️️️); E007',
                     ],
                     [
                         '3-4',
-                        'Pain is intense. Roll damage for you and each partner (Table B/♥️️️); E007',
+                        'Pain is intense. Roll damage for you and each partner (Table B/♥️️️️); E007',
                     ],
                     [
                         '5',
-                        'Pain is intense. Roll damage for you and each partner (Table B/♦️️); E234',
+                        'Pain is intense. Roll damage for you and each partner (Table B/♦️️️); E234',
                     ],
                     [
                         '6',
@@ -2141,15 +2141,15 @@ const eventData: Event[] = [
                     ],
                     [
                         '2',
-                        'The stagecoach is ambushed by masked Bandits R110. Initiative R110d. You cannot flee this combat. Bandit: Finesse 2; Weapon: Pistol♦️️; Loot Suit: ❌ (Table D1). Bandit: Finesse 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse 1; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, the stagecoach is too damaged to continue. Go to Roll Result 7',
+                        'The stagecoach is ambushed by masked Bandits R110. Initiative R110d. You cannot flee this combat. Bandit: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: -. Bandit: Finesse 1; Weapon: Pistol♦️️️; Loot Suit: -. If you win the combat, the stagecoach is too damaged to continue. Go to Roll Result 7',
                     ],
                     [
                         '3',
-                        'There is another passenger with you. Attempt Hunch test (♥️️️ / Hunch-3) R111. PASS = She tells you about her uncle. Roll 1d4: 1-12,20; 2-11,12; 3-11,9; 4-12,6. Record “Hex#/dapperman/E194” R102. Go to Roll Result 6. FAIL = You are kicked off. Bounty Suit up one. Go to Roll Result 7',
+                        'There is another passenger with you. Attempt Hunch test (♥️️️️ / Hunch-3) R111. PASS = She tells you about her uncle. Roll 1d4: 1-12,20; 2-11,12; 3-11,9; 4-12,6. Record “Hex#/dapperman/E194” R102. Go to Roll Result 6. FAIL = You are kicked off. Bounty Suit up one. Go to Roll Result 7',
                     ],
                     [
                         '4',
-                        'There is another passenger with you. Attempt Hunch test (♦️️ / Hunch-2) R111. PASS = He offers ranch work. Roll 1d6: 1-1,4; 2-16,4; 3-19,13; 4-2,21; 5-2,18; 6-Any Town. Record “Hex#/Ranch Work/E210” R102. Go to Roll Result 6. FAIL = You are kicked off. Go to Roll Result 7',
+                        'There is another passenger with you. Attempt Hunch test (♦️️️ / Hunch-2) R111. PASS = He offers ranch work. Roll 1d6: 1-1,4; 2-16,4; 3-19,13; 4-2,21; 5-2,18; 6-Any Town. Record “Hex#/Ranch Work/E210” R102. Go to Roll Result 6. FAIL = You are kicked off. Go to Roll Result 7',
                     ],
                     [
                         '5',
@@ -2200,7 +2200,7 @@ const eventData: Event[] = [
                     ['3', 'She gives you a peculiar totem and leaves; E047'],
                     [
                         '4',
-                        'She joins you as a partner R131. Women: Finesse 2; Weapon: Pistol♦️️; Loot Suit: ❌ (Table D1).',
+                        'She joins you as a partner R131. Women: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ❌ (Table D1).',
                     ],
                     [
                         '5',
@@ -2221,7 +2221,7 @@ const eventData: Event[] = [
                 rows: [
                     [
                         '1',
-                        '+1 Karma. You deliver the letter but nobody is there. If your Bounty Suit is ♥️️️ or ♠️️; E103',
+                        '+1 Karma. You deliver the letter but nobody is there. If your Bounty Suit is ♥️️️️ or ♠️️️; E103',
                     ],
                     [
                         '2',
