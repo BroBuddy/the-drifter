@@ -107,6 +107,26 @@ const ruleData: Rule[] = [
             'This action is only available when on a hex that has been identified to have a point of interest. Any Points of Interest you discover, you will have recorded under Points of Interest on your Tracking Sheet.',
             'Any Event with a point of interest will provide the Hex number (where it is located on the mapboard) or, at times, a specific place (i.e. any town) and the Event number (which Event to directly go to, when in the hex that contains the point of interest).',
         ],
+        note: [
+            'As soon as you encounter the Point of Interest in the Events booklet, it is no longer available, erase it from your tracking sheet. You would need to re-discover the Point of Interest again to be able to revisit it.',
+            'You can have the same Point of Interest at the same time, and more than once if discovered again in the future. ',
+            'You can have a maximum of five Points of Interest at a time. If you discover another Points of Interest and you already have five, you ignore it (you are considered too busy focusing on your current tasks to take on anymore).',
+        ],
+        tables: [
+            {
+                cols: ['I.e,', 'Hex'],
+                rows: [
+                    [
+                        '#1',
+                        'Hex#10,7/Mine/E152. This Points of Interest indicates, on Hex# 10,7, there is a Mine. When you’re map token is on Hex#10,7 you can perform a Points of Interest action and go directly to E152 in the Events Booklet.',
+                    ],
+                    [
+                        '#2',
+                        'Hex#any town/hotel/E136. This Points of Interest indicates any Hex that contains a Town. When you’re map token is on any Hex that contains a town, you can perform a Points of Interest action and go directly to E136 in the Events Booklet.',
+                    ],
+                ],
+            },
+        ],
     },
     {
         tag: 'r103',
