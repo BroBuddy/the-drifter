@@ -554,7 +554,7 @@ const ruleData: Rule[] = [
         ],
     },
     {
-        tag: 'r201',
+        tag: 'r201a',
         title: 'Table A',
         desc: ['Event Table - Bounty Suit'],
         tables: [
@@ -619,7 +619,7 @@ const ruleData: Rule[] = [
         ],
     },
     {
-        tag: 'r202',
+        tag: 'r201b',
         title: 'Table B',
         desc: ['Combat Table – Weapon Suit'],
         note: [
@@ -643,7 +643,7 @@ const ruleData: Rule[] = [
         ],
     },
     {
-        tag: 'r203',
+        tag: 'r201c',
         title: 'Table C',
         desc: ['Skill Test Table – Difficulty Suit'],
         note: ['* Immediately gain 1 Karma Point (Max of 4)'],
@@ -663,7 +663,7 @@ const ruleData: Rule[] = [
         ],
     },
     {
-        tag: 'r204',
+        tag: 'r201d',
         title: 'Table D',
         desc: ['Loot Table – Loot Suit'],
         note: [
@@ -686,8 +686,8 @@ const ruleData: Rule[] = [
         ],
     },
     {
-        tag: 'r205',
-        title: 'Table D2',
+        tag: 'r201e',
+        title: 'Table E',
         desc: ['Loot Event Table'],
         tables: [
             {

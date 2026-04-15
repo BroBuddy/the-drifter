@@ -14,6 +14,7 @@ const EventPage = React.lazy(
 const EventDetailPage = React.lazy(
     () => import('./features/event/pages/EventDetailPage.tsx')
 )
+const TablePage = React.lazy(() => import('./pages/TablePage.tsx'))
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
             {
                 path: '/event/:tag',
                 element: <EventDetailPage />,
+            },
+            {
+                path: '/table',
+                element: <TablePage />,
             },
         ],
     },
