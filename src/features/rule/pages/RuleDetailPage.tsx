@@ -16,11 +16,13 @@ function RuleDetailPage() {
         <div style={{ position: 'relative' }}>
             <PageHeader tag={rule.tag} title={rule.title} />
 
-            <Card>
-                {rule.desc?.map((p, i) => (
-                    <p key={i}>{parseLinks(p)}</p>
-                ))}
-            </Card>
+            {rule.desc && rule.desc?.length >= 1 && (
+                <Card>
+                    {rule.desc.map((p, i) => (
+                        <p key={i}>{parseLinks(p)}</p>
+                    ))}
+                </Card>
+            )}
 
             {rule.tables?.map((table, index) => (
                 <ListTable key={index} table={table} />

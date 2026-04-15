@@ -33,11 +33,11 @@ function KeywordPage() {
                 <br />
                 Indicates how wanted you are by the law. The Higher the Bounty
                 Suit, the higher the price on your head. There are Five
-                different suits, X,♣, ♦ , ♥ , and ♠ (see Table A on Table
-                Sheet). The Highest Bounty Suit is ♠ and the lowest is X. Your
+                different suits, ❌, ♣️, ♦️, ♥️, and ♠️ (see Table A on Table
+                Sheet). The Highest Bounty Suit is ♠️ and the lowest is ❌. Your
                 Bounty Suit can go up or down (depending on the Event). Roll a
-                D4 to determine your starting Bounty Suit: 1- ♥; 2- ♦; 3- ♣; 4-
-                X. Place a token on that suit on the Event Table (Table A)
+                D4 to determine your starting Bounty Suit: 1- ♥️; 2- ♦️; 3- ♣️;
+                4- ❌. Place a token on that suit on the Event Table (Table A)
                 located on the Table Sheet. Your Bounty Suit determines which
                 column of the Event Table (Table A) you roll on when determining
                 a random Event.
@@ -48,7 +48,7 @@ function KeywordPage() {
                 Used to keep track of how much money you have. Use tokens to
                 keep track. Some characters you encounter along the way will
                 have potential loot on them which would be indicated by what's
-                called a Loot Suit (X,♣, ♦ , ♥ ,♠ ). This determines which
+                called a Loot Suit (❌, ♣️, ♦️, ♥️, ♠️). This determines which
                 column you roll under on the Loot Table (Table D1 on the Table
                 Sheet) after defeating all the opponents. After all opponents
                 are defeated, you immediately get to roll on their Loot Suit
@@ -62,14 +62,15 @@ function KeywordPage() {
             <p>
                 <strong>Weapons:</strong>
                 <br />
-                You begin the game with FistsX and a Pistol♦. This is recorded
-                for you on page 1 of the Tracking Sheet. Weapons always have a
-                Suit beside them (X,♣, ♦ , ♥ ,♠ ), this represents how powerful
-                the weapon is. It determines which Suit column you roll under on
-                the Combat table (Table B on the Table Sheet) whenever attacking
-                with that weapon. You can have a maximum of two other weapons
-                beyond what's already on the Tracking Sheet (Fists & Pistol),
-                but none the same (only one pistol, one rifle, etc)
+                You begin the game with Fists ❌ and a Pistol ♦️. This is
+                recorded for you on page 1 of the Tracking Sheet. Weapons always
+                have a Suit beside them (❌, ♣️, ♦️, ♥️, ♠️), this represents
+                how powerful the weapon is. It determines which Suit column you
+                roll under on the Combat table (Table B on the Table Sheet)
+                whenever attacking with that weapon. You can have a maximum of
+                two other weapons beyond what's already on the Tracking Sheet
+                (Fists & Pistol), but none the same (only one pistol, one rifle,
+                etc)
             </p>
             <p>
                 <strong>Equipment:</strong>
