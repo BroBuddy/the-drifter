@@ -1,0 +1,23 @@
+.tabs {
+    display: inline-flex;
+    background: #ed1d00;
+    border-radius: 10px;
+    padding: 5px;
+
+    > span {
+        padding: 6px 10px;
+        border-radius: 7px;
+        color: var(--white);
+        font-size: 13px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+
+        &.active {
+            background: var(--white);
+            color: var(--black);
+            font-weight: 500;
+        }
+    }
+}
