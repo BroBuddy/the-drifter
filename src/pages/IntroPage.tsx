@@ -1,8 +1,14 @@
+import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 
-function IntroPage() {
-    return (
-        <>
+type IntroSection = {
+    title?: string
+    content: ReactNode
+}
+
+const introSections: IntroSection[] = [
+    {
+        content: (
             <p>
                 This game will be a new experience. You are about to become a
                 character in a story - a story that changes each game. You are a
@@ -13,16 +19,22 @@ function IntroPage() {
                 are hundreds of events and situations, so each game will be a
                 new, fresh experience.
             </p>
+        ),
+    },
+    {
+        title: 'Booklets:',
+        content: (
             <p>
-                <strong>Booklets:</strong>
-                <br />
                 Each of the two booklets contain numbered sections. These are
                 the Rule booklet and the Events booklet. The booklets should be
                 combined into one book for ease of access.
             </p>
+        ),
+    },
+    {
+        title: 'Mapboard:',
+        content: (
             <p>
-                <strong>Mapboard:</strong>
-                <br />
                 The colour mapboard is gridded into hexagons for ease in
                 movement and location. Each hex has a numerical identification
                 code. You do not leave the mapboard, instead stop at the edge
@@ -30,28 +42,52 @@ function IntroPage() {
                 type, illustrated on the game map key. Some hexes may have extra
                 structures in them (a town).
             </p>
+        ),
+    },
+    {
+        title: 'Edge of the Game Map:',
+        content: (
             <p>
-                <strong>Edge of the Game Map:</strong>
-                <br />
                 During the game, the Drifter cannot leave the game map. If an
                 event or rule would normally land him off the map, he simply
                 stops at the map edge instead. In other cases, “points of
                 interest” and other locations may be off the game map, in which
                 case they are simply not available.
             </p>
+        ),
+    },
+    {
+        title: 'What you will need:',
+        content: (
             <p>
-                <strong>What you will need:</strong>
-                <br />
                 You will need a pencil, a copy of the two page Tracking Sheet,
                 copy of the Tables sheet, a D10(10 sided die), D4(4 sided die),
                 D6(6 sided die), a copy of the mapboard, tokens for the Tracking
                 Sheet, one to Track your movement as you move along the map and
                 others to use on the Tracking Sheet.
             </p>
+        ),
+    },
+    {
+        title: 'Start:',
+        content: (
             <p>
                 To begin, open the Events booklet and read{' '}
                 <Link to="/event/e001">E001</Link>.
             </p>
+        ),
+    },
+]
+
+function IntroPage() {
+    return (
+        <>
+            {introSections.map((section, index: number) => (
+                <section key={index}>
+                    {section.title && <strong>{section.title}</strong>}
+                    {section.content}
+                </section>
+            ))}
         </>
     )
 }
