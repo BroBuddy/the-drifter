@@ -13,7 +13,7 @@ function RuleDetailPage() {
     if (!rule) return null
 
     return (
-        <div style={{ position: 'relative' }}>
+        <>
             <PageHeader tag={rule.tag} title={rule.title} />
 
             {rule.desc && rule.desc?.length >= 1 && (
@@ -37,7 +37,7 @@ function RuleDetailPage() {
                     ))}
                 </Card>
             )}
-        </div>
+        </>
     )
 }
 
