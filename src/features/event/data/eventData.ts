@@ -2,6 +2,538 @@ import type { Event } from '../types/EventType'
 
 const eventData: Event[] = [
     {
+        tag: 'e174',
+        title: 'Bounty',
+        desc: [
+            'You spot your target setting up camp. You sneak up on him. Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['1D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'He spins and shoots you between the eyes.\nYou are dead.',
+                    ],
+                    [
+                        '2-3',
+                        'Attempt a Finesse skill test (Table C/♥/Finesse-2)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                    ],
+                    [
+                        '4',
+                        'Attempt a Finesse skill test (Table C/♥/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                    ],
+                    [
+                        '5',
+                        'Attempt a Finesse skill test (Table C/♦/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1',
+                    ],
+                    [
+                        '6',
+                        'You sneak up on him and apprehend him.\nBounty Suit up one.\nLoot Suit:♥(Table D1).\nTo get your reward bring him to the nearest town.\nRecord “Hex#any town/reward/E231“ under your Points of Interest R102.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e175',
+        title: 'Healing',
+        desc: [
+            'You set up camp and spend most of the day tending to wounds.',
+            'Remove the item from your Equipment and Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['1D6', 'Outcome'],
+                rows: [
+                    ['1', 'Something went wrong.\nReceive a Light Wound.'],
+                    [
+                        '2',
+                        'Heal one Wound Level.\nRoll on the Event Table (Table A).',
+                    ],
+                    ['3', 'Heal one Wound Level.'],
+                    [
+                        '4',
+                        'Heal two Wound Levels.\nRoll on the Event Table (Table A).',
+                    ],
+                    ['5', 'Heal two Wound Levels.'],
+                    ['6', 'Heal three Wound Levels.'],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e176',
+        title: 'The Body',
+        desc: [
+            'You take the body out in the cover of night.',
+            'You decide to take it to the pigs at a nearby farm.',
+            'Roll a D6 to determine which adjacent hex has the pig farm:',
+            '1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW.',
+            'Record “Hex#/body/E170” under your Points of Interest R102.',
+        ],
+    },
+    {
+        tag: 'e177',
+        title: 'Stranger on Horseback',
+        desc: [
+            'You can rob or you can be friendly.',
+            'If you choose to rob; E182',
+            'If you choose friendly; E172',
+        ],
+    },
+    {
+        tag: 'e178',
+        title: 'Farm',
+        desc: ['You arrive at the girls family farm. Roll a D6:'],
+        tables: [
+            {
+                cols: ['1D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. The girl was killed in a farming accident; E095',
+                    ],
+                    [
+                        '2',
+                        'If your Bounty Suit is ✖ go to Roll Result 4\nThe father chases you off the property with a shotgun.\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = You spot the trap and flee; E234\nFAIL = You are caught in the trap and taken away; E075',
+                    ],
+                    [
+                        '3',
+                        'The father chases you off the property with a shotgun.\nRoll on the Event Table (Table A).',
+                    ],
+                    [
+                        '4',
+                        'If your Bounty Suit is ♥ or ♠ the father chases you off the property with a shotgun.\nThe family tells you she was kidnapped by Bandits.\nRoll a D6 to determine the direction of the Bandits:\n1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW\nand then roll a D6, to determine how many hexes away.\nRecord “Hex#/kidnapping/E197” under your Points of Interest R102.',
+                    ],
+                    [
+                        '5',
+                        'The family’s farm is threatened to be purchased by land barons.\nYou may attempt to save the farm from dispossession.\nRecord “Hex#Any town/land dispute/E196” under your Points of Interest R102.\nYou (and any partners) heal one Wound Level.',
+                    ],
+                    [
+                        '6',
+                        'You fall deeply in love with her and marry. The family accepts you as one of their own. You work with the family on the farm until one day, the farm becomes yours, were it will become handed down for generations to come.\nYou win the game.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e179',
+        title: 'Spoiled Rations',
+        desc: [
+            'Your rations have all turned and you need to forage.',
+            'If you are on a Town Hex; E146',
+            'If you are on a Desert hex; E180',
+            'If you are on a Mountain or Marshland hex; E184',
+            'If you are on a Grassland or Forest hex; E185',
+        ],
+    },
+    {
+        tag: 'e180',
+        title: 'Desert Hunting',
+        desc: [
+            'You forage for food.',
+            'Attempt a Hunch skill test (Table C/♥/Hunch-1)R111.',
+            'PASS = You find appropriate sustenance.',
+            'You (and any partners) heal one Wound Level.',
+            'Roll on the Event Table (Table A).',
+            'FAIL = You fail to find anything to eat.',
+            'You (and any partners) take a Light Wound; E007',
+        ],
+    },
+    {
+        tag: 'e181',
+        title: 'Payment',
+        desc: [
+            'You approach the hotel to meet the den owner for your payment. Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['1D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'The den owner doesn’t show.\nYou learn the body was of a prominent family; E134',
+                    ],
+                    [
+                        '2',
+                        'The den owner has been arrested.\nBounty Suit up one.\nAttempt a Finesse skill test (Table C/♥/Finesse-1)R111.\nPASS = You slip out of town.\nMove to any adjacent hex; E095\nFAIL = You are spotted; E155',
+                    ],
+                    [
+                        '3',
+                        'If you have a Bounty Suit of ♥ or ♠; E103\nYou meet with the den owner and he pays you $20.',
+                    ],
+                    [
+                        '4-5',
+                        'You meet with the den owner and he pays you $20; E234',
+                    ],
+                    [
+                        '6',
+                        'The den owner is very relieved to hear the body is gone.\nHe pays you $20 and gives you a charm; E047',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e182',
+        title: 'Robbery',
+        desc: ['You approach with a weapon drawn. Roll a D10:'],
+        tables: [
+            {
+                cols: ['1D10', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'A diseased outcast.\nAttempt a Hunch skill test (Table C/♦/Hunch-1) R111.\nPASS = You avoid getting too close and scuttle off; E007\nFAIL = Your body is unable to fight off the disease.\nYou don’t live much longer and have an uncomfortable death.\nYou are dead.',
+                    ],
+                    [
+                        '2',
+                        'An ugly Bandit.\nHe attacks you R110. Initiative R110b.\nBandit: Finesse: 2; Weapon: Pistol♦; Loot Suit:✖(Table D1).',
+                    ],
+                    [
+                        '3',
+                        'A handsome Bounty Hunter.\nHe attacks you R110. Initiative R110f.\nBounty Hunter: Finesse: 2; Weapon: Rifle♥; Loot Suit:♦(Table D1)\nIf you win the combat, Bounty Suit up one; E240',
+                    ],
+                    [
+                        '4',
+                        'If you have any partners; E082\nThey give into your demands.\nBounty Suit up one.\nLoot Suit:♦ (Table D1).',
+                    ],
+                    [
+                        '5-6',
+                        'Nothing of value.\nThey have distinguished contacts.\nBounty Suit up two.\nMove to any adjacent hex; E095',
+                    ],
+                    [
+                        '7',
+                        'They give into your threats.\nBounty Suit up one.\nLoot Suit:♦ (Table D1).',
+                    ],
+                    [
+                        '8',
+                        'Attempt a Hunch Skill Test (Table C/♥/Hunch-2)R111.\nPASS = They give into your threats.\nBounty Suit up one.\nLoot Suit:♥ (Table D1).\nFAIL = They have nothing of value.\nBounty Suit up one.',
+                    ],
+                    [
+                        '9',
+                        'Attempt a Hunch Skill Test (Table C/♥/Hunch-1)R111.\nPASS = They give into your threats.\nLoot Suit:♥ (Table D1).\nFAIL = Nothing of value.\nBounty Suit up one; E234',
+                    ],
+                    [
+                        '10',
+                        'They give into your threats.\nYou find $8 + Loot Suit:♠ (Table D1).',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e183',
+        title: 'Angry Man',
+        desc: ['He explains his anger. Roll a D6:'],
+        tables: [
+            {
+                cols: ['D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. He explains it was a foolish squabble and leaves appeased.\nLater that day; E022',
+                    ],
+                    [
+                        '2',
+                        'It was a foolish squabble.\nHe thanks you for helping him come to his senses and leaves.\nRoll on the Event Table (Table A).',
+                    ],
+                    [
+                        '3',
+                        'In tears he explains his family are in bonds.\nRoll a D4, to determine Hex of the ‘people in bonds’:\n1- 19,8; 2- 16,13; 3- 18,15; 4- 15,14\nRecord “Hex#/people in bonds/E033” under your Points of Interests R102; E234',
+                    ],
+                    [
+                        '4',
+                        'It would of been suicide but thanks to you, he understands now its not worth it.\nHe gives you a token of appreciation; E047',
+                    ],
+                    [
+                        '5',
+                        'If you are on a Marshland hex; E206\nHe tells you about a ruthless businessman.\nRecord “Hex#any town/Businessman/E238” under your Points of Interest R102.',
+                    ],
+                    [
+                        '6',
+                        'He was going after the man who killed his wife.\nHe will pay you $50 (on completion) to catch the man.\nRoll a D6 to determine which hex the murderer can be found:\n1- 2,3; 2- 14,9; 3- 16,18; 4- 17,20; 5- 7,19; 6- 7,15\nRecord “Hex#/bounty/E219” under your Points of Interest R102.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e184',
+        title: 'Mountain or Marshland Hunting',
+        desc: [
+            'You forage for food.',
+            'Attempt a Hunch skill test(Table C/♦/Hunch-2)R111.',
+            'PASS = You find appropriate sustenance.',
+            'You (and any partners) heal one Wound Level; E095',
+            'FAIL = You become ill.',
+            'You (and any partners) take a Light Wound; E007',
+        ],
+    },
+    {
+        tag: 'e185',
+        title: 'Forest or Grassland Hunting',
+        desc: [
+            'You forage for food.',
+            'Attempt a Hunch skill test(Table C/♣/Hunch-1)R111.',
+            'PASS = You find appropriate sustenance.',
+            'You (and any partner) heals one Wound Level.',
+            'Roll on the Event Table (Table A).',
+            'FAIL = You become ill.',
+            'You (and any partners) take a Light Wound; E007',
+        ],
+    },
+    {
+        tag: 'e186',
+        title: 'Reward',
+        desc: [
+            'You visit the trapper to sell your albino deer pelt. Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. The pelt is in terrible condition.\nThe trapper refuses to pay.',
+                    ],
+                    [
+                        '2',
+                        'The pelt is in fair condition.\nThe trapper pays you $3.\nShortly after, you are confronted by a bitter person from your past.\nDraw!\nAttempt a Finesse skill test (Table C/♦/Finesse-1)R111.\nPASS = You shot him first, right between the eyes.\nLoot Suit:♣(Table D1).\nFAIL = He shot you first, right between your eyes.\nYou are dead.',
+                    ],
+                    [
+                        '3',
+                        'The pelt is in good condition.\nThe trapper pays you $5.',
+                    ],
+                    [
+                        '4-5',
+                        'The pelt is in excellent condition.\nThe trapper pays you $15; E234',
+                    ],
+                    [
+                        '6',
+                        'The pelt is in perfect condition.\nThe trapper pays you $20.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e187',
+        title: 'Saved Girl',
+        desc: ['Roll a D6:'],
+        tables: [
+            {
+                cols: ['D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. She is severely traumatized and taken home by family; E007',
+                    ],
+                    ['2', 'She insists you take her charm and goes home; E047'],
+                    [
+                        '3-4',
+                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her charm and goes home; E242',
+                    ],
+                    [
+                        '5',
+                        'You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥/Hunch-1)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her gold charm and heads home; E040',
+                    ],
+                    [
+                        '6',
+                        "She is smitten with you and you with her.\nHer family's land is vast and you build a large farm there.\nEveryday you tend to the farm.\nYou both live a long life full of purpose and altruistic love.\nYou win the game.",
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e188',
+        title: 'Quicksand',
+        desc: [
+            'You and your horse contend with quicksand.',
+            'Attempt a Hunch skill test (Table C/♥/Hunch-1)R111.',
+            'PASS = +1 Karma. You and your horse get out before the situation becomes more serious; E215',
+            'FAIL = You struggle with the sinking earth. Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['D6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'The ordeal was harrowing and money was lost in the deep muck.\nYou lose half your money (rounded up).',
+                    ],
+                    [
+                        '2',
+                        'The ordeal was harrowing but you pulled through with no immediate consequences.\nIf your Bounty Suit is ✖; E153\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥/Hunch-2)R111.\nPASS = You spot the trap and flee.\nFAIL = You are caught by the trap and taken away; E075',
+                    ],
+                    [
+                        '3',
+                        'The ordeal was harrowing but you pulled through with no immediate consequences.\nUnforeseen circumstances - remove a Point of Interest (of your choice) from your Tracking Sheet.',
+                    ],
+                    [
+                        '4',
+                        '+1 Karma. You pulled through with no immediate consequences.\nIf on a Marshland hex; E215',
+                    ],
+                    [
+                        '5',
+                        'The ordeal was harrowing and your horse has become fatigued from the struggle.\nRoll on the Events Table (Table A).',
+                    ],
+                    [
+                        '6',
+                        'You struggle with the quicksand but manage to get out without any repercussions.\nThe exercise has provided excellent rest that night.\nYou (and any partners) heal one Wound Level.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e189',
+        title: 'Prospectors',
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'If your Bounty Suit is ♠️ you are spotted; E155 You meet with the prospectors. Attempt a Hunch skill test (Table C/♠️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = +1 Karma. Go to Roll Result 7',
+                    ],
+                    [
+                        '2-3',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                    ],
+                    [
+                        '4',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♦️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                    ],
+                    [
+                        '5',
+                        'You meet with the prospectors. Attempt a Hunch skill test (Table C/♣️/Hunch-1)R111. PASS = +1 Karma. Go to Roll Result 6 FAIL = Go to Roll Result 7',
+                    ],
+                    [
+                        '6',
+                        'They give into your threats and in tears they agree to leave. To receive your reward, meet the rail baron at his rail car. Roll a D6 to determine the hex of the meeting location (see table below). Record “Hex#/Reward/E208” under your Points of Interest R102.',
+                    ],
+                    [
+                        '7',
+                        'They refuse. They have also exposed the bullying to a lawful marshall; E155',
+                    ],
+                ],
+            },
+            {
+                cols: ['1d6', 'Hex'],
+                rows: [
+                    ['1', '10,2'],
+                    ['2', '11,3'],
+                    ['3', '11,5'],
+                    ['4', '15,21'],
+                    ['5', '11,16'],
+                    ['6', '9,13'],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e190',
+        title: 'Preacher',
+        desc: [
+            'You arrive at the preachers home to confront him on his deception.',
+            'Attempt a Hunch skill test (Table C/♦️/Hunch-3)R111.',
+            'PASS = Roll a D6 (see table below).',
+            'FAIL = Roll a D6 (see second table below).',
+        ],
+        tables: [
+            {
+                cols: ['1d6', 'Outcome (PASS)'],
+                rows: [
+                    [
+                        '1',
+                        'He growls and attacks R110. Initiative R110c. Shaggy Priest: Finesse: 4; Weapon: talons ♥️; Loot Suit: ♦️(Table D1).',
+                    ],
+                    [
+                        '2',
+                        'He is traveling to a secret meeting. You tail him. Roll D6 for hex: 1-2,7; 2-19,3; 3-19,16; 4-16,8; 5-13,17; 6-14,11. Move your token to that hex; E150',
+                    ],
+                    [
+                        '3',
+                        'He is willing to buy your silence. Bounty Suit up two. Loot Suit:♦️(Table D1).',
+                    ],
+                    [
+                        '4',
+                        'He is willing to buy your silence. Bounty Suit up one. Loot Suit:♥️(Table D1).',
+                    ],
+                    [
+                        '5',
+                        'He is willing to buy your silence. Loot Suit:♥️(Table D1).',
+                    ],
+                    [
+                        '6',
+                        'He is willing to buy your silence. Loot Suit:♠️(Table D1).',
+                    ],
+                ],
+            },
+            {
+                cols: ['1d6', 'Outcome (FAIL)'],
+                rows: [
+                    [
+                        '1',
+                        'He denies everything with a gentle smirk. A lawman follower is there with him. Bounty Suit up one; E155',
+                    ],
+                    [
+                        '2-3',
+                        'He denies everything with a gentle smirk. Bounty Suit up one.',
+                    ],
+                    [
+                        '4',
+                        '+1 Karma. He denies everything with a gentle smirk. Bounty Suit up one.',
+                    ],
+                    [
+                        '5',
+                        'You press him further. Attempt a Hunch skill test (Table C/♦️/Hunch-3)R111. PASS = Go to Roll Result 6 FAIL = Roll again on this Table.',
+                    ],
+                    [
+                        '6',
+                        'You threaten him. Roll a D6 on the PASS result Table.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e191',
+        title: 'Runaway',
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    ['1', '+1 Karma. The trail runs cold; E243'],
+                    [
+                        '2',
+                        'You find the runaway dead. There is a misunderstanding with a witness. Bounty Suit up one; E007',
+                    ],
+                    [
+                        '3',
+                        'The trail runs cold. A short time after.. If your Bounty Suit is ❌; E022 You are roped into a trap by a clever Bounty Hunter. Attempt a Hunch skill test (Table C/♥️/Hunch-2)R111. PASS = You spot the trap and flee; E234 FAIL = You are caught by the trap and taken away; E075',
+                    ],
+                    [
+                        '4',
+                        'You track the runaway. Attempt a Hunch skill test (Table C/♦️/Hunch-2)R111. PASS = You have located the runaways tracks. Roll D6 direction (1-N;2-NE;3-SE;4-S;5-SW;6-NW). Record “Hex#/runaway/E191” under your Points of Interest R102. FAIL = The trail runs cold; E055',
+                    ],
+                    [
+                        '5',
+                        'You find the runaway and sympathize with their struggle. You agree to bring the runaway to their contact. Roll D4 for hex: 1-2,2; 2-4,0; 3-13,4; 4-8,8. Record “Hex#/runaway/E016” under your Points of Interest R102. Bounty Suit up one.',
+                    ],
+                    [
+                        '6',
+                        'You find the runaway and he reluctantly comes with you. To receive payment, visit the foreman. Roll D4 for hex: 1-10,3; 2-10,7; 3-11,17; 4-15,21. Record “Hex#/payment/E145” under your Points of Interest R102.',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
         tag: 'e192',
         title: 'Reward',
         tables: [
