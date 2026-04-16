@@ -1,11 +1,9 @@
 import { rollAndFind } from '@/lib/tableMatrix'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { TableType } from '@/features/rule/types/RuleType'
 import { parseLinks } from '@/lib/parseLinks'
-import { Dices } from 'lucide-react'
 
 type Props = {
-    content: string
     dice: number
     table: TableType
 }
@@ -15,7 +13,7 @@ type RollResult = {
     row: string[] | null
 }
 
-function TableRoll({ content, dice, table }: Props) {
+function TableRoll({ dice, table }: Props) {
     const [result, setResult] = useState<RollResult | null>(null)
 
     function handleRoll() {
@@ -23,15 +21,12 @@ function TableRoll({ content, dice, table }: Props) {
         setResult(rollResult)
     }
 
+    useEffect(() => {
+        handleRoll()
+    }, [])
+
     return (
-        <>
-            <p>{content}</p>
-
-            <button onClick={handleRoll}>
-                <Dices size={16} />
-                <span>Roll 1D{dice}</span>
-            </button>
-
+        <div className="h-5">
             {result && (
                 <>
                     <div className="flex flex-row mt-3">
@@ -54,7 +49,7 @@ function TableRoll({ content, dice, table }: Props) {
                     </div>
                 </>
             )}
-        </>
+        </div>
     )
 }
 
