@@ -4,12 +4,9 @@ import Preloader from './components/Preloader.tsx'
 import App from './App.tsx'
 
 const Game = React.lazy(() => import('./pages/GamePage.tsx'))
-const RulePage = React.lazy(() => import('./features/rule/pages/RulePage.tsx'))
+const BookletPage = React.lazy(() => import('./pages/BookletPage.tsx'))
 const RuleDetailPage = React.lazy(
     () => import('./features/rule/pages/RuleDetailPage.tsx')
-)
-const EventPage = React.lazy(
-    () => import('./features/event/pages/EventPage.tsx')
 )
 const EventDetailPage = React.lazy(
     () => import('./features/event/pages/EventDetailPage.tsx')
@@ -25,16 +22,12 @@ const router = createBrowserRouter([
                 element: <Game />,
             },
             {
-                path: '/rule',
-                element: <RulePage />,
+                path: '/booklet',
+                element: <BookletPage />,
             },
             {
                 path: '/rule/:tag',
                 element: <RuleDetailPage />,
-            },
-            {
-                path: '/event',
-                element: <EventPage />,
             },
             {
                 path: '/event/:tag',
