@@ -4689,34 +4689,6 @@ const eventData: Event[] = [
         ],
     },
     {
-        tag: 'e214a',
-        title: 'Stagecoach Ambush',
-        desc: [
-            'The stagecoach is being held up by bandits. You engage immediately. Initiative R110e.',
-        ],
-        tables: [
-            {
-                cols: ['Opponent', 'Stats'],
-                rows: [
-                    [
-                        'Bandit 1',
-                        'Finesse 2; Weapon: Rifle ♥️️️️; Loot Suit: ♣️️️ (Table D1)',
-                    ],
-                    ['Bandit 2', 'Finesse 2; Weapon: Pistol ♦️️️; Loot Suit: -'],
-                ],
-            },
-            {
-                cols: ['Result', 'Outcome'],
-                rows: [
-                    [
-                        'Win',
-                        'Combat ends. Proceed as normal (continue E214 resolution).',
-                    ],
-                ],
-            },
-        ],
-    },
-    {
         tag: 'e215',
         title: 'Fog',
         desc: ['An unusually thick fog rolls into this area. Roll a 1d6:'],

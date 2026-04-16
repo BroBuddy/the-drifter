@@ -11,7 +11,7 @@
     max-width: 768px;
 
     > a {
-        background-color: var(--black);
+        background-color: var(--brown);
         border: 2px solid var(--beige);
         border-radius: 20px;
         color: var(--white);
@@ -25,7 +25,9 @@
         text-align: center;
 
         &.active {
-            background-color: var(--brown);
+            background-color: var(--beige);
+            background-image: none;
+            color: var(--white);
         }
     }
 }

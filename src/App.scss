@@ -38,9 +38,10 @@ a {
 }
 
 button {
-    background-color: var(--brown);
-    border-radius: 8px;
-    border: 2px solid var(--white);
+    background-image: url('/images/bg_badge.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
     color: var(--white);
     cursor: pointer;
     display: flex;

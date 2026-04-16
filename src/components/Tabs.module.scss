@@ -1,13 +1,13 @@
 .tabs {
     border: 2px solid var(--white);
     background-color: var(--beige);
-    border-radius: 8px;
+    border-radius: 14px;
     padding: 5px;
     position: relative;
 
     > span {
         padding: 6px 10px;
-        border-radius: 7px;
+        border-radius: 14px;
         color: var(--black);
         font-size: 13px;
         cursor: pointer;
@@ -16,7 +16,9 @@
         gap: 4px;
 
         &.active {
-            background: var(--brown);
+            background-image: url('/images/bg_badge.png');
+            background-position: center;
+            background-size: cover;
             color: var(--white);
             font-weight: 500;
         }
