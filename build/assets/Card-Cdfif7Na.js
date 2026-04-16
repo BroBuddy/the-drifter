@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DdfOOQe8.js";var t={card:`_card_2puj6_1`,cardHeader:`_cardHeader_2puj6_8`,cardContent:`_cardContent_2puj6_22`},n=e(),r=({title:e,children:r})=>(0,n.jsxs)(`div`,{className:t.card,children:[e&&(0,n.jsx)(`div`,{className:t.cardHeader,children:e}),(0,n.jsx)(`div`,{className:t.cardContent,children:r})]});export{r as t};

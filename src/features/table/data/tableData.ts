@@ -1,5 +1,5 @@
 export const tableA = {
-    cols: ['1D100', '❌', '♣️', '♦️', '♥️', '♠️'],
+    cols: ['🎲', '❌', '♣️', '♦️', '♥️', '♠️'],
     rows: [
         ['1-2', 'E235', 'E134', 'E134', 'E134', 'E134'],
         ['3-4', 'E004', 'E130', 'E243', 'E222', 'E068'],
@@ -58,9 +58,9 @@ export const tableA = {
 }
 
 export const tableB = {
-    cols: ['1D10', '❌', '♣️', '♦️', '♥️', '♠️'],
+    cols: ['🎲', '❌', '♣️', '♦️', '♥️', '♠️'],
     rows: [
-        ['1', 'Miss**', 'Miss**', 'Miss**', 'Miss**', 'Miss**'],
+        ['1', 'Miss!', 'Miss!', 'Miss!', 'Miss!', 'Miss!'],
         ['2', 'Miss', 'Miss', 'Miss', 'Miss', 'LW'],
         ['3', 'Miss', 'Miss', 'Miss', 'LW', 'MW'],
         ['4', 'Miss', 'Miss', 'Miss', 'LW', 'MW'],
@@ -75,7 +75,7 @@ export const tableB = {
 }
 
 export const tableC = {
-    cols: ['1D10', '♣️', '♦️', '♥️', '♠️'],
+    cols: ['🎲', '♣️', '♦️', '♥️', '♠️'],
     rows: [
         ['1', 'Fail*', 'Fail*', 'Fail*', 'Fail*'],
         ['2', 'Fail', 'Fail', 'Fail', 'Fail'],
@@ -91,7 +91,7 @@ export const tableC = {
 }
 
 export const tableD = {
-    cols: ['1D10', '❌', '♣️', '♦️', '♥️', '♠️'],
+    cols: ['🎲', '❌', '♣️', '♦️', '♥️', '♠️'],
     rows: [
         ['1', '$0', '$0', '$0', '$1', '$2'],
         ['2', '$0', '$0', '$2', '$3', '$4'],
@@ -107,7 +107,7 @@ export const tableD = {
 }
 
 export const tableD2 = {
-    cols: ['1D6', 'Q', 'K', 'A'],
+    cols: ['🎲', 'Q', 'K', 'A'],
     rows: [
         ['1', 'E023', '$8', '$12'],
         ['2', 'E009', '$15', '$20'],

@@ -115,8 +115,6 @@ const eventData: Event[] = [
         desc: [
             'You are confronted by the Lieutenant.',
             'Attempt a Hunch Skill Test (Table C/♦️/Hunch-2) R111.',
-            'PASS = Roll a D6:',
-            'FAIL = Roll a D6:',
         ],
         tables: [
             {
@@ -686,12 +684,10 @@ const eventData: Event[] = [
         desc: [
             'If you are on a Marshland hex; E207',
             'Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111',
-            'PASS = Roll a D6: (see table 1)',
-            'FAIL = You ride right into the trap. Roll a D6: (see table 2)',
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (PASS)'],
                 rows: [
                     [
                         '1',
@@ -716,7 +712,7 @@ const eventData: Event[] = [
                 ],
             },
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (FAIL)'],
                 rows: [
                     [
                         '1',
@@ -749,6 +745,7 @@ const eventData: Event[] = [
     {
         tag: 'e023',
         title: 'Loot',
+        desc: ['Roll a D6:'],
         tables: [
             {
                 cols: ['1d6', 'Outcome'],
@@ -815,6 +812,7 @@ const eventData: Event[] = [
     {
         tag: 'e025',
         title: 'Prospectors',
+        desc: ['You approach the prospectors in a kindly manner. Roll a D10:'],
         tables: [
             {
                 cols: ['1d10', 'Outcome'],
@@ -855,6 +853,7 @@ const eventData: Event[] = [
     {
         tag: 'e026',
         title: 'Preacher',
+        desc: ['You meet a preacher. Roll a D6:'],
         tables: [
             {
                 cols: ['1d6', 'Outcome'],
@@ -935,6 +934,7 @@ const eventData: Event[] = [
     {
         tag: 'e028',
         title: 'Trapper',
+        desc: ['You meet a trapper. Roll a D6:'],
         tables: [
             {
                 cols: ['1d6', 'Outcome'],
@@ -1170,11 +1170,11 @@ const eventData: Event[] = [
             'If you decide to approach them; E004',
             'If you decide to hide, attempt a Finesse skill test (Table C/♥️️/Finesse-2)R111',
             'PASS = You slip by the platoon and they march onwards. Roll on the Event Table (Table A).',
-            'FAIL = You are caught and held for questioning. Roll a D6: (see table 1)',
+            'FAIL = You are caught and held for questioning. Roll a D6:',
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (FAIL)'],
                 rows: [
                     ['1', 'Execution by firing squad. You are dead.'],
                     ['2', 'They accuse you of a political crime; E075'],
@@ -2904,8 +2904,22 @@ const eventData: Event[] = [
             'You find a letter with instructions to have you killed, signed by an "old friend".',
             'You know where this "old friend" lives.',
             'Roll a D6 to determine the hex of "old friends" home:',
-            '1- 4,4; 2- 12,6; 3- 4,21; 4- 17,16; 5- 0,22; 6- Any Town',
+        ],
+        note: [
             'Record "Hex#/old Friend/E034" under your Points of Interest R102.',
+        ],
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    ['1', '4,4'],
+                    ['2', '12,6'],
+                    ['3', '4,21'],
+                    ['4', '17,16'],
+                    ['5', '0,22'],
+                    ['6', 'Any Town'],
+                ],
+            },
         ],
     },
     {
@@ -2915,11 +2929,10 @@ const eventData: Event[] = [
             "In the dead of night, you arrive at the home of the toothless man who killed the widow's husband.",
             'Attempt a Finesse skill test (Table C/♥️/Finesse-1) R111.',
             'PASS = You kill him in his sleep. Bounty Suit up one. You need to meet with the Widow to get the reward. Record "Hex#any town/Reward/E156" under your Points of Interest R102.',
-            'FAIL = Roll a D6:',
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (FAIL)'],
                 rows: [
                     [
                         '1',
@@ -3560,7 +3573,7 @@ const eventData: Event[] = [
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (FAIL)'],
                 rows: [
                     ['1', '+1 Karma. The chamber is empty.'],
                     [
@@ -3693,8 +3706,6 @@ const eventData: Event[] = [
         desc: [
             'As you approach you spot a lone, silent figure, standing in the darkness.',
             'Attempt a Hunch skill test(Table C/♥️️/Hunch-1)R111.',
-            'PASS = Roll a D6: (see table below)',
-            'FAIL = Roll a D6: (see table below)',
         ],
         tables: [
             {
@@ -3724,7 +3735,7 @@ const eventData: Event[] = [
                 ],
             },
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (Grave)'],
                 rows: [
                     ['1', '+1 Karma. There is an empty casket.'],
                     [
@@ -4505,8 +4516,6 @@ const eventData: Event[] = [
         desc: [
             'You arrive at the preachers home to confront him on his deception.',
             'Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111.',
-            'PASS = Roll a D6 (see table below).',
-            'FAIL = Roll a D6 (see second table below).',
         ],
         tables: [
             {
@@ -5493,7 +5502,7 @@ const eventData: Event[] = [
     },
     {
         tag: 'e219',
-        title: 'You Spot Your Target Setting Up Camp',
+        title: 'Spot Your Target',
         desc: [
             'You spot your target setting up camp. You sneak up on him. Roll a 1d6:',
         ],
@@ -5737,18 +5746,12 @@ const eventData: Event[] = [
         desc: [
             'You tracked your target to this location but he isn’t here.',
             'Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111.',
-        ],
-        tables: [
-            {
-                cols: ['Outcome', 'Resolution'],
-                rows: [
-                    [
-                        'PASS',
-                        'You continue to track him. Roll a 1d6 direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW) and a 1d4 distance. Record “Hex#/bounty/E201” R102.',
-                    ],
-                    ['FAIL', 'You lost him; E225'],
-                ],
-            },
+            'PASS = You continue to track him.',
+            'Roll a D6 for direction of the tracks:',
+            '1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW',
+            'and then roll a D4, to determine how many hexes away.',
+            'Record “Hex#/bounty/E201” under your Points of Interest R102.',
+            'FAIL = You lost him; E225',
         ],
     },
     {
@@ -6092,7 +6095,7 @@ const eventData: Event[] = [
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome'],
+                cols: ['1d6', 'Outcome (FAIL)'],
                 rows: [
                     [
                         '1',
@@ -6121,6 +6124,7 @@ const eventData: Event[] = [
     {
         tag: 'e240',
         title: 'Bounty',
+        desc: ['Roll a D6:'],
         tables: [
             {
                 cols: ['1d10', 'Outcome'],
@@ -6161,7 +6165,7 @@ const eventData: Event[] = [
     {
         tag: 'e241',
         title: 'Stagecoach',
-        desc: ['You pay to ride the stagecoach.'],
+        desc: ['You pay to ride the stagecoach. Roll a D6:'],
         tables: [
             {
                 cols: ['1d6', 'Outcome'],

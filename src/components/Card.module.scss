@@ -6,14 +6,16 @@
 }
 
 .cardHeader {
-    background-color: var(--dark-grey);
+    background-image: url('/images/bg_card.png');
+    background-size: cover;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     color: var(--white);
     flex-direction: column;
+    font-family: 'Rye', cursive;
     font-weight: bold;
     font-size: 16px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     padding: 8px 12px;
 }
 

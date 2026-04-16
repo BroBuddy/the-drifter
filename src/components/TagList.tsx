@@ -6,7 +6,7 @@ function TagList({ tags }: { tags: TagSheet[] }) {
     return (
         <div className="flex flex-wrap mt-2">
             {tags.map((item: TagSheet) => (
-                <div key={item.tag} className="w-5 m-1">
+                <div key={item.tag} className="w-6 m-1 mb-2">
                     <Badge text={item.tag} link={tagToPath(item.tag)} />
                 </div>
             ))}

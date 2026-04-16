@@ -301,7 +301,7 @@ const ruleData: Rule[] = [
             'There will be a Rule to refer to in the Event to determine who attacks first, you or your opponent(s), this is called Initiative.',
             'The formula for all attacks, regardless of the weapon, is as follows:',
             'Attackers current Finesse skill - Opponents current Finesse skill = Attackers Roll Adjustment.',
-            'After the roll adjustment is determined, roll a D10 under the attackers weapon suit ( ,♦️,♥️,or ♠️), on the Combat Table (Table B), adding or subtracting the attackers roll adjustment, to determine any Wound Level. ',
+            'After the roll adjustment is determined, roll a D10 under the attackers weapon suit (♣️ ,♦️,♥️,or ♠️), on the Combat Table (Table B), adding or subtracting the attackers roll adjustment, to determine any Wound Level. ',
             'I.e. The Drifter is determined to attack first (wins Initiative). The Drifter has a Finesse of 4 and is using a Pistol♦️. The opponent has a Finesse of 2. Therefore, the Drifters roll adjustment will be +2 (4 - 2 = 2), under the ♦️ column on the Combat Table (Table B). If the Bandit survives the attack, it is now his attack. You would follow the same formula to determine the bandits roll adjustment for his roll, on the Combat Table (Table B), against the Drifter.',
             'All characters Finesse score drops depending on Wound Level. -1 for Medium Wound, -2 for Heavy Wound, -3 for Debilitating Wound (see Tracking Sheet and Combat Sheet).',
             'A characters base Finesse score doesn’t fall below zero regardless of Wound Level but they would have a negative to their Finesse Roll Adjustment on their attack, if their Finesse is lower than their opponents.',
@@ -445,10 +445,21 @@ const ruleData: Rule[] = [
             'Demands payment of $5.00 (for each partner that is disbanding) for their troubles.',
             'If you pay, you part ways, then roll Event Table (Table A).',
             'If you refuse to pay, attempt a Hunch Skill test (Table C/♥️/Hunch-1) R111.',
-            'PASS = They apologize for overreacting and part ways.',
-            'Roll on Event Table (Table A).',
-            'FAIL = They attack you R110. Initiative R110b.',
-            'If you defeat them, roll on Event Table (Table A).',
+        ],
+        tables: [
+            {
+                cols: ['Result', 'Outcome'],
+                rows: [
+                    [
+                        'PASS',
+                        'They apologize for overreacting and part ways. Roll on Event Table (Table A).',
+                    ],
+                    [
+                        'FAIL',
+                        'They attack you R110. Initiative R110b. If you defeat them, roll on Event Table (Table A).',
+                    ],
+                ],
+            },
         ],
     },
     {
@@ -486,13 +497,24 @@ const ruleData: Rule[] = [
         desc: [
             '"Hard to shake em!"',
             'Attempt an *Opposing Finesse skill test (Table C/♥️)R111.',
-            'PASS = You have escaped.',
-            'Bounty Suit up one.',
-            'Move to an adjacent hex of your choice and then roll on the Event Table (Table A).',
-            'FAIL = +1 Karma. You are unable to escape and combat continues (you get first attack).',
         ],
         note: [
             '*If more than one opponent, choose the opponent with highest Finesse',
+        ],
+        tables: [
+            {
+                cols: ['Result', 'Outcome'],
+                rows: [
+                    [
+                        'PASS',
+                        'You have escaped. Bounty Suit up one. Move to an adjacent hex of your choice and then roll on the Event Table (Table A).',
+                    ],
+                    [
+                        'FAIL',
+                        '+1 Karma. You are unable to escape and combat continues (you get first attack).',
+                    ],
+                ],
+            },
         ],
     },
     {

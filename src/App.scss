@@ -4,8 +4,11 @@
 @use './styles/sizing';
 @use './styles/colors';
 
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
 #root {
-    font-family: Georgia, serif;
+    font-family:
+        'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, Garamond, serif;
     line-height: 1.5;
     margin: 0 auto;
     width: 100%;
@@ -18,7 +21,10 @@
 }
 
 body {
-    background-color: var(--beige);
+    // background-color: var(--beige);
+    background-image: url('/images/bg_wood.png');
+    background-size: contain;
+    background-attachment: fixed;
     box-sizing: border-box;
     color: var(--black);
     display: flex;
@@ -29,8 +35,8 @@ body {
 }
 
 a {
+    font-family: 'Rye', cursive;
     font-weight: bold;
-    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -101,16 +107,19 @@ table {
     width: calc(100% - 30px);
 
     tr {
+        background-image: url('/images/bg_card.png');
+        background-size: auto;
+
         td,
         th {
             word-wrap: break-word;
             overflow-wrap: break-word;
         }
         th {
-            background-color: var(--dark-grey);
             color: var(--white);
+            font-family: 'Rye', cursive;
             font-size: 16px;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.1em;
             text-align: left;
         }
 
