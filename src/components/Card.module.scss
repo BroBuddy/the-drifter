@@ -1,16 +1,18 @@
 .card {
-    border: 2px solid var(--white);
-    background-color: var(--bg-card);
+    background-color: var(--light-grey);
     border-radius: 8px;
     margin: 12px 15px;
     position: relative;
 }
 
 .cardHeader {
-    align-items: center;
-    display: flex;
+    background-color: var(--dark-grey);
+    color: var(--white);
     flex-direction: column;
-    padding: 12px 15px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    padding: 8px 12px;
 }
 
 .cardContent {

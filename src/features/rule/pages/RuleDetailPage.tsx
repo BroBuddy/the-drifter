@@ -29,9 +29,7 @@ function RuleDetailPage() {
             ))}
 
             {rule.note && (
-                <Card>
-                    <span className="note">Notes</span>
-
+                <Card title="Notes">
                     {rule.note?.map((p, i) => (
                         <p key={i}>{parseLinks(p)}</p>
                     ))}

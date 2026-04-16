@@ -101,10 +101,9 @@ ul {
 
 table {
     background-color: var(--bg-card);
-    border: 0.5px solid var(--border);
     border-radius: 8px;
     box-sizing: border-box;
-    margin: 25px 15px;
+    margin: 15px;
     overflow: hidden;
     border-collapse: separate;
     border-spacing: 0;
@@ -117,15 +116,20 @@ table {
             overflow-wrap: break-word;
         }
         th {
-            font-size: 11px;
-            font-weight: normal;
-            letter-spacing: 0.1em;
+            background-color: var(--dark-grey);
+            color: var(--white);
             text-align: left;
             text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
         td {
+            background-color: var(--light-grey);
             text-align: left;
         }
+    }
+
+    tr:nth-child(odd) td {
+        background-color: var(--grey);
     }
 }

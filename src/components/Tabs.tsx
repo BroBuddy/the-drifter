@@ -17,19 +17,21 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
 
     return (
         <>
-            <div className={styles.tabs}>
-                {tabs.map((tab: TabItem, index: number) => (
-                    <span
-                        key={tab.label}
-                        className={`p-1 ${index === activeIndex ? styles.active : ''}`}
-                        onClick={() => setActiveIndex(index)}
-                    >
-                        {tab.icon} {tab.label}
-                    </span>
-                ))}
-            </div>
+            <Card>
+                <div className={styles.tabs}>
+                    {tabs.map((tab: TabItem, index: number) => (
+                        <span
+                            key={tab.label}
+                            className={`p-1 ${index === activeIndex ? styles.active : ''}`}
+                            onClick={() => setActiveIndex(index)}
+                        >
+                            {tab.icon} {tab.label}
+                        </span>
+                    ))}
+                </div>
 
-            <Card>{tabs[activeIndex]?.content}</Card>
+                {tabs[activeIndex]?.content}
+            </Card>
         </>
     )
 }

@@ -3,7 +3,7 @@ import { parseLinks } from '@/lib/parseLinks'
 
 function ListTable({ table }: { table: TableType }) {
     return (
-        <table className="pb-2">
+        <table>
             <thead>
                 <tr>
                     {table.cols?.map((col, i) => (
@@ -18,7 +18,7 @@ function ListTable({ table }: { table: TableType }) {
                 {table.rows.map((row, i) => (
                     <tr key={i}>
                         {row.map((cell, j) => (
-                            <td key={j} className="px-3 py-1">
+                            <td key={j} className="px-3 py-2">
                                 {parseLinks(cell)}
                             </td>
                         ))}

@@ -4435,11 +4435,6 @@ const eventData: Event[] = [
                         'Attempt a Finesse skill test (Table C/♦️️️/Finesse-1) R111. PASS = You evade their pursuit; E234. FAIL = +1 Karma. Go to Roll Result 8',
                     ],
                     ['6', 'You evade their pursuit; E053'],
-                ],
-            },
-            {
-                cols: ['Follow-up', 'Combat'],
-                rows: [
                     [
                         '7',
                         'You engage them in combat R110. Initiative R110c. Bandits: Finesse 2/2/2/2; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1). If you win, Bounty Suit up one.',

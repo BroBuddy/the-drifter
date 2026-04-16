@@ -11,7 +11,7 @@ export function getLinkClass(tag?: string): string {
     const base = 'flex flex-row'
 
     if (tag?.toLowerCase().startsWith('e')) {
-        return `${base} text-light-blue`
+        return `${base} text-gold`
     }
 
     return base

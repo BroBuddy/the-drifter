@@ -29,9 +29,7 @@ const EventDetailPage = () => {
             ))}
 
             {event.note && (
-                <Card>
-                    <span className="note">Notes</span>
-
+                <Card title="Notes">
                     {event.note?.map((p, i) => (
                         <p key={i}>{parseLinks(p)}</p>
                     ))}
