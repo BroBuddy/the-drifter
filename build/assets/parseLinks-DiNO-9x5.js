@@ -1,0 +1,1 @@
+import{n as e,t}from"./jsx-runtime-DdfOOQe8.js";var n=t();function r(t=``){return t.split(/([Ee]\d{3,4}[a-zA-Z]?|[Rr]\d{3,4}[a-zA-Z]?)/g).map((t,r)=>/^[Ee]\d{3,4}[a-zA-Z]?$/.test(t)?(0,n.jsx)(e,{to:`/event/${t.toLowerCase()}`,className:`text-black`,children:t},r):/^[Rr]\d{3,4}[a-zA-Z]?$/.test(t)?(0,n.jsx)(e,{to:`/rule/${t.toLowerCase()}`,children:t},r):t)}export{r as t};

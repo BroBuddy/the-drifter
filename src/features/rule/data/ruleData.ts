@@ -34,31 +34,35 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['Actions allowed in any hex'],
+                cols: ['Actions', 'allowed in any hex'],
                 rows: [
                     [
-                        'Travel - to an adjacent hex R101b, your most common choice.',
+                        'Travel',
+                        'to an adjacent hex R101b, your most common choice.',
                     ],
                     [
-                        'Heal - in current hex to attempt healing yourself R101c, Requires certain equipment.',
+                        'Heal',
+                        'in current hex to attempt healing yourself R101c, Requires certain equipment.',
                     ],
                     [
-                        'Part ways - in current hex and willingly disband with a partner R101d, Requires having a partner.',
+                        'Part ways',
+                        'in current hex and willingly disband with a partner R101d, Requires having a partner.',
                     ],
                 ],
             },
             {
-                cols: ['Actions allowed only in certain types of hexes'],
+                cols: ['Actions', 'allowed only in certain types of hexes'],
                 rows: [
                     [
-                        'Point of Interest - only on a Hex that contains a known “Point of Interest” R102',
+                        'Point of Interest',
+                        'only on a Hex that contains a known “Point of Interest” R102',
                     ],
-                    ['Enter Town - only on a hex with a town R103'],
+                    ['Enter Town', 'only on a hex with a town R103'],
                 ],
             },
             {
-                cols: ['Actions allowed only in combat'],
-                rows: [['Flee - Attempt to escape combat R109']],
+                cols: ['Actions', 'allowed only in combat'],
+                rows: [['Actions', 'Attempt to escape combat R109']],
             },
         ],
     },
