@@ -1,4 +1,3 @@
-import Card from '@/components/Card'
 import PageHeader from '@/components/PageHeader'
 import Tabs, { type TabItem } from '@/components/Tabs'
 import CharacterCreationPage from './CharacterCreationPage'
@@ -23,9 +22,7 @@ function GamePage() {
         <>
             <PageHeader tag="A Wild West Adventure" title="The Drifter" />
 
-            <Card>
-                <Tabs tabs={tabs} />
-            </Card>
+            <Tabs tabs={tabs} />
         </>
     )
 }

@@ -40,6 +40,22 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: none;
+    color: var(--red);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 12px;
+
+    > span {
+        font-size: 12px;
+    }
+}
+
 p {
     margin: 8px 0;
 }

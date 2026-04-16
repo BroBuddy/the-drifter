@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react'
 import styles from './Tabs.module.scss'
+import Card from './Card'
 
 export type TabItem = {
     label: string
@@ -28,7 +29,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
                 ))}
             </div>
 
-            <div className="py-2">{tabs[activeIndex]?.content}</div>
+            <Card>{tabs[activeIndex]?.content}</Card>
         </>
     )
 }

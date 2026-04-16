@@ -11,7 +11,9 @@ const RuleDetailPage = React.lazy(
 const EventDetailPage = React.lazy(
     () => import('./features/event/pages/EventDetailPage.tsx')
 )
-const TablePage = React.lazy(() => import('./pages/TablePage.tsx'))
+const TablePage = React.lazy(
+    () => import('./features/table/pages/TablePage.tsx')
+)
 
 const router = createBrowserRouter([
     {

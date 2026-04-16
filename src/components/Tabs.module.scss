@@ -1,13 +1,15 @@
 .tabs {
-    display: inline-flex;
-    background: #ed1d00;
-    border-radius: 10px;
+    border: 2px solid var(--white);
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    margin: 12px 15px 6px 15px;
     padding: 5px;
+    position: relative;
 
     > span {
         padding: 6px 10px;
         border-radius: 7px;
-        color: var(--white);
+        color: var(--black);
         font-size: 13px;
         cursor: pointer;
         display: inline-flex;
@@ -15,8 +17,8 @@
         gap: 6px;
 
         &.active {
-            background: var(--white);
-            color: var(--black);
+            background: var(--red);
+            color: var(--white);
             font-weight: 500;
         }
     }
