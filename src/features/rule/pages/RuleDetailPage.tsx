@@ -14,7 +14,7 @@ function RuleDetailPage() {
 
     return (
         <>
-            <PageHeader tag={rule.tag} title={rule.title} />
+            <PageHeader title={rule.title} />
 
             {rule.desc && rule.desc?.length >= 1 && (
                 <Card>

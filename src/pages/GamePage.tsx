@@ -20,7 +20,7 @@ const tabs: TabItem[] = [
 function GamePage() {
     return (
         <>
-            <PageHeader tag="A Wild West Adventure" title="The Drifter" />
+            <PageHeader title="The Drifter" />
 
             <Tabs tabs={tabs} />
         </>

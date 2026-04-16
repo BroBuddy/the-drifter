@@ -20,7 +20,7 @@ const tabs: TabItem[] = [
 function BookletPage() {
     return (
         <>
-            <PageHeader tag="Reference" title="Booklets" />
+            <PageHeader title="Booklets" />
 
             <Tabs tabs={tabs} />
         </>

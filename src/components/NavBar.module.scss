@@ -1,24 +1,31 @@
 .navBar {
-    background-color: var(--black);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
     bottom: 0;
     left: 50%;
-    padding-top: 5px;
+    margin-bottom: 5px;
     transform: translateX(-50%);
     width: 100%;
     max-width: 768px;
 
     > a {
+        background-color: var(--black);
+        border: 2px solid var(--beige);
+        border-radius: 20px;
         color: var(--white);
-        padding: 4px;
+        padding: 6px 4px 2px 4px;
         text-decoration: none;
         white-space: nowrap;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
 
         &.active {
-            color: var(--red);
+            background-color: var(--brown);
         }
     }
 }

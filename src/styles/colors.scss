@@ -8,6 +8,8 @@
     --muted: rgba(255, 255, 255, 0.4);
     --gold: #c3970f;
     --red: #ed1d00;
+    --beige: #bea57d;
+    --brown: #8e734c;
 }
 
 $colors: (
@@ -19,4 +21,6 @@ $colors: (
     'black': var(--black),
     'dark-grey': var(--dark-grey),
     'grey': var(--grey),
+    'beige': var(--beige),
+    'brown': var(--brown),
 );

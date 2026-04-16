@@ -71,7 +71,7 @@ function TablePage() {
 
     return (
         <>
-            <PageHeader title="Tables" tag="Matrix" />
+            <PageHeader title="Tables" />
 
             <Tabs tabs={tabs} />
         </>

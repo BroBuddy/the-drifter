@@ -14,7 +14,7 @@ const EventDetailPage = () => {
 
     return (
         <>
-            <PageHeader tag={event.tag} title={event.title} time={event.time} />
+            <PageHeader title={event.title} />
 
             {event.desc && event.desc?.length >= 1 && (
                 <Card>

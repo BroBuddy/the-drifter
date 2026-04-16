@@ -18,16 +18,8 @@
 }
 
 body {
-    background: linear-gradient(
-        to bottom,
-        #ed1d00 25%,
-        #f25601 50%,
-        #fcac00 75%
-    );
+    background-image: url('/images/bg_wood.png');
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     box-sizing: border-box;
     color: var(--black);
     display: flex;
@@ -38,17 +30,19 @@ body {
 }
 
 a {
-    color: var(--red);
+    color: var(--brown);
+    font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 button {
-    background-color: var(--white);
+    background-color: var(--brown);
     border-radius: 8px;
-    border: none;
-    color: var(--red);
+    border: 2px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -116,7 +110,7 @@ table {
             overflow-wrap: break-word;
         }
         th {
-            background-color: var(--dark-grey);
+            background-color: var(--brown);
             color: var(--white);
             text-align: left;
             text-transform: uppercase;
