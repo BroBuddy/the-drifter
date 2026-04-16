@@ -182,7 +182,7 @@ const ruleData: Rule[] = [
                     ['1', '+1 Karma. Accused of loitering; E155'],
                     [
                         '2',
-                        'If your Bounty Suit is ♦,♥,♠ you attract the attention of a fervent Lawman; E155. If you are on a marshland hex and your Bounty Suit is X or ♣; E029. If you are not on a marshland hex and your Bounty Suit is X or ♣; E039',
+                        'If your Bounty Suit is ♦️,♥️,♠️ you attract the attention of a fervent Lawman; E155. If you are on a marshland hex and your Bounty Suit is X or ♣️; E029. If you are not on a marshland hex and your Bounty Suit is X or ♣️; E039',
                     ],
                     [
                         '3',
@@ -190,7 +190,7 @@ const ruleData: Rule[] = [
                     ],
                     [
                         '4',
-                        'If your Bounty Suit is ♠ you attract the attention of the authorities; E155. Gunshop: If you wish to rob the shop, roll a D4: 1-E155; 2-E044; 3-E056; 4-E090. If you wish to browse; E114',
+                        'If your Bounty Suit is ♠️ you attract the attention of the authorities; E155. Gunshop: If you wish to rob the shop, roll a D4: 1-E155; 2-E044; 3-E056; 4-E090. If you wish to browse; E114',
                     ],
                     [
                         '5',
@@ -238,7 +238,7 @@ const ruleData: Rule[] = [
                 rows: [
                     [
                         '1',
-                        'If your Bounty Suit is ♠ you are spotted before you get a chance to board; E155. Train has a serious break down. To determine where it breaks down, choose a direction (north or south) and then roll a D6 to determine how many hexes away from where you boarded. Exit train by placing your token on that hex, then roll on the Event Table (Table A).',
+                        'If your Bounty Suit is ♠️ you are spotted before you get a chance to board; E155. Train has a serious break down. To determine where it breaks down, choose a direction (north or south) and then roll a D6 to determine how many hexes away from where you boarded. Exit train by placing your token on that hex, then roll on the Event Table (Table A).',
                     ],
                     [
                         '2',
@@ -266,7 +266,7 @@ const ruleData: Rule[] = [
                     ],
                     [
                         '10',
-                        'You meet a writer who pays to hear of your latest exploits: If your Bounty Suit is X he pays you $1. If your Bounty Suit is ♣ he pays you $5. If your Bounty Suit is ♦ he pays you $10. If your Bounty Suit is ♥ he pays you $15. If your Bounty Suit is ♠ he pays you $30. Finally, exit train by placing your token on any other hex with a railroad, then roll for a random Event (Table A).',
+                        'You meet a writer who pays to hear of your latest exploits: If your Bounty Suit is X he pays you $1. If your Bounty Suit is ♣️ he pays you $5. If your Bounty Suit is ♦️ he pays you $10. If your Bounty Suit is ♥️ he pays you $15. If your Bounty Suit is ♠️ he pays you $30. Finally, exit train by placing your token on any other hex with a railroad, then roll for a random Event (Table A).',
                     ],
                 ],
             },
@@ -304,8 +304,8 @@ const ruleData: Rule[] = [
             'There will be a Rule to refer to in the Event to determine who attacks first, you or your opponent(s), this is called Initiative.',
             'The formula for all attacks, regardless of the weapon, is as follows:',
             'Attackers current Finesse skill - Opponents current Finesse skill = Attackers Roll Adjustment.',
-            'After the roll adjustment is determined, roll a D10 under the attackers weapon suit ( ,♦,♥,or ♠), on the Combat Table (Table B), adding or subtracting the attackers roll adjustment, to determine any Wound Level. ',
-            'I.e. The Drifter is determined to attack first (wins Initiative). The Drifter has a Finesse of 4 and is using a Pistol♦. The opponent has a Finesse of 2. Therefore, the Drifters roll adjustment will be +2 (4 - 2 = 2), under the ♦ column on the Combat Table (Table B). If the Bandit survives the attack, it is now his attack. You would follow the same formula to determine the bandits roll adjustment for his roll, on the Combat Table (Table B), against the Drifter.',
+            'After the roll adjustment is determined, roll a D10 under the attackers weapon suit ( ,♦️,♥️,or ♠️), on the Combat Table (Table B), adding or subtracting the attackers roll adjustment, to determine any Wound Level. ',
+            'I.e. The Drifter is determined to attack first (wins Initiative). The Drifter has a Finesse of 4 and is using a Pistol♦️. The opponent has a Finesse of 2. Therefore, the Drifters roll adjustment will be +2 (4 - 2 = 2), under the ♦️ column on the Combat Table (Table B). If the Bandit survives the attack, it is now his attack. You would follow the same formula to determine the bandits roll adjustment for his roll, on the Combat Table (Table B), against the Drifter.',
             'All characters Finesse score drops depending on Wound Level. -1 for Medium Wound, -2 for Heavy Wound, -3 for Debilitating Wound (see Tracking Sheet and Combat Sheet).',
             'A characters base Finesse score doesn’t fall below zero regardless of Wound Level but they would have a negative to their Finesse Roll Adjustment on their attack, if their Finesse is lower than their opponents.',
             'I.e. A bandit attacks the Drifter. The bandits Finesse skill is currently 2 and the Drifters Finesse skill is currently 4. The bandits Roll Adjustment would be -2 (2 - 4 = -2) on the Combat table (Table B).',
@@ -334,7 +334,7 @@ const ruleData: Rule[] = [
         tag: 'r110a',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♣/Hunch-1)R111.',
+            'Attempt a Hunch Skill Test (Table C/♣️/Hunch-1)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -343,7 +343,7 @@ const ruleData: Rule[] = [
         tag: 'r110b',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♦/Hunch-1)R111.',
+            'Attempt a Hunch Skill Test (Table C/♦️/Hunch-1)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -352,7 +352,7 @@ const ruleData: Rule[] = [
         tag: 'r110c',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♥/Hunch-1)R111.',
+            'Attempt a Hunch Skill Test (Table C/♥️/Hunch-1)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -361,7 +361,7 @@ const ruleData: Rule[] = [
         tag: 'r110d',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♠/Hunch-1)R111.',
+            'Attempt a Hunch Skill Test (Table C/♠️/Hunch-1)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -370,7 +370,7 @@ const ruleData: Rule[] = [
         tag: 'r110e',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♣/Hunch-2)R111.',
+            'Attempt a Hunch Skill Test (Table C/♣️/Hunch-2)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -379,7 +379,7 @@ const ruleData: Rule[] = [
         tag: 'r110f',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♦/Hunch-2)R111.',
+            'Attempt a Hunch Skill Test (Table C/♦️/Hunch-2)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -388,7 +388,7 @@ const ruleData: Rule[] = [
         tag: 'r110g',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♥/Hunch-2)R111.',
+            'Attempt a Hunch Skill Test (Table C/♥️/Hunch-2)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -397,7 +397,7 @@ const ruleData: Rule[] = [
         tag: 'r110h',
         title: 'Combat - Initiative',
         desc: [
-            'Attempt a Hunch Skill Test (Table C/♠/Hunch-2)R111.',
+            'Attempt a Hunch Skill Test (Table C/♠️/Hunch-2)R111.',
             'If you PASS, you attack first.',
             'If you FAIL, opponents attack first.',
         ],
@@ -410,7 +410,7 @@ const ruleData: Rule[] = [
             'All Skill checks will direct you to one of the Tables on the Table Sheet and will be presented in brackets, as follows:',
         ],
         note: [
-            'i.e. The Event Book paragraph instructs you to attempt a Finesse skill test (Table C/♥/Finesse-1) For this example, you would use Table C (located on your Table Sheet), rolling under the ♥ column, using your Finesse Skill but with a -1. Your current Finesse score is 4, but you are told to negate 1, so therefore you would get a +3 (4 - 1 = 3). You roll the D10 and get a 5, then add 3 for a total of 8. A result of PASS, we are successful at making this Finesse skill test!',
+            'i.e. The Event Book paragraph instructs you to attempt a Finesse skill test (Table C/♥️/Finesse-1) For this example, you would use Table C (located on your Table Sheet), rolling under the ♥️ column, using your Finesse Skill but with a -1. Your current Finesse score is 4, but you are told to negate 1, so therefore you would get a +3 (4 - 1 = 3). You roll the D10 and get a 5, then add 3 for a total of 8. A result of PASS, we are successful at making this Finesse skill test!',
             'Opposing Skill Test: When a Finesse Opposing skill test is required, you take your Finesse score and subtract your opponents Finesse score, to determine the roll adjustment on the assigned Table. If there are multiple opponents, choose the opponent with the highest Finesse.',
         ],
         tables: [
@@ -447,7 +447,7 @@ const ruleData: Rule[] = [
         desc: [
             'Demands payment of $5.00 (for each partner that is disbanding) for their troubles.',
             'If you pay, you part ways, then roll Event Table (Table A).',
-            'If you refuse to pay, attempt a Hunch Skill test (Table C/♥/Hunch-1) R111.',
+            'If you refuse to pay, attempt a Hunch Skill test (Table C/♥️/Hunch-1) R111.',
             'PASS = They apologize for overreacting and part ways.',
             'Roll on Event Table (Table A).',
             'FAIL = They attack you R110. Initiative R110b.',
@@ -488,7 +488,7 @@ const ruleData: Rule[] = [
         title: 'Escape',
         desc: [
             '"Hard to shake em!"',
-            'Attempt an *Opposing Finesse skill test (Table C/♥)R111.',
+            'Attempt an *Opposing Finesse skill test (Table C/♥️)R111.',
             'PASS = You have escaped.',
             'Bounty Suit up one.',
             'Move to an adjacent hex of your choice and then roll on the Event Table (Table A).',
@@ -564,7 +564,7 @@ const ruleData: Rule[] = [
         desc: ['Event Table - Bounty Suit'],
         tables: [
             {
-                cols: ['1D100', '❌ N.', '♣️ L.', '♦️ M.', '♥️ H.', '♠️ H.'],
+                cols: ['1D100', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
                 rows: [
                     ['1-2', 'E235', 'E134', 'E134', 'E134', 'E134'],
                     ['3-4', 'E004', 'E130', 'E243', 'E222', 'E068'],
@@ -633,7 +633,7 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['1D10', '❌ N.', '♣️ L.', '♦️ M.', '♥️ H.', '♠️ H.'],
+                cols: ['1D10', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
                 rows: [
                     ['<2', 'Miss**', 'Miss**', 'Miss**', 'Miss**', 'Miss**'],
                     ['2', 'Miss', 'Miss', 'Miss', 'Miss', 'LW'],
@@ -654,7 +654,7 @@ const ruleData: Rule[] = [
         note: ['* Immediately gain 1 Karma Point (Max of 4)'],
         tables: [
             {
-                cols: ['1D10', '♣️ L.', '♦️ M.', '♥️ H.', '♠️ H.'],
+                cols: ['1D10', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
                 rows: [
                     ['<2', 'Fail*', 'Fail*', 'Fail*', 'Fail*'],
                     ['2', 'Fail', 'Fail', 'Fail', 'Fail'],
@@ -674,7 +674,7 @@ const ruleData: Rule[] = [
         note: ["* There's more! Roll again on the same suit."],
         tables: [
             {
-                cols: ['1D10', '❌ N.', '♣️ L.', '♦️ M.', '♥️ H.', '♠️ H.'],
+                cols: ['1D10', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
                 rows: [
                     ['1', '$0', '$0', '$0', '$1', '$2'],
                     ['2', '$0', '$0', '$2', '$3', '$4'],
