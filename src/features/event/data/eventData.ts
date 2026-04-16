@@ -2727,6 +2727,177 @@ const eventData: Event[] = [
         ],
     },
     {
+        tag: 'e084',
+        title: 'Monk',
+        desc: ['You arrive to receive your payment from the monk. Roll a D6:'],
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    ['1', '+1 Karma. The monk has been shot dead; E007'],
+                    [
+                        '2',
+                        'The monks bandit brother is here and he has murdered him. He attacks you R110. Initiative R110e. Monks Brother: Finesse: 3; Weapon: Pistol♦️; Loot Suit: ♥️(Table D1). If you win the combat, Bounty Suit up one; E095',
+                    ],
+                    [
+                        '3',
+                        '+1 Karma. The monk is in tears. His brother returned and robbed him. He apologizes, as he cannot pay you. Roll on the Event Table (Table A).',
+                    ],
+                    [
+                        '4',
+                        'The monk thanks you for returning his brother. He pays you the promised $15. Roll on the Event Table (Table A).',
+                    ],
+                    [
+                        '5',
+                        'The monk thanks you for returning his brother. He pays you the promised $15 along with a blessing, food and shelter. +1 Karma. You (and any partners) heal two Wound Levels; E234',
+                    ],
+                    [
+                        '6',
+                        'The Monk is there with his brother and they are happy. The monk pays you the $15 along with a blessing, food and shelter. +1 Karma. You (and any partners) heal two Wound Levels. The Monks brother also gives you all his remaining wealth for ‘saving him’. Loot Suit:♠️(Table D1).',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e085',
+        title: 'Hideout',
+        desc: [
+            'Attempt a Hunch Skill Test (Table C/♦️/Hunch-2)R111.',
+            'FAIL = You are unable to locate the Hideout. Roll on the Event Table (Table A).',
+            'PASS = You have found the hideout. Roll a D6:',
+        ],
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        'If you have a Green Trinket, go to Roll Result 4. You get ensnared in a trap and the Bandits use you as target practice. You are dead.',
+                    ],
+                    [
+                        '2',
+                        'You investigate the hideout. Attempt a Hunch Skill Test (Table C/♥️/Hunch-1)R111. FAIL = Go to Roll Result 3 PASS = You maneuver past some traps. Reroll on this table again.',
+                    ],
+                    [
+                        '3',
+                        'There are Bandits celebrating. Attempt a Finesse Skill Test (Table C/♥️/Finesse-1)R111. PASS = You sneak past everyone, find their stash and then leave. Loot Suit:♥️(Table D1). FAIL = You are spotted and three Bandits attack R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:♦️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:- Bandit: Finesse: 2; Weapon: Knife♣️; Loot Suit:- If you win the combat, the rest of the Hideout is made aware of your presence. Attempt a Finesse Skill Test (Table C/♣️/Finesse-2)R111. PASS = You escape before more find you; E095 FAIL = They spend the evening celebrating around your lifeless body. You are dead.',
+                    ],
+                    [
+                        '4',
+                        'Attempt a Finesse Skill Test (Table C/♥️/Finesse-1)R111. PASS = You sneak past everyone, find their stash and then leave. Loot Suit:♥️(Table D1). FAIL = You are spotted and three Bandits attack R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:♣️(Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:- Bandit: Finesse: 2; Weapon: Knife♣️; Loot Suit:-',
+                    ],
+                    [
+                        '5',
+                        'If you have a Green Trinket, go to Roll Result 7. A Bandit spots you. Attempt a Hunch Skill Test (Table C/♦️/Hunch-1)R111. PASS = You convince him you want to join their gang. He takes you to the Leader; E099 FAIL = He doesn’t like you. You are forced to turn around and leave. Move to any adjacent hex and then roll on the Event Table (Table A).',
+                    ],
+                    [
+                        '6',
+                        'All the Bandits must be out on a raid, you easily find their stash. You find Loot Suit:♠️(Table D1).',
+                    ],
+                    [
+                        '7',
+                        'A bandit spots you approaching the hideout. He takes you to his leader; E099',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'e086',
+        title: 'Wagon',
+        desc: ['A Wagon appears over the horizon. Roll a D10:'],
+        tables: [
+            {
+                cols: ['1d10', 'Outcome'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. It is lead by a family with a contagious disease. Attempt a Hunch skill test (Table C/♦️/Hunch-2)R111. PASS = You quickly notice they are diseased and move on. Roll on the Event Table (Table A). FAIL = You get to close and have caught the deadly disease. You spend your remaining days in isolation and discomfort. You are dead.',
+                    ],
+                    [
+                        '2',
+                        'If you are not on a grassland hex; E022. The wagon is followed by thousands of Cattle. You startle the cattle and then a stampede breaks out. Attempt a Finesse skill test (Table C/♥️/Finesse-2)R111. PASS = You dodge the stampede. Move to any adjacent hex. Roll on the Event Table (Table A). FAIL = Roll to determine any damage for you and then each partner (Table B/♥️).',
+                    ],
+                    [
+                        '3',
+                        'It is a medical wagon accompanied by a large regiment of soldiers. Attempt a Finesse Skill Test (Table C/♥️/Finesse-2)R111. PASS = +1 Karma. You evade the regiment. Roll on the Event Table (Table A). FAIL = You are spotted; E004',
+                    ],
+                    [
+                        '4',
+                        'It is a family and they are being assaulted by three Ruffians. You can help the family or avoid the confrontation. If you decide to help the family; E127 If you decide to avoid the confrontation and you have a partner(s); E082 If you decide to avoid the confrontation and you don’t have a partner(s); E007',
+                    ],
+                    [
+                        '5',
+                        'It is a family of farmers moving goods. You can rob them or you can be friendly. If you rob them; E005 If you are friendly; E106',
+                    ],
+                    [
+                        '6',
+                        'The wagon has a broken wheel. You provide assistance. Roll a Hunch skill test (Table C/♦️/Hunch-2)R111. PASS = You get the wheel back in place. Go to Roll Result 9 FAIL = He thanks you for trying. Roll on the Event Table (Table A).',
+                    ],
+                    [
+                        '7',
+                        'It is a traveling doctor. Roll a D6. See table below.',
+                    ],
+                    ['8', 'It’s a Trapper; E028'],
+                    [
+                        '9',
+                        'It is a family. They warn you of a Bandit hideout. Roll a D6 to determine which adjacent hex the bandit hideout is located: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/Bandit Hideout/E085” under your Points of Interest R102.',
+                    ],
+                    [
+                        '10',
+                        'It is covered in arrows and so is the driver. Roll a D6. See table below.',
+                    ],
+                ],
+            },
+            {
+                cols: ['Doctor D6', 'Outcome (Doctor)'],
+                rows: [
+                    [
+                        '1',
+                        '+1 Karma. He is in a hurry and rides on by. Later in the day; E022',
+                    ],
+                    [
+                        '2',
+                        'You rob him. Bounty Suit up one. Loot Suit:♣️(Table D1).',
+                    ],
+                    [
+                        '3',
+                        'He offers to tend to your (and any partners) wounds. He will heal one Wound Level for $4.00 per character. He will heal two Wound Levels for $5.00 per character. He will heal three Wound Levels for $6.00 per character. You can choose any of the above options as many times as you like.',
+                    ],
+                    [
+                        '4',
+                        'He offers to tend to your (and any partners) wounds. He will heal one Wound Level for $2.00 per character. He will heal two Wound Levels for $3.00 per character. He will heal three Wound Levels for $4.00 per character. You can choose any of the above options as many times as you like.',
+                    ],
+                    [
+                        '5',
+                        'He likes you and gives you D4 bitters to take with you. They are a one time use. You can use them as a Heal Action R101c. Record the bitters under Equipment.',
+                    ],
+                    [
+                        '6',
+                        '+1 Karma. He likes you. He tends to your wounds. He heals you (and any partners) two Wound Levels.',
+                    ],
+                ],
+            },
+            {
+                cols: ['Arrow Wagon D6', 'Outcome (Driver)'],
+                rows: [
+                    ['1', '+1 Karma. The wagon is empty.'],
+                    ['2', 'The wagon is empty; E095'],
+                    [
+                        '3',
+                        'The driver isn’t dead and attacks you R110. Initiative R110h. Bandit: Finesse: 1; Weapon: Rifle♥️; Loot Suit:♣️(Table D1).',
+                    ],
+                    ['4-5', 'The wagon has a chest. Loot Suit:♦️(Table D1).'],
+                    [
+                        '6',
+                        'The wagon has a chest. Loot Suit: $50 + ♠️(Table D1).',
+                    ],
+                ],
+            },
+        ],
+    },
+    {
         tag: 'e142',
         title: 'Letter',
         desc: [
