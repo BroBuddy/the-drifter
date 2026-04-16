@@ -1,7 +1,6 @@
 {
     "hosting": {
-        "site": "the-drifter",
-        "public": "public",
+        "public": "build",
         "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
         "rewrites": [
             {
