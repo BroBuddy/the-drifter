@@ -24,6 +24,10 @@ body {
         #f25601 50%,
         #fcac00 75%
     );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     box-sizing: border-box;
     color: var(--black);
     display: flex;
