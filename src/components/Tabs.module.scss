@@ -1,14 +1,14 @@
 .tabs {
     border: 2px solid var(--white);
-    background-color: var(--beige);
-    border-radius: 14px;
+    background-color: var(--grey);
+    border-radius: 8px;
     padding: 5px;
     position: relative;
 
     > span {
         padding: 6px 10px;
-        border-radius: 14px;
-        color: var(--black);
+        border-radius: 8px;
+        color: var(--dark-grey);
         font-size: 13px;
         cursor: pointer;
         display: inline-flex;
@@ -16,11 +16,8 @@
         gap: 4px;
 
         &.active {
-            background-image: url('/images/bg_badge.png');
-            background-position: center;
-            background-size: cover;
-            color: var(--white);
-            font-weight: 500;
+            background-color: var(--light-grey);
+            color: var(--black);
         }
     }
 }

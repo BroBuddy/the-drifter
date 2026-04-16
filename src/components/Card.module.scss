@@ -1,17 +1,19 @@
 .card {
-    background-color: var(--light-grey);
-    border-radius: 14px;
+    background-color: var(--grey);
+    border-radius: 8px;
     margin: 12px 15px;
     position: relative;
 }
 
 .cardHeader {
-    background-color: var(--brown);
-    color: var(--white);
-    flex-direction: column;
+    background-color: var(--dark-grey);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    color: var(--white);
+    flex-direction: column;
     font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     padding: 8px 12px;
 }
 

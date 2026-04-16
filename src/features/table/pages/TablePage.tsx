@@ -1,4 +1,3 @@
-import PageHeader from '@/components/PageHeader'
 import TableRoll from '../components/TableRoll'
 import { tableA, tableB, tableC, tableD, tableD2 } from '../data/tableData'
 import Tabs, { type TabItem } from '@/components/Tabs'
@@ -43,14 +42,12 @@ function TablePage() {
     const tabs: TabItem[] = Object.entries(tables).map(([key, value]) => ({
         label: `T${key}`,
         icon: value.icon,
-        content: <TableRoll key={key} dice={value.dice} table={value.table} />,
+        content: <TableRoll key={key} table={value.table} />,
     }))
 
     return (
         <>
-            <PageHeader title="Tables" />
-
-            <Tabs tabs={tabs} />
+            <Tabs showCard={false} title="Tables" tabs={tabs} />
         </>
     )
 }

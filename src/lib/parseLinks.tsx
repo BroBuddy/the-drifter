@@ -9,7 +9,7 @@ export function parseLinks(text: string = '') {
                 <Link
                     key={i}
                     to={`/event/${part.toLowerCase()}`}
-                    className="text-black"
+                    className="text-gold"
                 >
                     {part}
                 </Link>
@@ -18,7 +18,11 @@ export function parseLinks(text: string = '') {
 
         if (/^[Rr]\d{3,4}[a-zA-Z]?$/.test(part)) {
             return (
-                <Link key={i} to={`/rule/${part.toLowerCase()}`}>
+                <Link
+                    key={i}
+                    to={`/rule/${part.toLowerCase()}`}
+                    className="text-red"
+                >
                     {part}
                 </Link>
             )

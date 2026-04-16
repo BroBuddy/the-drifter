@@ -1,4 +1,3 @@
-import PageHeader from '@/components/PageHeader'
 import Tabs, { type TabItem } from '@/components/Tabs'
 import CharacterCreationPage from './CharacterCreationPage'
 import { ClipboardList, User } from 'lucide-react'
@@ -20,9 +19,7 @@ const tabs: TabItem[] = [
 function GamePage() {
     return (
         <>
-            <PageHeader title="The Drifter" />
-
-            <Tabs tabs={tabs} />
+            <Tabs title="The Drifter" tabs={tabs} />
         </>
     )
 }

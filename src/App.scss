@@ -18,8 +18,7 @@
 }
 
 body {
-    background-image: url('/images/bg_wood.png');
-    background-attachment: fixed;
+    background-color: var(--beige);
     box-sizing: border-box;
     color: var(--black);
     display: flex;
@@ -30,17 +29,14 @@ body {
 }
 
 a {
-    color: var(--brown);
-    font-style: italic;
     font-weight: bold;
+    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 button {
-    background-image: url('/images/bg_badge.png');
-    background-position: center;
-    background-size: cover;
+    background-color: var(--brown);
     border-radius: 14px;
     color: var(--white);
     cursor: pointer;
@@ -111,11 +107,11 @@ table {
             overflow-wrap: break-word;
         }
         th {
-            background-color: var(--brown);
+            background-color: var(--dark-grey);
             color: var(--white);
-            text-align: left;
-            text-transform: uppercase;
+            font-size: 16px;
             letter-spacing: 0.05em;
+            text-align: left;
         }
 
         td {

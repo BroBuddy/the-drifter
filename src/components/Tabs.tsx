@@ -9,15 +9,17 @@ export type TabItem = {
 }
 
 type TabsProps = {
+    showCard?: boolean
+    title: string
     tabs: TabItem[]
 }
 
-const Tabs: React.FC<TabsProps> = ({ tabs }) => {
+const Tabs: React.FC<TabsProps> = ({ showCard = true, title, tabs }) => {
     const [activeIndex, setActiveIndex] = useState<number>(0)
 
     return (
         <>
-            <Card>
+            <Card title={title}>
                 <div className={styles.tabs}>
                     {tabs.map((tab: TabItem, index: number) => (
                         <span
@@ -29,9 +31,10 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
                         </span>
                     ))}
                 </div>
-
-                {tabs[activeIndex]?.content}
             </Card>
+
+            {showCard && <Card>{tabs[activeIndex]?.content}</Card>}
+            {!showCard && <>{tabs[activeIndex]?.content}</>}
         </>
     )
 }

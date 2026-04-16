@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { parseLinks } from '@/lib/parseLinks'
 import { useRuleService } from '../services/RuleService'
 import ListTable from '@/components/ListTable'
-import PageHeader from '@/components/PageHeader'
 
 function RuleDetailPage() {
     const { tag } = useParams()
@@ -14,10 +13,8 @@ function RuleDetailPage() {
 
     return (
         <>
-            <PageHeader title={rule.title} />
-
             {rule.desc && rule.desc?.length >= 1 && (
-                <Card>
+                <Card title={rule.title}>
                     {rule.desc.map((p, i) => (
                         <p key={i}>{parseLinks(p)}</p>
                     ))}

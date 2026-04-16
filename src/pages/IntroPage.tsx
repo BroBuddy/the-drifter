@@ -73,7 +73,10 @@ const introSections: IntroSection[] = [
         content: (
             <p>
                 To begin, open the Events booklet and read{' '}
-                <Link to="/event/e001">E001</Link>.
+                <Link to="/event/e001" className="text-gold">
+                    E001
+                </Link>
+                .
             </p>
         ),
     },

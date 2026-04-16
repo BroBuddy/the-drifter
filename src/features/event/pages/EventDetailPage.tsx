@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom'
-import PageHeader from '@/components/PageHeader'
 import { useEventService } from '../services/EventService'
 import Card from '@/components/Card'
 import ListTable from '@/components/ListTable'
@@ -14,10 +13,8 @@ const EventDetailPage = () => {
 
     return (
         <>
-            <PageHeader title={event.title} />
-
             {event.desc && event.desc?.length >= 1 && (
-                <Card>
+                <Card title={event.title}>
                     {event.desc.map((p, i) => (
                         <p key={i}>{parseLinks(p)}</p>
                     ))}

@@ -142,15 +142,16 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['1D6', 'Outcome'],
+                cols: ['1d6', 'Outcome', '', '', ''],
                 rows: [
-                    ['1', 'Military Presence R130'],
-                    ['2', 'Saloon R106', 'Train Station R108**'],
+                    ['1', 'Military Presence R130', '', '', ''],
+                    ['2', 'Saloon R106', 'Train Station R108**', '', ''],
                     [
                         '3-4',
                         'Saloon R106',
                         'Shops R104',
                         'Train Station R108**',
+                        '',
                     ],
                     [
                         '5-6',
@@ -173,7 +174,7 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['1D6', 'Outcome'],
+                cols: ['1d6', 'Outcome'],
                 rows: [
                     ['1', '+1 Karma. Accused of loitering; E155'],
                     [
@@ -279,7 +280,7 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['1D6', 'Outcome'],
+                cols: ['1d6', 'Outcome'],
                 rows: [
                     ['1', 'R133'],
                     ['2', 'R115'],
@@ -682,7 +683,7 @@ const ruleData: Rule[] = [
                 ],
             },
             {
-                cols: ['1D6', 'Q', 'K', 'A'],
+                cols: ['1d6', 'Q', 'K', 'A'],
                 rows: [
                     ['1', 'E023', '$8', '$12'],
                     ['2-4', 'E009', '$15', '$20'],

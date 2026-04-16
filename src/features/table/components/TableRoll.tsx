@@ -1,56 +1,12 @@
-import { rollAndFind } from '@/lib/tableMatrix'
-import { useEffect, useState } from 'react'
+import ListTable from '@/components/ListTable'
 import type { TableType } from '@/features/rule/types/RuleType'
-import { parseLinks } from '@/lib/parseLinks'
 
 type Props = {
-    dice: number
     table: TableType
 }
 
-type RollResult = {
-    roll: number
-    row: string[] | null
-}
-
-function TableRoll({ dice, table }: Props) {
-    const [result, setResult] = useState<RollResult | null>(null)
-
-    function handleRoll() {
-        const rollResult = rollAndFind(dice, table)
-        setResult(rollResult)
-    }
-
-    useEffect(() => {
-        handleRoll()
-    }, [])
-
-    return (
-        <div className="h-5">
-            {result && (
-                <>
-                    <div className="flex flex-row mt-3">
-                        {table.cols &&
-                            table.cols.map((col, i) => (
-                                <div key={i} className="text-md w-5 mb-2">
-                                    {col}
-                                </div>
-                            ))}
-                    </div>
-
-                    <div className="flex flex-row">
-                        <div className="text-md w-5">{result.roll}</div>
-
-                        {result.row?.slice(1).map((cell, i) => (
-                            <div key={i} className="text-md w-5">
-                                {parseLinks(cell)}
-                            </div>
-                        ))}
-                    </div>
-                </>
-            )}
-        </div>
-    )
+function TableRoll({ table }: Props) {
+    return <ListTable table={table} />
 }
 
 export default TableRoll

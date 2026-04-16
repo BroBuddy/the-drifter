@@ -5,9 +5,8 @@
     --grey: #e2dfda;
     --light-grey: #f0f0f0;
     --white: #fff;
-    --muted: rgba(255, 255, 255, 0.4);
     --gold: #c3970f;
-    --red: #ed1d00;
+    --red: #f14332;
     --beige: #bea57d;
     --brown: #292410;
 }
@@ -15,7 +14,6 @@
 $colors: (
     'white': var(--white),
     'light-grey': var(--light-grey),
-    'muted': var(--muted),
     'gold': var(--gold),
     'red': var(--red),
     'black': var(--black),
@@ -24,3 +22,12 @@ $colors: (
     'beige': var(--beige),
     'brown': var(--brown),
 );
+
+@each $name, $hex in $colors {
+    .text-#{$name} {
+        color: $hex;
+    }
+    .bg-#{$name} {
+        background-color: $hex;
+    }
+}
