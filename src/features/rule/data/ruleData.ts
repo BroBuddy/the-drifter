@@ -62,7 +62,7 @@ const ruleData: Rule[] = [
             },
             {
                 cols: ['Actions', 'allowed only in combat'],
-                rows: [['Actions', 'Attempt to escape combat R109']],
+                rows: [['Flee', 'Attempt to escape combat R109']],
             },
         ],
     },
