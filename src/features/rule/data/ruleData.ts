@@ -7,7 +7,12 @@ const ruleData: Rule[] = [
         desc: [
             'Acquire a total of $300 (unspent) without getting killed. As soon as you achieve $300, you immediately win the game.',
             'You are a gunslinger who has been living a hazy existence of too much whiskey. Your time has been mostly spent on the outside of the law, killing, stealing, carousing with undesirables, living a dangerous life full of excess and violence. As of late, your feelings have perhaps shifted and you know this way of life might not last and now looking to perhaps put your wild ways away, buy a ranch and settle into obscurity. You need $300 and are willing to get it by any means you feel necessary. Can you acquire the $300 without perishing or being locked away in jail to rot?',
-            'Character Creation: Refer to the two page Tracking Sheet for the remainder of this section.',
+        ],
+        note: [
+            'The Drifter is a realistic adventure game. You play the game in turns (one turn equals one full day). A turn is always made up of an Action and at least one Event (from the Event Booklet). Each turn starts with you selecting an action, such as travelling to a new hex on the map. Depending on the action selected, you could be referred to a specific Event, or have to roll for a random Event (Table A on the Table Sheet).',
+            'After the Event has been resolved, that is considered a Turn (full day). Some Events will have you turn to another Event, you would keep following Events until no options remain. When no options remain, you then move onto the next day (Turn) doing it all over again, choosing an action, resolving that action, encountering another Event. Some Actions will instruct you to go to a specific Event in the Events Booklet and some actions have you roll for a random Event (Events Table - Table A on the Tables Sheet), this will be specified in that actions rules.',
+            'Regardless of what action you take, you will always encounter an Event(s) in the Events Book. A Turn (full day) is always comprised of an Action and then an Event.',
+            'All events (located in the Events Booklet) are self explanatory, and refer to the main rules section that describes how they are resolved. There are times when Events will redirect you to another Event. For some Events, you can choose what you would like to do. When given a choice in a situation, imagine yourself acting out the Event, and select the resolution that seems most fitting to you.',
         ],
         tables: [
             {
@@ -25,10 +30,6 @@ const ruleData: Rule[] = [
         tag: 'r101a',
         title: 'Actions',
         desc: [
-            'The Drifter is a realistic adventure game. You play the game in turns (one turn equals one full day). A turn is always made up of an Action and at least one Event (from the Event Booklet). Each turn starts with you selecting an action, such as travelling to a new hex on the map. Depending on the action selected, you could be referred to a specific Event, or have to roll for a random Event (Table A on the Table Sheet).',
-            'After the Event has been resolved, that is considered a Turn (full day). Some Events will have you turn to another Event, you would keep following Events until no options remain. When no options remain, you then move onto the next day (Turn) doing it all over again, choosing an action, resolving that action, encountering another Event. Some Actions will instruct you to go to a specific Event in the Events Booklet and some actions have you roll for a random Event (Events Table - Table A on the Tables Sheet), this will be specified in that actions rules.',
-            'Regardless of what action you take, you will always encounter an Event(s) in the Events Book. A Turn (full day) is always comprised of an Action and then an Event.',
-            'All events (located in the Events Booklet) are self explanatory, and refer to the main rules section that describes how they are resolved. There are times when Events will redirect you to another Event. For some Events, you can choose what you would like to do. When given a choice in a situation, imagine yourself acting out the Event, and select the resolution that seems most fitting to you.',
             'At the start of each Turn (day), you select one action for yourself. Any partners you may have, will perform the action with you. Each action has separate rules, Possible actions include:',
         ],
         tables: [

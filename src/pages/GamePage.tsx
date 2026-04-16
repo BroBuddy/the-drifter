@@ -1,8 +1,8 @@
 import Card from '@/components/Card'
 import PageHeader from '@/components/PageHeader'
 import Tabs, { type TabItem } from '@/components/Tabs'
-import KeywordPage from './KeywordPage'
-import { ClipboardList, Pen } from 'lucide-react'
+import CharacterCreationPage from './CharacterCreationPage'
+import { ClipboardList, User } from 'lucide-react'
 import IntroPage from './IntroPage'
 
 const tabs: TabItem[] = [
@@ -11,7 +11,11 @@ const tabs: TabItem[] = [
         icon: <ClipboardList size={16} />,
         content: <IntroPage />,
     },
-    { label: 'Keywords', icon: <Pen size={16} />, content: <KeywordPage /> },
+    {
+        label: 'Character Creation',
+        icon: <User size={16} />,
+        content: <CharacterCreationPage />,
+    },
 ]
 
 function GamePage() {

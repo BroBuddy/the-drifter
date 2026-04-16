@@ -2,6 +2,35 @@ import type { Event } from '../types/EventType'
 
 const eventData: Event[] = [
     {
+        tag: 'e001',
+        title: 'The Adventure Begins',
+        desc: [
+            'You are a gunslinger who has been living a hazy existence. Your brief time in this world has been mostly spent on the outside of the law, killing, stealing, carousing with undesirables, living a dangerous life full of excess and violence. Recently, you feel life might have more to offer. You know this way of life will not last and now are looking to maybe put your wild ways away, buy a ranch and settle into obscurity. You determined you need $300 and are willing to get it by any means you feel necessary.',
+            'The Wild West isn’t a place for the faint of heart, you will encounter many dangers in your travels, dangers that could take your life. There is also the law that is lurking, waiting in the wind for you to make the wrong move and have you locked away to rot in a cell or even shot dead were you stand!',
+            'Now consult the entire section under R101 (Located in the Rule Book) to determine your characters starting skills, equipment etc and go over the general rules. When completed, return and read the next paragraph. ',
+            "You wake up on solid ground to a combination of hazy, fragmented flashes of empty whiskey bottles, bloody chins, random saloons, echoes of pistol shots and whoopin at the night sky. You don’t know where you are or how you got here, but you aren't too worried about it. This isn’t the first time you have blacked out and ended up in god knows where. You just thank your lucky stars it isn’t a jail cell.",
+            'Roll a D6 to determine which hex you start at on the mapboard:',
+        ],
+        note: [
+            'Place your token on that hex.',
+            'You gently groan, shake off your dusty hat, climb aboard your horse and set off to seek your destiny in the Wild West.',
+            'Choose an available Action R101a (Located in the Rule Book).',
+        ],
+        tables: [
+            {
+                cols: ['1d6', 'Outcome'],
+                rows: [
+                    ['1', '17,3'],
+                    ['2', '18,15'],
+                    ['3', '7,20'],
+                    ['4', '3,7'],
+                    ['5', '7,7'],
+                    ['6', '9,13'],
+                ],
+            },
+        ],
+    },
+    {
         tag: 'e141',
         title: 'Pelts',
         desc: [
