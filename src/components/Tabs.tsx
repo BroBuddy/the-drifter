@@ -9,12 +9,11 @@ export type TabItem = {
 }
 
 type TabsProps = {
-    showCard?: boolean
     title: string
     tabs: TabItem[]
 }
 
-const Tabs: React.FC<TabsProps> = ({ showCard = true, title, tabs }) => {
+const Tabs: React.FC<TabsProps> = ({ title, tabs }) => {
     const [activeIndex, setActiveIndex] = useState<number>(0)
 
     return (
@@ -33,8 +32,7 @@ const Tabs: React.FC<TabsProps> = ({ showCard = true, title, tabs }) => {
                 </div>
             </Card>
 
-            {showCard && <Card>{tabs[activeIndex]?.content}</Card>}
-            {!showCard && <>{tabs[activeIndex]?.content}</>}
+            <Card>{tabs[activeIndex]?.content}</Card>
         </>
     )
 }

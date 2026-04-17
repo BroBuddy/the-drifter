@@ -8,12 +8,6 @@ const ruleData: Rule[] = [
             'Acquire a total of $300 (unspent) without getting killed. As soon as you achieve $300, you immediately win the game.',
             'You are a gunslinger who has been living a hazy existence of too much whiskey. Your time has been mostly spent on the outside of the law, killing, stealing, carousing with undesirables, living a dangerous life full of excess and violence. As of late, your feelings have perhaps shifted and you know this way of life might not last and now looking to perhaps put your wild ways away, buy a ranch and settle into obscurity. You need $300 and are willing to get it by any means you feel necessary. Can you acquire the $300 without perishing or being locked away in jail to rot?',
         ],
-        note: [
-            'The Drifter is a realistic adventure game. You play the game in turns (one turn equals one full day). A turn is always made up of an Action and at least one Event (from the Event Booklet). Each turn starts with you selecting an action, such as travelling to a new hex on the map. Depending on the action selected, you could be referred to a specific Event, or have to roll for a random Event (Table A on the Table Sheet).',
-            'After the Event has been resolved, that is considered a Turn (full day). Some Events will have you turn to another Event, you would keep following Events until no options remain. When no options remain, you then move onto the next day (Turn) doing it all over again, choosing an action, resolving that action, encountering another Event. Some Actions will instruct you to go to a specific Event in the Events Booklet and some actions have you roll for a random Event (Events Table - Table A on the Tables Sheet), this will be specified in that actions rules.',
-            'Regardless of what action you take, you will always encounter an Event(s) in the Events Book. A Turn (full day) is always comprised of an Action and then an Event.',
-            'All events (located in the Events Booklet) are self explanatory, and refer to the main rules section that describes how they are resolved. There are times when Events will redirect you to another Event. For some Events, you can choose what you would like to do. When given a choice in a situation, imagine yourself acting out the Event, and select the resolution that seems most fitting to you.',
-        ],
         tables: [
             {
                 cols: ['Ref', 'Outcome'],
@@ -22,6 +16,12 @@ const ruleData: Rule[] = [
                     ['r101b', 'Travel (To A New Hex)'],
                     ['r101c', 'Heal'],
                     ['r101d', 'Part Ways'],
+                    ['r101e', 'Wound Level'],
+                    ['r101f', 'Character Sheet'],
+                    ['r101g', 'Bounty Suit'],
+                    ['r101h', 'Money Tracker'],
+                    ['r101i', 'Weapons'],
+                    ['r101j', 'Tracking Sheet'],
                 ],
             },
         ],
@@ -30,6 +30,10 @@ const ruleData: Rule[] = [
         tag: 'r101a',
         title: 'Actions',
         desc: [
+            'The Drifter is a realistic adventure game. You play the game in turns (one turn equals one full day). A turn is always made up of an Action and at least one Event (from the Event Booklet). Each turn starts with you selecting an action, such as travelling to a new hex on the map. Depending on the action selected, you could be referred to a specific Event, or have to roll for a random Event (Table A on the Table Sheet).',
+            'After the Event has been resolved, that is considered a Turn (full day). Some Events will have you turn to another Event, you would keep following Events until no options remain. When no options remain, you then move onto the next day (Turn) doing it all over again, choosing an action, resolving that action, encountering another Event. Some Actions will instruct you to go to a specific Event in the Events Booklet and some actions have you roll for a random Event (Events Table - Table A on the Tables Sheet), this will be specified in that actions rules.',
+            'Regardless of what action you take, you will always encounter an Event(s) in the Events Book. A Turn (full day) is always comprised of an Action and then an Event.',
+            'All events (located in the Events Booklet) are self explanatory, and refer to the main rules section that describes how they are resolved. There are times when Events will redirect you to another Event. For some Events, you can choose what you would like to do. When given a choice in a situation, imagine yourself acting out the Event, and select the resolution that seems most fitting to you.',
             'At the start of each Turn (day), you select one action for yourself. Any partners you may have, will perform the action with you. Each action has separate rules, Possible actions include:',
         ],
         tables: [
@@ -96,6 +100,135 @@ const ruleData: Rule[] = [
                     ['2', 'r112'],
                     ['3', 'r112'],
                     ['4', 'r114'],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'r101e',
+        title: 'Wound Level',
+        note: [
+            'On the Tracking Sheet, use a token to keep track of your Wound Level. You start with the Wound Level of None. Wound Level damage compounds on itself, so if you have a Light Wound and receive a Medium Wound, you would now have a Heavy Wound. If you had a Heavy Wound and received a Light Wound, you would now have a Debilitating Wound etc. If you reach the unfortunate Wound Level of Dead, you immediately lose the game and will have to start again. A characters Finesse skill drops depending on Wound Level. -1 for Medium Wound, -2 for Heavy Wound, -3 for Debilitating Wound (see Tracking Sheet). Any opponents and partners you encounter will also follow the same rules for Wound Levels.',
+        ],
+        tables: [
+            {
+                cols: ['Wound Level'],
+                rows: [
+                    [
+                        'Represents your health. The Wound Levels are as follows:',
+                    ],
+                    ['None'],
+                    ['Light Wound (LW)'],
+                    ['Medium Wound (MW)'],
+                    ['Heavy Wound (HW)'],
+                    ['Debilitating Wound (DW)'],
+                    ['Dead (D)'],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'r101f',
+        title: 'Character Sheet',
+        tables: [
+            {
+                cols: ['Finesse'],
+                rows: [
+                    ['Represents all your characters physical skills.'],
+                    [
+                        'Your character starts with a Finesse skill of 4. The Finesse skill lowers depending on your current Wound Level.',
+                    ],
+                    [
+                        'Other characters you encounter could also have a Finesse skill.',
+                    ],
+                ],
+            },
+            {
+                cols: ['Hunch'],
+                rows: [
+                    ['Represents all your characters mental skills.'],
+                    [
+                        'Roll a D4 to determine your starting Hunch skill. Use a token to keep track on the Tracking Sheet.',
+                    ],
+                ],
+            },
+            {
+                cols: ['Karma'],
+                rows: [
+                    [
+                        'The universal balance. Karma represents your characters amount of luck.',
+                    ],
+                    [
+                        'Your character starts with 2 Karma points. Use a token to keep track on the Tracking Sheet.',
+                    ],
+                    [
+                        'Your character can have no less than 0 and no more than 4 Karma.',
+                    ],
+                    [
+                        'Any Karma points you have can be spent to re-roll a Combat Table (Table B) roll (Either your own, a partners or an opponents) but you must keep the second result.',
+                    ],
+                    ['Some Events will fluctuate your Karma points.'],
+                    ['No other character in the game has a Karma skill.'],
+                ],
+            },
+        ],
+    },
+    {
+        tag: 'r101g',
+        title: 'Bounty Suit',
+        desc: [
+            'Indicates how wanted you are by the law. The higher the Bounty Suit, the higher the price on your head.',
+            'There are five different suits: X, ♣️, ♦️, ♥️, and ♠️ (see Table A on Table Sheet). The highest Bounty Suit is ♠️ and the lowest is X. Your Bounty Suit can go up or down depending on the Event.',
+            'Roll a D4 to determine your starting Bounty Suit: 1- ♥️; 2- ♦️; 3- ♣️; 4- X. Place a token on that suit on the Event Table (Table A) located on the Table Sheet.',
+            'Your Bounty Suit determines which column of the Event Table (Table A) you roll on when determining a random Event.',
+        ],
+    },
+    {
+        tag: 'r101h',
+        title: 'Money Tracker',
+        desc: [
+            'Used to keep track of how much money you have. Use tokens to keep track.',
+            "Some characters you encounter along the way will have potential loot on them, indicated by what's called a Loot Suit (X, ♣️, ♦️, ♥️, ♠️). This determines which column you roll under on the Loot Table (Table D1 on the Table Sheet) after defeating all the opponents.",
+            'After all opponents are defeated, you immediately get to roll on their Loot Suit (using the Loot Suit Table - Table D1) to determine if you find any money, items etc.',
+            'There is no limit to the amount of money you can carry. It is assumed that you have the appropriate satchel and saddle bags.',
+            'Now roll a D10 on the Loot Table (Table D1) on the Table Sheet, under the X column, to determine if you start the game with any money etc.',
+        ],
+    },
+    {
+        tag: 'r101i',
+        title: 'Weapons',
+        desc: [
+            'You begin the game with FistsX and a Pistol♦️. This is recorded for you on page 1 of the Tracking Sheet.',
+            'Weapons always have a Suit beside them (X, ♣️, ♦️, ♥️, ♠️), representing how powerful the weapon is. It determines which Suit column you roll under on the Combat Table (Table B on the Table Sheet) whenever attacking with that weapon.',
+            "You can have a maximum of two other weapons beyond what's already on the Tracking Sheet (Fists & Pistol), but none the same (only one pistol, one rifle, etc).",
+        ],
+    },
+    {
+        tag: 'r101j',
+        title: 'Tracking Sheet',
+        tables: [
+            {
+                cols: ['Equipment'],
+                rows: [
+                    [
+                        'This is where you record any equipment you discover/purchase/steal etc along the way. There is no limit to the number of items you can carry. It is assumed that between you and your horse you can handle the load. An Event will specify if any items you find are to be recorded under your Equipment.',
+                    ],
+                ],
+            },
+            {
+                cols: ['Points of Interest'],
+                rows: [
+                    [
+                        'This is where you record any relevant information in regards to points of interest located on the map (treasures, bounties, etc). An Event will specify what information to record for the point of interest (The Hexes 4 digit identification code and the specific Event in the Event Booklet to encounter when on that Hex).',
+                    ],
+                ],
+            },
+            {
+                cols: ['Opponents Wound Level'],
+                rows: [
+                    [
+                        'Used to keep track of any opponents Wound Level during combat. When in combat, your opponents Wound Level is measured the same as yours. There Finesse score also lowers depending on their Wound Level (see Tracking Sheet). If there are more than two opponents in a single combat, there is also a Combat Sheet that provides extra Wound Trackers for any additional opponents.',
+                    ],
                 ],
             },
         ],

@@ -1,3 +1,4 @@
+import TableView from '@/features/table/components/TableView'
 import type { Section } from '@/types/SectionTypes'
 import { Link } from 'react-router-dom'
 
