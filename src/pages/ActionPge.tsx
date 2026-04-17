@@ -22,15 +22,22 @@ const sections: Section[] = [
                     <Link to="/rule/r101b" className="text-red">
                         R101b
                     </Link>
-                    , your most common choice.{' '}
+                    , your most common choice.
                 </li>
                 <li>
-                    <em>Heal</em> - in current hex to attempt healing yourself
-                    R101c, Requires certain equipment.{' '}
+                    <em>Heal</em> - in current hex to attempt healing yourself{' '}
+                    <Link to="/rule/r101c" className="text-red">
+                        R101c
+                    </Link>
+                    , Requires certain equipment.{' '}
                 </li>
                 <li>
                     <em>Part ways</em> - in current hex and willingly disband
-                    with a partner R101d, Requires having a partner.
+                    with a partner{' '}
+                    <Link to="/rule/r101d" className="text-red">
+                        R101d
+                    </Link>
+                    , Requires having a partner.
                 </li>
             </ul>
         ),
