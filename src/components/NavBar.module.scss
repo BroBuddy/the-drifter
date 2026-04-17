@@ -1,32 +1,33 @@
 .navBar {
+    background-image: url('/images/wood.png');
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
     bottom: 0;
     left: 50%;
-    margin-bottom: 5px;
     transform: translateX(-50%);
     width: 100%;
     max-width: 768px;
 
     > a {
-        background-color: var(--dark-grey);
         border-radius: 20px;
-        color: var(--white);
-        padding: 6px 4px 2px 4px;
+        color: var(--dark-grey);
+        display: flex;
+        flex-direction: column;
+        padding: 10px 4px 2px 4px;
         text-decoration: none;
         white-space: nowrap;
-        height: 30px;
-        width: 30px;
-        display: flex;
-        justify-content: center;
         text-align: center;
 
         &.active {
-            background-color: var(--beige);
-            background-image: none;
+            background: transparent;
             color: var(--white);
+        }
+
+        > span {
+            font-size: 18px;
         }
     }
 }

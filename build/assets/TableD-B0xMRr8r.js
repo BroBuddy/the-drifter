@@ -1,0 +1,1 @@
+import{c as e}from"./rule-DEbj_uVP.js";import{t}from"./TableView-tOK3_Qbl.js";var n=e();function r(){return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(t,{tag:`r201d`})})}export{r as default};

@@ -21,10 +21,7 @@
 }
 
 body {
-    // background-color: var(--beige);
-    background-image: url('/images/bg_wood.png');
-    background-size: contain;
-    background-attachment: fixed;
+    background-color: var(--dark-grey);
     box-sizing: border-box;
     color: var(--black);
     display: flex;
@@ -107,7 +104,7 @@ table {
     width: calc(100% - 30px);
 
     tr {
-        background-image: url('/images/bg_card.png');
+        background-image: url('/images/wood.png');
         background-size: auto;
 
         td,

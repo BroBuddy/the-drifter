@@ -11,9 +11,10 @@ const RuleDetailPage = React.lazy(
 const EventDetailPage = React.lazy(
     () => import('./features/event/pages/EventDetailPage.tsx')
 )
-const TablePage = React.lazy(
-    () => import('./features/table/pages/TablePage.tsx')
-)
+const TableA = React.lazy(() => import('./features/table/pages/TableA.tsx'))
+const TableB = React.lazy(() => import('./features/table/pages/TableB.tsx'))
+const TableC = React.lazy(() => import('./features/table/pages/TableC.tsx'))
+const TableD = React.lazy(() => import('./features/table/pages/TableD.tsx'))
 
 const router = createBrowserRouter([
     {
@@ -36,8 +37,20 @@ const router = createBrowserRouter([
                 element: <EventDetailPage />,
             },
             {
-                path: '/table',
-                element: <TablePage />,
+                path: '/table/a',
+                element: <TableA />,
+            },
+            {
+                path: '/table/b',
+                element: <TableB />,
+            },
+            {
+                path: '/table/c',
+                element: <TableC />,
+            },
+            {
+                path: '/table/d',
+                element: <TableD />,
             },
         ],
     },

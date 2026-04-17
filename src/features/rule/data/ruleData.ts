@@ -580,10 +580,10 @@ const ruleData: Rule[] = [
     {
         tag: 'r201a',
         title: 'Table A',
-        desc: ['Event Table - Bounty Suit'],
+        desc: ['Event Table - Bounty Suit', 'Roll a D100:'],
         tables: [
             {
-                cols: ['1D100', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
+                cols: ['🎲', '❌', '♣️️', '♦️️', '♥️️', '♠️️'],
                 rows: [
                     ['1-2', 'E235', 'E134', 'E134', 'E134', 'E134'],
                     ['3-4', 'E004', 'E130', 'E243', 'E222', 'E068'],
@@ -645,23 +645,23 @@ const ruleData: Rule[] = [
     {
         tag: 'r201b',
         title: 'Table B',
-        desc: ['Combat Table – Weapon Suit'],
-        note: [
-            '* Fast! – attacker immediately gets another attack',
-            '** Countered! – attacker immediately takes a LW',
+        desc: [
+            'Combat Table – Weapon Suit',
+            '"+" Fast! – attacker gets another attack',
+            '"-" Countered! – attacker takes a LW',
         ],
         tables: [
             {
-                cols: ['1D10', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
+                cols: ['1d10', '❌', '♣️️', '♦️️', '♥️️', '♠️️'],
                 rows: [
-                    ['<2', 'Miss**', 'Miss**', 'Miss**', 'Miss**', 'Miss**'],
+                    ['<2', 'Miss-', 'Miss-', 'Miss-', 'Miss-', 'Miss-'],
                     ['2', 'Miss', 'Miss', 'Miss', 'Miss', 'LW'],
                     ['3-4', 'Miss', 'Miss', 'Miss', 'LW', 'MW'],
                     ['5', 'Miss', 'LW', 'LW', 'LW', 'MW'],
                     ['6-7', 'LW', 'LW', 'LW', 'MW', 'HW'],
                     ['8-9', 'LW', 'MW', 'MW', 'HW', 'DW'],
                     ['10', 'MW', 'MW', 'HW', 'DW', 'D'],
-                    ['11+', 'MW*', 'HW*', 'D*', 'D*', 'D*'],
+                    ['11+', 'MW+', 'HW+', 'D+', 'D+', 'D+'],
                 ],
             },
         ],
@@ -669,11 +669,13 @@ const ruleData: Rule[] = [
     {
         tag: 'r201c',
         title: 'Table C',
-        desc: ['Skill Test Table – Difficulty Suit'],
-        note: ['* Immediately gain 1 Karma Point (Max of 4)'],
+        desc: [
+            'Skill Test Table – Difficulty Suit',
+            '"*" Immediately gain 1 Karma Point (Max of 4)',
+        ],
         tables: [
             {
-                cols: ['1D10', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
+                cols: ['1d10', '♣️️', '♦️️', '♥️️', '♠️️'],
                 rows: [
                     ['<2', 'Fail*', 'Fail*', 'Fail*', 'Fail*'],
                     ['2', 'Fail', 'Fail', 'Fail', 'Fail'],
@@ -689,11 +691,13 @@ const ruleData: Rule[] = [
     {
         tag: 'r201d',
         title: 'Table D',
-        desc: ['Loot Table – Loot Suit'],
-        note: ["* There's more! Roll again on the same suit."],
+        desc: [
+            'Loot Table – Loot Suit',
+            '"*" There\'s more! Roll again on the same suit.',
+        ],
         tables: [
             {
-                cols: ['1D10', '❌ N.', '♣️️ L.', '♦️️ M.', '♥️️ H.', '♠️️ H.'],
+                cols: ['1d10', '❌', '♣️️', '♦️️', '♥️️', '♠️️'],
                 rows: [
                     ['1', '$0', '$0', '$0', '$1', '$2'],
                     ['2', '$0', '$0', '$2', '$3', '$4'],

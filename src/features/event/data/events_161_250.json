@@ -1,0 +1,2595 @@
+[
+    {
+        "tag": "e161",
+        "title": "Dynamite",
+        "desc": [
+            "This Event is used as a reference.",
+            "Dynamite is used in combat and It has a one time use. It will deal damage to every opponent.",
+            "To use the Dynamite in combat, you would attempt the following Finesse Skill test (Table B/♠️️/Finesse).",
+            "Any Wound Level result would be dealt to every opponent.",
+            "You can carry multiple Dynamite in one Weapon slot."
+        ]
+    },
+    {
+        "tag": "e162",
+        "title": "Figure in the Darkness",
+        "desc": [
+            "As you approach you spot a lone, silent figure, standing in the darkness.",
+            "Attempt a Hunch skill test(Table C/♥️️/Hunch-1)R111."
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome (PASS)"],
+                "rows": [
+                    [
+                        "1",
+                        "The figure attacks R110. Initiative R110b. Graverobber: Finesse: 3; Weapon: shovel♣️️; Loot Suit:♣️️(Table D1)"
+                    ],
+                    [
+                        "2",
+                        "You become disoriented for a moment but regain your poise. The figure is gone; E007"
+                    ],
+                    [
+                        "3",
+                        "+1 Karma. The figure is gone. Your mind is playing tricks on you; E095"
+                    ],
+                    ["4", "E154"],
+                    [
+                        "5",
+                        "It's a runaway. Attempt a Hunch skill test(Table C/♥️️/Hunch-1)R111. PASS = The runaway asks for your help. Roll a D4 to determine which hex to bring the runaway: 1- 1,3; 2- 8,3; 3- 13,1; 4- 20,7 Record “Hex#/runaway/E016” under your Points of Interest R102; E234 FAIL = They flee into the darkness."
+                    ],
+                    [
+                        "6",
+                        "The figure is gone and there is an open grave. Roll a D6: (see table below)"
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome (Grave)"],
+                "rows": [
+                    ["1", "+1 Karma. There is an empty casket."],
+                    [
+                        "2-3",
+                        "-1 Karma. There is an open casket. Itt contains a corpse buried with their possessions; E242"
+                    ],
+                    [
+                        "4-5",
+                        "There is an open casket. It contains a decorated corpse; E074"
+                    ],
+                    [
+                        "6",
+                        "There is an open casket. Casket contains an adorned corpse; E040"
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome (FAIL)"],
+                "rows": [
+                    [
+                        "1",
+                        "You are drawn to the figure and silently grant its embrace. You are dead."
+                    ],
+                    [
+                        "2",
+                        "There is a low mumbling coming from the figure. You become disoriented for a moment but regain your poise. The figure is gone. -1 Karma."
+                    ],
+                    [
+                        "3-4",
+                        "You feel very ill and retreat to regain your senses. That night, your sleep is plagued with macabre dreams. Unforeseen circumstances - Remove a Point of Interest (of your choice) from your Tracking Sheet."
+                    ],
+                    [
+                        "5",
+                        "You become disoriented for a moment but regain your poise. The figure is gone."
+                    ],
+                    [
+                        "6",
+                        "+1 Karma. You become disoriented for a moment but regain your poise. The figure is gone; E095"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e163",
+        "title": "Caught",
+        "desc": ["You are knocked out from behind. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You wake up to the mayors smiling face, just as the hangman's noose tightens around your neck. You are dead."
+                    ],
+                    ["2-3", "You wake up in a jail wagon; E075"],
+                    [
+                        "4-5",
+                        "You (and any partners) were beaten and then left to die. Roll to determine any damage for you and then each partner (Table B/♥️️). You wake up in an adjacent hex. Roll a D6 to determine which adjacent hex you wake up in: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW"
+                    ],
+                    [
+                        "6",
+                        "You (and any partners) wake up in an adjacent hex with a terrible headache. Roll a D6 to determine which adjacent hex you wake up in: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e164",
+        "title": "Coffin",
+        "desc": ["+1 Karma. There is a dug up grave with an empty coffin; E095"]
+    },
+    {
+        "tag": "e165",
+        "title": "Opium Den",
+        "desc": [
+            "You enter the den, there is a flowery smell in the air. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. During your dream, you are robbed. All your money is gone. In your frustration you go to the saloon; R106"
+                    ],
+                    [
+                        "2",
+                        "If your Bounty Suit is ♥️️ or ♠️️, during your dreaming you are placed in a tumbleweed wagon; E075 You dream too long and are hazy about the details. Unforeseen circumstances - remove a Points of Interest from your Tracking Sheet."
+                    ],
+                    [
+                        "3",
+                        "If your Bounty Suit is ♠️️; E103 You rob the dreaming Denizens. Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = Loot Suit:♦️️(Table D1). FAIL = Bounty Suit up one. Loot Suit:♣️️(Table D1). You are spotted when leaving; E155"
+                    ],
+                    [
+                        "4",
+                        "You have a long rest, accompanied by vivid dreams of floating in the eye of an otter. You heal one Wound Level; E234"
+                    ],
+                    [
+                        "5",
+                        "The old man is grateful to see you and gives you D4 healing balms. Each balm can be used as a one time Healing Action (R101c). Record the Healing Balms under your Equipment."
+                    ],
+                    [
+                        "6",
+                        "The old man asks you for help. Someone has died in his den and he wants to quietly get rid of the dead patron. He will pay you $20 on completion. If you accept; E176 If you decline, you walk away; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e166",
+        "title": "Raid on Home",
+        "desc": [
+            "The family hides in their home as the Bandits approach. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "Five Bandits approach. R110. Initiative R110b. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:♣️️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, go to Roll Result 7"
+                    ],
+                    [
+                        "2",
+                        "The three Ruffians attack R110. Initiative R110c. Bandit: Finesse: 3; Weapon: Pistol♦️️; Loot Suit:♣️️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, go to Roll Result 7"
+                    ],
+                    [
+                        "3",
+                        "The three Ruffians attack R110. Initiative R110b. Ruffian: Finesse: 2; Weapon: Rifle♥️️; Loot Suit:♣️️(Table D1) Ruffian: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:- Ruffian: Finesse: 1; Weapon: Pistol♦️️; Loot Suit:- If you win the combat, go to Roll Result 8"
+                    ],
+                    [
+                        "4",
+                        "They come face to face with you. Attempt a Hunch skill test (Table C/♥️️/Hunch-2)R111. PASS = They are intimidated and leave. Go to Roll Result 8 FAIL = Go to Roll Result 5"
+                    ],
+                    [
+                        "5",
+                        "The leader challenges you. Draw! Attempt a Finesse skill test (Table C/♠️️/finesse-2)R111. PASS = You get off a shot first, right between his eyes. He is dead. The remaining Bandits leave. Loot Suit:♦️️(Table D1) Go to Roll Result 8 FAIL = He gets a shot off first, right between your eyes. You are dead."
+                    ],
+                    ["6", "They see you and turn around. Go to Roll Result 8"],
+                    [
+                        "7",
+                        "During the battle, Bandits kidnapped the daughter. Roll a D6 to determine the direction of the hideout: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6, to determine how many hexes away. Record “Hex#/kidnapping/E197” under your Points of Interest R102."
+                    ],
+                    [
+                        "8",
+                        "choose between the following two choices: 1. Take the $25 reward. 2. Take no money; E133"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e167",
+        "title": "Cemetery",
+        "desc": [
+            "There is a dug up coffin with a decorated corpse. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The corpse is diseased. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = You recognize the signs and quickly move away. FAIL = You catch the terrible disease. You spend the rest of your brief life in discomfort. You are dead."
+                    ],
+                    ["2", "+1 Karma. Nothing of value."],
+                    ["3", "-1 Karma. You find an interesting charm; E047"],
+                    ["4", "-1 Karma. Loot Suit:♦️️(Table D1)."],
+                    ["5", "You find an old charm; E242"],
+                    ["6", "Loot Suit:♥️️(Table D1)."]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e168",
+        "title": "Bounty",
+        "desc": [
+            "You tracked your target to this location but he isn’t here.",
+            "Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111.",
+            "PASS = You continue to track him.",
+            "Roll a D6 for direction of the tracks:",
+            "1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW",
+            "and then roll a D4, to determine how many hexes away.",
+            "Record “Hex#/bounty/E174” under your Points of Interest R102.",
+            "FAIL = You continue to track him.",
+            "Roll a D6 for direction of the tracks:",
+            "1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW",
+            "and then roll a D4, to determine how many hexes away.",
+            "Record “Hex#/bounty/E168” under your Points of Interest R102."
+        ]
+    },
+    {
+        "tag": "e169",
+        "title": "Road Sign",
+        "desc": [
+            "You come upon a sign that gives directions to a town.",
+            "Roll a D6 to determine the direction:",
+            "1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW",
+            "and then roll a D4, to determine how many hexes away.",
+            "Mark that hex on the mapboard as having a Town. That Town is there for the rest of the game."
+        ]
+    },
+    {
+        "tag": "e170",
+        "title": "The Body",
+        "desc": [
+            "You arrive at the farm in the dead of night, to discard the body into a pig pen. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You make too much noise. The farm owner spots you and attacks R110. Initiative R110c. Angry Man: Finesse: 2; Weapon: Rifle♥️️; Loot Suit:- If you win the combat, Bounty Suit up one. Go to Roll Result 6"
+                    ],
+                    [
+                        "2-3",
+                        "If you have a partner(s); E082 You sneak over to the pigs. Attempt a Finesse skill test (Table C/♥️️/Finesse-2)R111. PASS = Go to Roll Result 6 FAIL = +1 Karma. Go to Roll Result 1"
+                    ],
+                    [
+                        "4",
+                        "You sneak over to the pigs. Attempt a Finesse skill test (Table C/♥️️/Finesse-1)R111. PASS = Go to Roll Result 6 FAIL = unforeseen circumstances - remove a Point of interest (of your choice) from your Tracking Sheet. Go to Roll Result 1"
+                    ],
+                    [
+                        "5",
+                        "You sneak over to the pigs. Attempt a Finesse skill test (Table C/♦️️/Finesse-1)R111. PASS = +1 Karma. Go to Roll Result 6 FAIL = Go to Roll Result 1"
+                    ],
+                    [
+                        "6",
+                        "You dispose of the body and ride off. To get your payment, meet the den owner at the hotel. Record “Hex#any town/payment/E181” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e171",
+        "title": "Heist",
+        "desc": [
+            "You meet a gang who asks you to join them on robbing the town bank.",
+            "If you say No, +1 Karma.",
+            "If you decide to join them; E092"
+        ]
+    },
+    {
+        "tag": "e172",
+        "title": "Stranger",
+        "desc": ["You meet a stranger. Roll a D10:"],
+        "tables": [
+            {
+                "cols": ["1d10", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You share a nod as you pass. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "It's a comely Bandit. When you relax, he attacks R110. Initiative R110d. Bandit: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:♥️️(Table D1) + E053"
+                    ],
+                    [
+                        "3",
+                        "It’s a furious man. Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = You talk the man down; E183 FAIL = He's in a blind rage and attacks you R110. Initiative R110g. Angry Man: Finesse: 2; Weapon: Pistol♦️️; Loot Suit:❌(Table D1). If you win the combat, Bounty Suit up one."
+                    ],
+                    [
+                        "4",
+                        "If your Bounty Suit is ❌; go to Roll Result 1 It's a famous Bounty Hunter. Draw! Attempt a Finesse skill test (Table C/♥️️/Finesse-2)R111. PASS = You get a shot off first. They are dead. Loot Suit:♦️️(Table D1) + E240 FAIL = They get a shot off first. You are dead."
+                    ],
+                    [
+                        "5",
+                        "If you are on a Marshland Hex; E113 It is a Salesman; E039"
+                    ],
+                    [
+                        "6",
+                        "You meet a free-spirited woman. Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = She invites you to a gathering; Roll a D6 to determine the direction of gathering: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6, to determine how many hexes away. Record “hex#/Gathering/E091” under Points of Interest R102. FAIL = She feels she has seen you before. Bounty Suit up one. Roll on the Event Table (Table A)."
+                    ],
+                    ["7", "Its someone from your past looking for you; E146"],
+                    [
+                        "8",
+                        "You exchange pleasantries and chat for awhile. He owns a gun store and invites you to drop by. Record “Hex#any town/gun shop/E114” under your Points of Interest R102."
+                    ],
+                    [
+                        "9",
+                        "It's a crying lady. She explains her husband was recently killed by a cruel man. She will pay you $75 when you bring him to her. Roll a D6 to determine the direction of the cruel man: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6, to determine how many hexes away. Record the “Hex#/Bounty/E168” under your Points of Interest R102."
+                    ],
+                    [
+                        "10",
+                        "It's a besuited elderly man. He falls off his horse in great pain. If you do not have a healing item, the elderly man bleeds out and dies. Loot Suit:♥️️(Table D1). If you do have a healing item under your Equipment, remove one of your choice. He is very grateful for your help; E019"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e173",
+        "title": "Antique Dealer",
+        "desc": [
+            "You meet with an antique dealer to sell your antiques. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. Worthless."],
+                    [
+                        "2",
+                        "You sell for $10. You decide to check for any available bounties; E087"
+                    ],
+                    [
+                        "3",
+                        "If you have a Bounty Suit of ♥️️ or ♠️️ you are spotted and the authorities give chase; E155. You sell for $10."
+                    ],
+                    ["4", "You sell for $20."],
+                    [
+                        "5",
+                        "He needs time to clarify their authenticity. Roll a D6 (see table below)."
+                    ],
+                    ["6", "You sell for $50."]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "After much deliberation, you sell for $5. Unforeseen circumstances - remove a Point of interest (of your choice) from your Tracking Sheet."
+                    ],
+                    ["2-3", "You sell for $20"],
+                    ["4-5", "You sell for $35"],
+                    [
+                        "6",
+                        "Priceless! You purchase your Ranch and live in quiet contemplation. You win the Game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e174",
+        "title": "Bounty",
+        "desc": [
+            "You spot your target setting up camp. You sneak up on him. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He spins and shoots you between the eyes.\nYou are dead."
+                    ],
+                    [
+                        "2-3",
+                        "Attempt a Finesse skill test (Table C/♥️/Finesse-2)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1"
+                    ],
+                    [
+                        "4",
+                        "Attempt a Finesse skill test (Table C/♥️/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1"
+                    ],
+                    [
+                        "5",
+                        "Attempt a Finesse skill test (Table C/♦️/Finesse-1)R111.\nPASS = Go to Roll Result 6\nFAIL = Go to Roll Result 1"
+                    ],
+                    [
+                        "6",
+                        "You sneak up on him and apprehend him.\nBounty Suit up one.\nLoot Suit:♥️(Table D1).\nTo get your reward bring him to the nearest town.\nRecord “Hex#any town/reward/E231“ under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e175",
+        "title": "Healing",
+        "desc": [
+            "You set up camp and spend most of the day tending to wounds.",
+            "Remove the item from your Equipment and Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "Something went wrong.\nReceive a Light Wound."],
+                    [
+                        "2",
+                        "Heal one Wound Level.\nRoll on the Event Table (Table A)."
+                    ],
+                    ["3", "Heal one Wound Level."],
+                    [
+                        "4",
+                        "Heal two Wound Levels.\nRoll on the Event Table (Table A)."
+                    ],
+                    ["5", "Heal two Wound Levels."],
+                    ["6", "Heal three Wound Levels."]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e176",
+        "title": "The Body",
+        "desc": [
+            "You take the body out in the cover of night.",
+            "You decide to take it to the pigs at a nearby farm.",
+            "Roll a D6 to determine which adjacent hex has the pig farm:",
+            "1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW.",
+            "Record “Hex#/body/E170” under your Points of Interest R102."
+        ]
+    },
+    {
+        "tag": "e177",
+        "title": "Stranger on Horseback",
+        "desc": [
+            "You can rob or you can be friendly.",
+            "If you choose to rob; E182",
+            "If you choose friendly; E172"
+        ]
+    },
+    {
+        "tag": "e178",
+        "title": "Farm",
+        "desc": ["You arrive at the girls family farm. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The girl was killed in a farming accident; E095"
+                    ],
+                    [
+                        "2",
+                        "If your Bounty Suit is ❌ go to Roll Result 4\nThe father chases you off the property with a shotgun.\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = You spot the trap and flee; E234\nFAIL = You are caught in the trap and taken away; E075"
+                    ],
+                    [
+                        "3",
+                        "The father chases you off the property with a shotgun.\nRoll on the Event Table (Table A)."
+                    ],
+                    [
+                        "4",
+                        "If your Bounty Suit is ♥️ or ♠️ the father chases you off the property with a shotgun.\nThe family tells you she was kidnapped by Bandits.\nRoll a D6 to determine the direction of the Bandits:\n1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW\nand then roll a D6, to determine how many hexes away.\nRecord “Hex#/kidnapping/E197” under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "The family’s farm is threatened to be purchased by land barons.\nYou may attempt to save the farm from dispossession.\nRecord “Hex#Any town/land dispute/E196” under your Points of Interest R102.\nYou (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "6",
+                        "You fall deeply in love with her and marry. The family accepts you as one of their own. You work with the family on the farm until one day, the farm becomes yours, were it will become handed down for generations to come.\nYou win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e179",
+        "title": "Spoiled Rations",
+        "desc": [
+            "Your rations have all turned and you need to forage.",
+            "If you are on a Town Hex; E146",
+            "If you are on a Desert hex; E180",
+            "If you are on a Mountain or Marshland hex; E184",
+            "If you are on a Grassland or Forest hex; E185"
+        ]
+    },
+    {
+        "tag": "e180",
+        "title": "Desert Hunting",
+        "desc": [
+            "You forage for food.",
+            "Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111.",
+            "PASS = You find appropriate sustenance.",
+            "You (and any partners) heal one Wound Level.",
+            "Roll on the Event Table (Table A).",
+            "FAIL = You fail to find anything to eat.",
+            "You (and any partners) take a Light Wound; E007"
+        ]
+    },
+    {
+        "tag": "e181",
+        "title": "Payment",
+        "desc": [
+            "You approach the hotel to meet the den owner for your payment. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The den owner doesn’t show.\nYou learn the body was of a prominent family; E134"
+                    ],
+                    [
+                        "2",
+                        "The den owner has been arrested.\nBounty Suit up one.\nAttempt a Finesse skill test (Table C/♥️/Finesse-1)R111.\nPASS = You slip out of town.\nMove to any adjacent hex; E095\nFAIL = You are spotted; E155"
+                    ],
+                    [
+                        "3",
+                        "If you have a Bounty Suit of ♥️ or ♠️; E103\nYou meet with the den owner and he pays you $20."
+                    ],
+                    [
+                        "4-5",
+                        "You meet with the den owner and he pays you $20; E234"
+                    ],
+                    [
+                        "6",
+                        "The den owner is very relieved to hear the body is gone.\nHe pays you $20 and gives you a charm; E047"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e182",
+        "title": "Robbery",
+        "desc": ["You approach with a weapon drawn. Roll a D10:"],
+        "tables": [
+            {
+                "cols": ["1D10", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "A diseased outcast.\nAttempt a Hunch skill test (Table C/♦️/Hunch-1) R111.\nPASS = You avoid getting too close and scuttle off; E007\nFAIL = Your body is unable to fight off the disease.\nYou don’t live much longer and have an uncomfortable death.\nYou are dead."
+                    ],
+                    [
+                        "2",
+                        "An ugly Bandit.\nHe attacks you R110. Initiative R110b.\nBandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:❌(Table D1)."
+                    ],
+                    [
+                        "3",
+                        "A handsome Bounty Hunter.\nHe attacks you R110. Initiative R110f.\nBounty Hunter: Finesse: 2; Weapon: Rifle♥️; Loot Suit:♦️(Table D1)\nIf you win the combat, Bounty Suit up one; E240"
+                    ],
+                    [
+                        "4",
+                        "If you have any partners; E082\nThey give into your demands.\nBounty Suit up one.\nLoot Suit:♦️ (Table D1)."
+                    ],
+                    [
+                        "5-6",
+                        "Nothing of value.\nThey have distinguished contacts.\nBounty Suit up two.\nMove to any adjacent hex; E095"
+                    ],
+                    [
+                        "7",
+                        "They give into your threats.\nBounty Suit up one.\nLoot Suit:♦️ (Table D1)."
+                    ],
+                    [
+                        "8",
+                        "Attempt a Hunch Skill Test (Table C/♥️/Hunch-2)R111.\nPASS = They give into your threats.\nBounty Suit up one.\nLoot Suit:♥️ (Table D1).\nFAIL = They have nothing of value.\nBounty Suit up one."
+                    ],
+                    [
+                        "9",
+                        "Attempt a Hunch Skill Test (Table C/♥️/Hunch-1)R111.\nPASS = They give into your threats.\nLoot Suit:♥️ (Table D1).\nFAIL = Nothing of value.\nBounty Suit up one; E234"
+                    ],
+                    [
+                        "10",
+                        "They give into your threats.\nYou find $8 + Loot Suit:♠️ (Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e183",
+        "title": "Angry Man",
+        "desc": ["He explains his anger. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. He explains it was a foolish squabble and leaves appeased.\nLater that day; E022"
+                    ],
+                    [
+                        "2",
+                        "It was a foolish squabble.\nHe thanks you for helping him come to his senses and leaves.\nRoll on the Event Table (Table A)."
+                    ],
+                    [
+                        "3",
+                        "In tears he explains his family are in bonds.\nRoll a D4, to determine Hex of the ‘people in bonds’:\n1- 19,8; 2- 16,13; 3- 18,15; 4- 15,14\nRecord “Hex#/people in bonds/E033” under your Points of Interests R102; E234"
+                    ],
+                    [
+                        "4",
+                        "It would of been suicide but thanks to you, he understands now its not worth it.\nHe gives you a token of appreciation; E047"
+                    ],
+                    [
+                        "5",
+                        "If you are on a Marshland hex; E206\nHe tells you about a ruthless businessman.\nRecord “Hex#any town/Businessman/E238” under your Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "He was going after the man who killed his wife.\nHe will pay you $50 (on completion) to catch the man.\nRoll a D6 to determine which hex the murderer can be found:\n1- 2,3; 2- 14,9; 3- 16,18; 4- 17,20; 5- 7,19; 6- 7,15\nRecord “Hex#/bounty/E219” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e184",
+        "title": "Mountain or Marshland Hunting",
+        "desc": [
+            "You forage for food.",
+            "Attempt a Hunch skill test(Table C/♦️/Hunch-2)R111.",
+            "PASS = You find appropriate sustenance.",
+            "You (and any partners) heal one Wound Level; E095",
+            "FAIL = You become ill.",
+            "You (and any partners) take a Light Wound; E007"
+        ]
+    },
+    {
+        "tag": "e185",
+        "title": "Forest or Grassland Hunting",
+        "desc": [
+            "You forage for food.",
+            "Attempt a Hunch skill test(Table C/♣️/Hunch-1)R111.",
+            "PASS = You find appropriate sustenance.",
+            "You (and any partner) heals one Wound Level.",
+            "Roll on the Event Table (Table A).",
+            "FAIL = You become ill.",
+            "You (and any partners) take a Light Wound; E007"
+        ]
+    },
+    {
+        "tag": "e186",
+        "title": "Reward",
+        "desc": [
+            "You visit the trapper to sell your albino deer pelt. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The pelt is in terrible condition.\nThe trapper refuses to pay."
+                    ],
+                    [
+                        "2",
+                        "The pelt is in fair condition.\nThe trapper pays you $3.\nShortly after, you are confronted by a bitter person from your past.\nDraw!\nAttempt a Finesse skill test (Table C/♦️/Finesse-1)R111.\nPASS = You shot him first, right between the eyes.\nLoot Suit:♣️(Table D1).\nFAIL = He shot you first, right between your eyes.\nYou are dead."
+                    ],
+                    [
+                        "3",
+                        "The pelt is in good condition.\nThe trapper pays you $5."
+                    ],
+                    [
+                        "4-5",
+                        "The pelt is in excellent condition.\nThe trapper pays you $15; E234"
+                    ],
+                    [
+                        "6",
+                        "The pelt is in perfect condition.\nThe trapper pays you $20."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e187",
+        "title": "Saved Girl",
+        "desc": ["Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. She is severely traumatized and taken home by family; E007"
+                    ],
+                    ["2", "She insists you take her charm and goes home; E047"],
+                    [
+                        "3-4",
+                        "You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her charm and goes home; E242"
+                    ],
+                    [
+                        "5",
+                        "You comfort the saved girl.\nAttempt a Hunch skill test (Table C/♥️/Hunch-1)R111.\nPASS = Go to Roll Result 6\nFAIL = She insists you take her gold charm and heads home; E040"
+                    ],
+                    [
+                        "6",
+                        "She is smitten with you and you with her.\nHer family's land is vast and you build a large farm there.\nEveryday you tend to the farm.\nYou both live a long life full of purpose and altruistic love.\nYou win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e188",
+        "title": "Quicksand",
+        "desc": [
+            "You and your horse contend with quicksand.",
+            "Attempt a Hunch skill test (Table C/♥️/Hunch-1)R111.",
+            "PASS = +1 Karma. You and your horse get out before the situation becomes more serious; E215",
+            "FAIL = You struggle with the sinking earth. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The ordeal was harrowing and money was lost in the deep muck.\nYou lose half your money (rounded up)."
+                    ],
+                    [
+                        "2",
+                        "The ordeal was harrowing but you pulled through with no immediate consequences.\nIf your Bounty Suit is ❌; E153\nLater that day, you are roped into a trap by a clever Bounty Hunter.\nAttempt a Hunch skill test (Table C/♥️/Hunch-2)R111.\nPASS = You spot the trap and flee.\nFAIL = You are caught by the trap and taken away; E075"
+                    ],
+                    [
+                        "3",
+                        "The ordeal was harrowing but you pulled through with no immediate consequences.\nUnforeseen circumstances - remove a Point of Interest (of your choice) from your Tracking Sheet."
+                    ],
+                    [
+                        "4",
+                        "+1 Karma. You pulled through with no immediate consequences.\nIf on a Marshland hex; E215"
+                    ],
+                    [
+                        "5",
+                        "The ordeal was harrowing and your horse has become fatigued from the struggle.\nRoll on the Events Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "You struggle with the quicksand but manage to get out without any repercussions.\nThe exercise has provided excellent rest that night.\nYou (and any partners) heal one Wound Level."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e189",
+        "title": "Prospectors",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If your Bounty Suit is ♠️️ you are spotted; E155 You meet with the prospectors. Attempt a Hunch skill test (Table C/♠️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = +1 Karma. Go to Roll Result 7"
+                    ],
+                    [
+                        "2-3",
+                        "You meet with the prospectors. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7"
+                    ],
+                    [
+                        "4",
+                        "You meet with the prospectors. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = Go to Roll Result 6 FAIL = Go to Roll Result 7"
+                    ],
+                    [
+                        "5",
+                        "You meet with the prospectors. Attempt a Hunch skill test (Table C/♣️️/Hunch-1)R111. PASS = +1 Karma. Go to Roll Result 6 FAIL = Go to Roll Result 7"
+                    ],
+                    [
+                        "6",
+                        "They give into your threats and in tears they agree to leave. To receive your reward, meet the rail baron at his rail car. Roll a D6 to determine the hex of the meeting location (see table below). Record “Hex#/Reward/E208” under your Points of Interest R102."
+                    ],
+                    [
+                        "7",
+                        "They refuse. They have also exposed the bullying to a lawful marshall; E155"
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Hex"],
+                "rows": [
+                    ["1", "10,2"],
+                    ["2", "11,3"],
+                    ["3", "11,5"],
+                    ["4", "15,21"],
+                    ["5", "11,16"],
+                    ["6", "9,13"]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e190",
+        "title": "Preacher",
+        "desc": [
+            "You arrive at the preachers home to confront him on his deception.",
+            "Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111."
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome (PASS)"],
+                "rows": [
+                    [
+                        "1",
+                        "He growls and attacks R110. Initiative R110c. Shaggy Priest: Finesse: 4; Weapon: talons ♥️️; Loot Suit: ♦️️(Table D1)."
+                    ],
+                    [
+                        "2",
+                        "He is traveling to a secret meeting. You tail him. Roll D6 for hex: 1-2,7; 2-19,3; 3-19,16; 4-16,8; 5-13,17; 6-14,11. Move your token to that hex; E150"
+                    ],
+                    [
+                        "3",
+                        "He is willing to buy your silence. Bounty Suit up two. Loot Suit:♦️️(Table D1)."
+                    ],
+                    [
+                        "4",
+                        "He is willing to buy your silence. Bounty Suit up one. Loot Suit:♥️️(Table D1)."
+                    ],
+                    [
+                        "5",
+                        "He is willing to buy your silence. Loot Suit:♥️️(Table D1)."
+                    ],
+                    [
+                        "6",
+                        "He is willing to buy your silence. Loot Suit:♠️️(Table D1)."
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome (FAIL)"],
+                "rows": [
+                    [
+                        "1",
+                        "He denies everything with a gentle smirk. A lawman follower is there with him. Bounty Suit up one; E155"
+                    ],
+                    [
+                        "2-3",
+                        "He denies everything with a gentle smirk. Bounty Suit up one."
+                    ],
+                    [
+                        "4",
+                        "+1 Karma. He denies everything with a gentle smirk. Bounty Suit up one."
+                    ],
+                    [
+                        "5",
+                        "You press him further. Attempt a Hunch skill test (Table C/♦️️/Hunch-3)R111. PASS = Go to Roll Result 6 FAIL = Roll again on this Table."
+                    ],
+                    [
+                        "6",
+                        "You threaten him. Roll a D6 on the PASS result Table."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e191",
+        "title": "Runaway",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. The trail runs cold; E243"],
+                    [
+                        "2",
+                        "You find the runaway dead. There is a misunderstanding with a witness. Bounty Suit up one; E007"
+                    ],
+                    [
+                        "3",
+                        "The trail runs cold. A short time after.. If your Bounty Suit is ❌; E022 You are roped into a trap by a clever Bounty Hunter. Attempt a Hunch skill test (Table C/♥️️/Hunch-2)R111. PASS = You spot the trap and flee; E234 FAIL = You are caught by the trap and taken away; E075"
+                    ],
+                    [
+                        "4",
+                        "You track the runaway. Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = You have located the runaways tracks. Roll D6 direction (1-N;2-NE;3-SE;4-S;5-SW;6-NW). Record “Hex#/runaway/E191” under your Points of Interest R102. FAIL = The trail runs cold; E055"
+                    ],
+                    [
+                        "5",
+                        "You find the runaway and sympathize with their struggle. You agree to bring the runaway to their contact. Roll D4 for hex: 1-2,2; 2-4,0; 3-13,4; 4-8,8. Record “Hex#/runaway/E016” under your Points of Interest R102. Bounty Suit up one."
+                    ],
+                    [
+                        "6",
+                        "You find the runaway and he reluctantly comes with you. To receive payment, visit the foreman. Roll D4 for hex: 1-10,3; 2-10,7; 3-11,17; 4-15,21. Record “Hex#/payment/E145” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e192",
+        "title": "Reward",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If your Bounty Suit is ♠️️ you are spotted and the authorities give chase; E155 +1 Karma. The sheriff informs you it's the wrong man."
+                    ],
+                    [
+                        "2",
+                        "The sheriff informs you it's the wrong man. In your frustration you go to the saloon for a drink; R106"
+                    ],
+                    [
+                        "3",
+                        "A friend of the bounty confronts you. Draw! Attempt a Finesse skill test (Table C/♦️️/Finesse-2)R111. PASS = You shot him first, right between the eyes. Loot Suit:♣️️(Table D1). FAIL = He shot you first, right between your eyes. You are dead. If you win the combat, you receive a $75 reward."
+                    ],
+                    [
+                        "4",
+                        "Attempt a Hunch skill test (Table C/♦️️/Hunch-2)R111. PASS = You are given the reward of $75. FAIL = The sheriff informs you it's the wrong man; E234"
+                    ],
+                    [
+                        "5",
+                        "+1 Karma. The sheriff's office hands you the reward of $75."
+                    ],
+                    [
+                        "6",
+                        "His reward went up! The sheriff's office gives you $125."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e193",
+        "title": "Bridge",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The explosives go off too soon. You are caught in the blast. You are dead."
+                    ],
+                    [
+                        "2",
+                        "You are spotted by patrolling soldiers R110. Initiative R110b. Soldier: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:- Soldier: Finesse: 2; Weapon: Rifle♥️️; Loot Suit:- If you win the combat, go to Roll Result 4"
+                    ],
+                    [
+                        "3-4",
+                        "You work on wiring the bridge. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table."
+                    ],
+                    [
+                        "5",
+                        "You work on wiring the bridge. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = Go to Roll Result 6. FAIL = Roll again on this Table."
+                    ],
+                    [
+                        "6",
+                        "The bridge ignites into a large fireball! You have successfully detonated the bridge. You can visit the military encampment to report your success. Record “Hex#any town/encampment/E211” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e194",
+        "title": "Dapper Man",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If you have a Blue Trinket, go to Roll Result 3. You share a series of dialogue while over indulging his expensive rye until you pass out. Roll a D6 to determine what hex you wake up on: 1-10,0; 2-10,2; 3-14,21; 4-10,7; 5-14,11; 6-9,13. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "If you have a Blue Trinket, go to Roll Result 4. He has been shot dead and your timing couldn’t be worse. Bounty Suit up two; E234"
+                    ],
+                    [
+                        "3",
+                        "+1 Karma. He discusses the faults of the West over fine Brandy. His train then drops you off. Exit train by placing your token on any other hex with a railroad."
+                    ],
+                    [
+                        "4",
+                        "He reveals his strategy for the future of the West. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = Go to Roll Result 5. FAIL = Go to Roll Result 3."
+                    ],
+                    [
+                        "5",
+                        "He wants to hire you to “persuade” a prospecting village to give up their land. He will pay you $50 on its completion. Record “Hex#any town/Prospectors/E189” under your Points of Interest R102. Exit train by placing your token on any other hex with a railroad."
+                    ],
+                    [
+                        "6",
+                        "You rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️️(Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e195",
+        "title": "Bounty",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The abode is empty and has been booby trapped with dynamite. Roll to determine any damage for you and then each partner (Table B/♠️️)."
+                    ],
+                    [
+                        "2",
+                        "You keep tracking him. Roll a D6 to determine which adjacent hex the tracks lead: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/bounty/E195” under your Points of Interest R102."
+                    ],
+                    [
+                        "3",
+                        "He was waiting for you. He attacks R110. Initiative R110d. Murderer: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:♦️️(Table D1). If you win the combat, record “Hex#any town/reward/E205” under your Points of Interest R102."
+                    ],
+                    [
+                        "4",
+                        "You confront him. Attempt a Hunch skill test (Table C/♥️️/Hunch-2)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He attacks R110. Initiative R110b. Murderer: Finesse: 3; Weapon: Rifle♥️️; Loot Suit:♦️️(Table D1). If you win the combat, you stow him on the back of your horse and record “Hex#any town/reward/E205” under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "You confront him. Attempt a Hunch skill test (Table C/♥️️/Hunch-1)R111. PASS = He willingly goes with you. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102. FAIL = He convinces you that he has information far more valuable than his bounty. You let him go; E204"
+                    ],
+                    [
+                        "6",
+                        "You spot him and he gives up without a fight. You stow him on the back of your horse. To collect the reward, record “Hex#any town/reward/E205” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e196",
+        "title": "Land Dispute",
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If your Bounty Suit is ♠️️ you are spotted and the authorities give chase E155 +1 Karma. The land barons already appropriated the property."
+                    ],
+                    [
+                        "2",
+                        "The land barons already appropriated the property. Shortly after; E146"
+                    ],
+                    [
+                        "3",
+                        "The auction begins and you stall the land baron. Attempt a Hunch skill test (Table C/♦️️/Hunch-1)R111. PASS = You may buy back the land for $25. If you buy back the land for $25, go to Roll Result 6 If you don’t buy back the land for $25 the barons win the bid. FAIL = +1 Karma. The land barons win the bid."
+                    ],
+                    [
+                        "4-5",
+                        "The auction begins and you stall the land baron. You may purchase the land for $15. If you pay the $15, go to Roll Result 6 If you don’t pay, the barons win the bid. In your disappointment you decide to go to the saloon; R106"
+                    ],
+                    ["6", "The family can keep their land; E237"]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e197",
+        "title": "Kidnapping",
+        "desc": [
+            "You arrive at the Bandits hideout to save the girl. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "She is in love with the bandit leader; E095"],
+                    [
+                        "2-3",
+                        "They attack you R110. Initiative R110c. Bandit: Finesse: 3; Weapon: Rifle♥️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, go to Roll Result 6"
+                    ],
+                    [
+                        "4",
+                        "They attack you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ♣️️ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. If you win the combat, go to Roll Result 6"
+                    ],
+                    [
+                        "5",
+                        "You are attacked R110. Initiative R110b. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1). Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: -. The remaining bandits flee. If you win the combat, go to Roll Result 7"
+                    ],
+                    [
+                        "6",
+                        "You face the Bandit leader. He attacks you R110. Initiative R110f. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♦️️ (Table D1). If you win the combat, go to Roll Result 7"
+                    ],
+                    [
+                        "7",
+                        "You release the girl from her bonds. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = E187. FAIL = She thanks you and rides home. You take the Bandits stash. Loot Suit: ♥️️️ (Table D1); E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e198",
+        "title": "Albino Deer",
+        "desc": ["You track the elusive albino deer. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. Wrong animal; E243"],
+                    [
+                        "2",
+                        "You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ♣️️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: -"
+                    ],
+                    [
+                        "3",
+                        "Unable to locate the deer tracks. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "4",
+                        "You continue to track the albino deer. Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111. PASS = You have located the tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Deer/E198” under Points of Interest R102. FAIL = Wrong animal."
+                    ],
+                    [
+                        "5",
+                        "You have found the albino deer! Attempt a Finesse skill test (Table C/♦️️/Finesse-1) R111. PASS = You have taken down the albino deer. Record “Hex#any town/reward/E186” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle."
+                    ],
+                    [
+                        "6",
+                        "You have found the albino deer! Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = You have taken down the albino deer. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e199",
+        "title": "Albino Bear",
+        "desc": ["You track the elusive albino bear. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. Wrong animal; E243"],
+                    [
+                        "2",
+                        "You lose the tracks and find yourself in the presence of wandering bandits R110. Initiative R110c. Bandit: Finesse: 2; Weapon: Rifle♥️️️; Loot Suit: ♦️️ (Table D1) + E053. Bandit: Finesse: 2; Weapon: Pistol♦️️; Loot Suit: ❌. Bandit: Finesse: 1; Weapon: Pistol♦️️; Loot Suit: ❌"
+                    ],
+                    [
+                        "3",
+                        "Unable to locate the bears tracks. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "4",
+                        "You continue to track the albino bear. Attempt a Hunch skill test (Table C/♥️️️/Hunch-1) R111. PASS = +1 Karma. You have located the bears tracks. Roll a 1d6 for adjacent hex: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino Bear/E199” under Points of Interest R102. FAIL = Wrong animal."
+                    ],
+                    [
+                        "5",
+                        "You have found the albino bear! Attempt a Finesse skill test (Table C/♥️️️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/bear reward/E027” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E095"
+                    ],
+                    [
+                        "6",
+                        "You have found the albino bear! Attempt a Finesse skill test (Table C/♦️️/Finesse-2) R111. PASS = You have taken down the albino bear. Record “Hex#any town/deer reward/E186” under Points of Interest R102. FAIL = You miss and it scurries off. Go to Roll Result 4"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e200",
+        "title": "Full Moon",
+        "desc": ["You camp out in the marshland. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The bugs are terrible and cover you in sores. Unforeseen circumstances - remove a Point of Interest (of your choice) from your Tracking Sheet."
+                    ],
+                    [
+                        "2",
+                        "It was an uncomfortable sleep but sleep none the less. The next day.. If your Bounty Suit is ❌, you meet a frightened farmhand; E206 You are ambushed by two foreign Bounty Hunters R110. Initiative R110c. Bounty Hunter: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit: ♣️️️ (Table D1). Bounty Hunter: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit: -. If you win the combat, Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "If you have a Red Trinket, go to Roll Result 5. In the middle of the night you are attacked by a frantic, bug-eyed fiend R110. Initiative R110f. Bug-Eyed Fiend: Finesse: 3; Weapon: bite♦️️️; Loot Suit: E010"
+                    ],
+                    [
+                        "4",
+                        "You have a long restful night’s sleep. You (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "5",
+                        "You awake to a mambo sitting by your fire. Roll a 1d6. See table below)"
+                    ],
+                    [
+                        "6",
+                        "+1 Karma. You awake to a houngan standing over you. +1 Karma. He heals you (and any partners) up two Wound Levels. A little while later; E055"
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Mambo Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. It’s actually an outcast with a contagious disease. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You keep your distance. FAIL = You get too close. A Partner of your choice dies. If you have no partners, you are dead."
+                    ],
+                    [
+                        "2",
+                        "If you have a Red Trinket, go to Roll Result 6. -1 Karma. She mumbled an incantation while backing into the darkness; E007"
+                    ],
+                    [
+                        "3-4",
+                        "Attempt a Hunch skill test (Table C/♦️️️/Hunch-1) R111. PASS = You (and any partners) heal one Wound Level. She likes you and gives you a token; E047. FAIL = She comes in silence and leaves in silence."
+                    ],
+                    [
+                        "5-6",
+                        "+1 Karma. She heals you (and any partners) two Wound Levels; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e201",
+        "title": "Reward",
+        "desc": [
+            "You meet the widower. He smiles widely to see him captured. He quickly hands you the $50. He proceeds to mock the captive and then takes him to the sheriff’s office."
+        ]
+    },
+    {
+        "tag": "e202",
+        "title": "Albino Crocodile",
+        "desc": ["You track the elusive albino Crocodile. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "Tracked the wrong animal; E215"],
+                    [
+                        "2",
+                        "You lose the tracks and find yourself in the presence of a stranger; E172"
+                    ],
+                    [
+                        "3",
+                        "Unable to locate the animals tracks. Later that day, you are confronted by drunk Bandits R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit: -. Bandit: Finesse: 1; Weapon: Knife♣️️️; Loot Suit: -"
+                    ],
+                    [
+                        "4-5",
+                        "You continue to track the prize crocodile. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You have located the crocodiles tracks. Roll a 1d6 to determine which adjacent hex the albino crocodile went: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record “Hex#/albino croc/E202” under Points of Interest R102. FAIL = +1 Karma. Wrong animal. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "You have found the albino crocodile! Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You have taken down the albino crocodile. To collect your reward, record “Hex#any town/reward/E157” under Points of Interest R102. FAIL = The pelt is too damaged from the tussle; E007"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e203",
+        "title": "Revolution Leader",
+        "desc": [
+            "You arrive near the prison where the revolution leader is being held captive. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "The leader has already been executed; E007"],
+                    ["2", "You are ambushed by a platoon of federales; E075"],
+                    [
+                        "3-4",
+                        "You quietly navigate through the prison. Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = Go to Roll Result 5. FAIL = You are captured and taken prisoner; E075"
+                    ],
+                    [
+                        "5",
+                        "You are forced to improvise a ruse on the guards. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = You are captured and taken prisoner; E075"
+                    ],
+                    [
+                        "6",
+                        "You successfully infiltrate the prison and rescue the leader. Move to any adjacent hex; E062"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e204",
+        "title": "Information",
+        "desc": ["You listen to what the man has to say. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He tells you a convincing lie and then rides off. Later that day; E103"
+                    ],
+                    [
+                        "2",
+                        "+1 Karma. He tells you a convincing lie and then rides off."
+                    ],
+                    [
+                        "3",
+                        "Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You have further questions. Roll again on this table. FAIL = He tells you a convincing lie and then rides off; E007"
+                    ],
+                    [
+                        "4",
+                        "He provides evidence of a conspiracy against the Governor. Roll a 1d6 to determine the location of the Governor’s mansion: 1-6,9; 2-15,11; 3-15,19; 4-10,18; 5-4,21; 6-Any Town. Record “hex#/Governor’s mansion/E096” under Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "He informs you of a corrupt mayor and provides you with evidence to prove it. He will pay handsomely if you confront him. He then rides off. Record “Hex#any town/Confront Mayor/E144” under Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "He informs you there will be an assassination attempt on a Senator. Record “Hex#any town/assassination/E109” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e205",
+        "title": "Reward",
+        "desc": [
+            "You arrive at the Sheriff’s office to collect the reward on your bounty. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. The sheriff informs you it’s the wrong man and he is released."
+                    ],
+                    [
+                        "2",
+                        "The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♥️️️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. Shortly after; E146"
+                    ],
+                    [
+                        "3-4",
+                        "The Bounty explains to the sheriff, he is the wrong man. Attempt a Hunch skill (Table C/♦️️️/Hunch-2) R111. PASS = The sheriff doesn’t believe him. You are given the reward of $100. FAIL = The sheriff is convinced you have the wrong man and he is released. You check for available bounties; E087"
+                    ],
+                    [
+                        "5",
+                        "The sheriff is pleased to see you have captured the criminal. You are handed the reward of $100."
+                    ],
+                    [
+                        "6",
+                        "The sheriff is pleased to see you have captured the criminal. His reward went up! You are given $300. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e206",
+        "title": "Poisoning",
+        "desc": [
+            "You learn that a strange old woman has been “medicating” people and taking their money.",
+            "Roll a 1d6 to determine the location of the strange old woman:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "Hex 18,7; record “Hex#/women/E008” under your Points of Interest R102."
+                    ],
+                    [
+                        "2",
+                        "Hex 20,10; record “Hex#/women/E008” under your Points of Interest R102."
+                    ],
+                    [
+                        "3",
+                        "Hex 17,14; record “Hex#/women/E008” under your Points of Interest R102."
+                    ],
+                    [
+                        "4",
+                        "Hex 19,15; record “Hex#/women/E008” under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "Hex 18,13; record “Hex#/women/E008” under your Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "Hex 16,18; record “Hex#/women/E008” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e207",
+        "title": "Night in the Marshland",
+        "desc": ["The sun sets over the marshland. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "It is getting late; E200"],
+                    [
+                        "2",
+                        "If you have a Red Trinket, go to Roll Result 3. You are attacked by two veve covered maniacs R110. Initiative R110f. Maniac: Finesse: 3; Weapon: machete♦️️️; Loot Suit:X(Table D1). Maniac: Finesse: 2; Weapon: sickle♦️️️; Loot Suit:-"
+                    ],
+                    ["3", "It is getting late; E072"],
+                    [
+                        "4",
+                        "If you have a Red Trinket, go to Roll Result 5. You are attacked by a drooling fiend R110. Initiative R110f. Fiend: Finesse: 2; Weapon: bite♦️️️; Loot Suit:♦️️️(Table D1). If you win the combat; E215"
+                    ],
+                    [
+                        "5",
+                        "+1 Karma. You cross paths with a couple of hunters. They mind their own business; E234"
+                    ],
+                    [
+                        "6",
+                        "Kind hunters quietly pass through. They tell you about an albino crocodile. Roll a 1d4 to determine where it was last seen: 1-14,13; 2-15,16; 3-17,13; 4-19,17. Record “Hex#/albino croc/E202” under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e208",
+        "title": "Reward",
+        "desc": [
+            "You arrive to visit the dapper man at his railcar to collect your reward. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. His railcar never appears; E095"],
+                    [
+                        "2",
+                        "The dapper man is there with a lawman who points you out. Bounty Suit up one; E155"
+                    ],
+                    [
+                        "3-4",
+                        "He says he can’t pay you, he was just robbed. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He gives into your threats; E242. FAIL = +1 Karma. He is sorry but he can’t give you what he doesn’t have; E234"
+                    ],
+                    [
+                        "5",
+                        "Over a ride in his railcar and a drink, he rewards you $50. Exit train by placing your token on any other hex with a railroad."
+                    ],
+                    [
+                        "6",
+                        "The dapper man is very pleased and hands you $50. You then rob him. Bounty Suit up one. Loot Suit:♠️️️(Table D1) + E120"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e209",
+        "title": "Escort",
+        "desc": [
+            "You escort the politicians son stagecoach, to its destination. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You are thanked for serving your country."
+                    ],
+                    [
+                        "2",
+                        "You must fend off two attacking Ruffians R110. Initiative R110b. Brute: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:X(Table D1). Brute: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, go to Roll Result 3"
+                    ],
+                    [
+                        "3",
+                        "You arrive at the destination. He pays you $15. He invites you to visit his relatives railroad worksite, to help with “Labor disputes”. Roll a 1d4 to determine the hex of worksite: 1-10,2; 2-9,7; 3-14,11; 4-13,20. Record “Hex#/labor dispute/E236” under your Points of Interest R102."
+                    ],
+                    [
+                        "4",
+                        "It was uneventful. You are thanked and paid $15. He tells you his uncle could use a person like you. You can visit the uncle at his private railcar. Roll a 1d4 to determine the hex of the railcar: 1-10,1; 2-10,4; 3-14,21; 4-13,20. Record “Hex#/dapperman/E194” under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "You are thanked for a job well done. You are paid $15. He gives you a spangle; E047"
+                    ],
+                    [
+                        "6",
+                        "It was uneventful. You then rob him at gunpoint. Bounty Suit up one. Loot Suit:♠️️️(Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e210",
+        "title": "Ranch Work",
+        "desc": ["You arrive at a family ranch. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "The ranch is scorched and abandoned; E007"],
+                    [
+                        "2",
+                        "+1 Karma. The woman is crotchety and kicks you off the property. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "3",
+                        "They apologize but they don’t have any available work. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "4",
+                        "You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $3. Roll this Hunch skill test again. FAIL = They are sorry, they don’t have any available work; E095"
+                    ],
+                    [
+                        "5",
+                        "The family tells you their daughter was kidnapped by Bandits. Roll a 1d6 to determine the direction of the Bandits: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a 1d6 to determine how many hexes away. Record “Hex#/kidnapping/E197” under your Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "You enquire about work around their ranch. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They keep you around to help on the ranch. You are paid $5. Roll this Hunch skill test again. FAIL = They are sorry, they no longer have any available work; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e211",
+        "title": "Encampment",
+        "desc": [
+            "You arrive at the encampment to discuss with the captain your success of blowing up the bridge. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You join in with the other soldiers on the comradery and complimentary spirits; E128"
+                    ],
+                    [
+                        "2",
+                        "A blitz by the opposition. A showering of cannon fire decimates the encampment. Attempt a Finesse skill test (Table C/♦️️️/Finesse-3) R111. PASS = You escape the bombardment with just a mild dusting; E234. FAIL = Roll to determine any damage for you and then each partner (Table B/♠️️️)."
+                    ],
+                    [
+                        "3",
+                        "The captain was killed in combat. You tire of the war and go AWOL. Move to any adjacent hex; E095"
+                    ],
+                    [
+                        "4",
+                        "The captain was killed in combat. They tend to your wounds and provide food and accommodations for the night. You (and any partners) heal two Wound Levels."
+                    ],
+                    [
+                        "5",
+                        "The captain isn’t here but a wagon has arrived, that is holding loot. You rob the wagon and go AWOL. Loot Suit:♠️️️(Table D1)."
+                    ],
+                    [
+                        "6",
+                        "The war is over. The opposition has surrendered due in partial to your success. You are decorated as a war hero and provided a pension. Your name is celebrated for years to come. You purchase your ranch and write a book on your life. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e212",
+        "title": "Rob",
+        "desc": ["You approach the stagecoach with gun drawn. Roll a 1d10:"],
+        "tables": [
+            {
+                "cols": ["1d10", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "A diseased passenger. Attempt a Hunch Skill test (Table C/♦️️️/Hunch-1) R111. PASS = You avoid getting too close and scuttle off. Roll on the Event Table (Table A). FAIL = Your body is unable to fight off the disease. You are dead."
+                    ],
+                    [
+                        "2",
+                        "The passengers are drunk Bandits. They attack R110. Initiative R110a. Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:♣️️️(Table D1). Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:- Bandit: Finesse: 1; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, E053"
+                    ],
+                    [
+                        "3",
+                        "One of the passengers is a famous Bounty Hunter R110. Initiative R110f. Bounty Hunter: Finesse: 4; Weapon: Pistol♦️️️; Loot Suit:♦️️️(Table D1)."
+                    ],
+                    [
+                        "4",
+                        "If you have any partners; E082. They give into your demands. Loot Suit:♦️️️(Table D1)."
+                    ],
+                    ["5-6", "Nothing of value. Bounty Suit up one."],
+                    [
+                        "7",
+                        "If you have any partners; E082. They give into your threats. Bounty Suit up one. Loot Suit:♦️️️(Table D1)."
+                    ],
+                    [
+                        "8",
+                        "Attempt a Hunch Skill Test (Table C/♥️️️️/Hunch-2) R111. PASS = They give into your threats. Bounty Suit up one. Loot Suit:♥️️️️(Table D1). FAIL = Nothing of value. They are very aggravated with your harassment. Bounty Suit up one; E095"
+                    ],
+                    [
+                        "9",
+                        "Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = They give into your threats. You steal $10 + Loot Suit:♥️️️️(Table D1). FAIL = Nothing of value. They are very upset by the harassment. They have political contacts. Bounty Suit up two."
+                    ],
+                    [
+                        "10",
+                        "They are affluent and give into your threats. You steal $30 + Loot Suit:♠️️️(Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e213",
+        "title": "Steamboat",
+        "desc": [
+            "You arrive at the large, opulent steamboat for the “high stakes poker”. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. The steamboat has already left; E095"],
+                    [
+                        "2",
+                        "The steamboat has already left. Shortly after; E207"
+                    ],
+                    [
+                        "3",
+                        "You board the steamboat. You spend your time consuming the expensive brandy instead of gambling; E128"
+                    ],
+                    [
+                        "4",
+                        "You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = $25 + Loot Suit: ♥️️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7"
+                    ],
+                    [
+                        "5",
+                        "You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = $50 + Loot Suit: ♥️️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7"
+                    ],
+                    [
+                        "6",
+                        "You board the steamboat and join a poker game. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You win $75 + Loot Suit: ♠️️️(Table D1). FAIL = You lose all your money. If you already have zero money, go to Roll Result 7"
+                    ],
+                    ["7", "You are fed to crocodiles. You are dead."]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e214",
+        "title": "Friendly Approach",
+        "desc": [
+            "You approach the stagecoach in a friendly manner. Roll a 1d10:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d10", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The driver exchanges a nod with you. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "They are being held up by Bandits R110. Initiative R110e. Bandit: Finesse: 2; Weapon: Rifle♥️️️️; Loot Suit:♣️️️(Table D1) Bandit: Finesse: 2; Weapon: Pistol♦️️️; Loot Suit:- If you win the combat, go to Roll Result 11"
+                    ],
+                    [
+                        "3",
+                        "You meet the passenger. It is a war recruitment officer. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He encourages you to come to town to enlist. Record “Hex#any town/recruitment/E224” under your Points of Interest R102. FAIL = You exchange pleasantries then he bids you farewell; E234"
+                    ],
+                    [
+                        "4",
+                        "If on a Town hex, go to Roll Result 5. The driver offers a ride to town for $2. If you pay the $2, place your token on any Town hex."
+                    ],
+                    [
+                        "5",
+                        "The driver stops and offers you a ride to any destination for $3. If you pay the $3; E241 If you don’t pay, you both go on your way."
+                    ],
+                    [
+                        "6",
+                        "They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♦️️️(Table D1). FAIL = +1 Karma. You accidentally cause more damage. Bounty Suit up one."
+                    ],
+                    [
+                        "7",
+                        "They need your help. The stagecoach is broken down and they are in a hurry. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = You fix the stagecoach and they are very grateful. Loot Suit:♥️️️️(Table D1). FAIL = You are unable to fix the stagecoach. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "8",
+                        "The stagecoach has broken down. A sweet lady introduces herself and asks you to escort her to her manor. Roll a 1d4 to determine Hex of her home: 1-2,2; 2-18,3; 3-5,17; 4-16,10. If you accept, record “Hex#/Widow/E050” under your Points of Interest R102."
+                    ],
+                    [
+                        "9",
+                        "You meet the passenger. It’s a politician’s son scolding his driver. They are lost. He will pay you $15 (on arrival) to safely escort him to town. If you don’t accept, Bounty Suit up one. If you do accept, record “Hex#Any Town/Escort/E209” under your Points of Interest R102."
+                    ],
+                    [
+                        "10",
+                        "It is full of arrows and so are the passengers. You search the stagecoach. Roll a 1d6. See table below."
+                    ],
+                    [
+                        "11",
+                        "The driver thanks you and offers to take you to any town. If you accept, place your token on any hex with a town. If you don’t accept, instead, he rewards you $2 + Loot Suit:♣️️(Table D1)."
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "Nothing of value."],
+                    ["2", "Bounty Suit up one. Loot Suit:♣️️️(Table D1)."],
+                    ["3-4", "Loot Suit:♣️️️(Table D1)."],
+                    ["5", "Loot Suit:♥️️️️(Table D1)."],
+                    ["6", "E019"]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e215",
+        "title": "Fog",
+        "desc": ["An unusually thick fog rolls into this area. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "You get lost; E207"],
+                    [
+                        "2",
+                        "You keep with your direction. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You maneuver the fog without causing much delay; E007. FAIL = +1 Karma. You seem to be going in circles. It finally lifts after a time. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "3",
+                        "If you have a Red Trinket, go to Roll Result 5. You are jumped by two veve-covered grunts R110. Initiative R110f. Maniac: Finesse 2; Weapon: machete♦️️️; Loot Suit: ♣️️️ (Table D1). Maniac: Finesse 2; Weapon: knife♣️️️; Loot Suit: -"
+                    ],
+                    [
+                        "4",
+                        "You lose your sense of direction. Roll a 1d6 for adjacent hex (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW). Roll on Event Table (Table A)."
+                    ],
+                    ["5", "+1 Karma. The fog lifts; E153"],
+                    [
+                        "6",
+                        "The fog lifts. You have an excellent night’s rest. +1 Karma. You (and any partners) heal two Wound Levels; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e216",
+        "title": "Turkey Shoot",
+        "desc": [
+            "You catch wind of a high stakes turkey shoot taking place in town.",
+            "Record “Hex#any town/turkey shoot/E100” under your Points of Interest R102."
+        ]
+    },
+    {
+        "tag": "e217",
+        "title": "Grace Period",
+        "desc": [
+            "You catch wind the government is currently allowing people to visit any sheriff’s office and pay a retribution fee to cleanse their criminal records.",
+            "Record “Hex#any town/Reparation/E017” under your Points of Interest R102."
+        ]
+    },
+    {
+        "tag": "e218",
+        "title": "Kidnapped",
+        "desc": [
+            "You find the location of the jealous lout’s home, where he is keeping the hotel owner. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You find her fresh grave in front of an empty home. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2-3",
+                        "The lout threatens to kill her if you come any closer. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = You talk him into letting her go. He releases her and begins to sob uncontrollably; E006. FAIL = He kills her in front of you and then rushes you R110. Initiative R110e. Jealous Lout: Finesse 2; Weapon: Knife♣️️️; Loot Suit: ♦️️️ (Table D1). If you win the combat; E007."
+                    ],
+                    [
+                        "4",
+                        "The lout calls you out to a showdown. Draw! Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = You shoot him dead between the eyes; E006. FAIL = He shoots you between the eyes. You are dead."
+                    ],
+                    [
+                        "5",
+                        "The lout is resting in his home. Attempt a Finesse skill test (Table C/♦️️️/Finesse-1) R111. PASS = You sneak up on him and he does not fight back; E006. FAIL = He spots you and attacks R110. Initiative R110e. Lout: Finesse 2; Weapon: Knife♣️️️; Loot Suit: ♥️️️️ (Table D1). If you win the combat; E006."
+                    ],
+                    [
+                        "6",
+                        "When the lout sees you, he immediately surrenders. He releases her and promises to leave her alone; E006."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e219",
+        "title": "Spot Your Target",
+        "desc": [
+            "You spot your target setting up camp. You sneak up on him. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He spins and shoots you between the eyes. You are dead."
+                    ],
+                    [
+                        "2",
+                        "Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1."
+                    ],
+                    ["3", "He convinces you to hear him out; E080"],
+                    [
+                        "4-5",
+                        "Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = Go to Roll Result 6. FAIL = Go to Roll Result 1."
+                    ],
+                    [
+                        "6",
+                        "You apprehend him and stow him on your horse. Bring him to the nearest town for your reward. Record “Hex#any town/reward/E201” R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e220",
+        "title": "Lady of the Night",
+        "desc": [
+            "You share an enchanted evening with a fun-loving lady. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "A jilted lover barges in on you and the lady R110. Initiative R110c. You can only use Fists or a Knife. Partners will not assist. Jealous Lover: Finesse 2; Weapon: Fist ❌; Loot Suit: ♣️️️ (Table D1). If you win the combat, Bounty Suit up one. Go to Roll Result 5."
+                    ],
+                    [
+                        "2-3",
+                        "+1 Karma. You (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "4",
+                        "+2 Karma. You (and any partners) heal two Wound Levels. Bounty Suit down one."
+                    ],
+                    [
+                        "5",
+                        "She tells you she is leaving town to live on her family farm. Roll a 1d6 direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW) and a 1d6 distance. Record “Hex#/farm/E178” R102."
+                    ],
+                    [
+                        "6",
+                        "You rob her. Bounty Suit up one. Loot Suit: ♥️️️️ (Table D1). Move to any adjacent hex; E095."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e221",
+        "title": "Private Concert",
+        "desc": [
+            "You arrive at the fancy home for the mariachi’s private concert. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. It was a good performance. You take payment in the form of expensive spirits; E128"
+                    ],
+                    [
+                        "2",
+                        "During the concert you sneak off to find valuables. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Bounty Suit up one. Loot Suit: ♥️️️️ (Table D1). FAIL = They chase you off the property. Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "It was an excellent show. You get paid $5. You meet the man of the house who asks you to help with “Labor disputes”. Roll a 1d4 location: 1-10,2; 2-9,7; 3-14,11; 4-13,20. Record “Hex#/labor dispute/E236” R102."
+                    ],
+                    [
+                        "4",
+                        "She played beautifully and the family was pleased. You get $10 and go your separate ways."
+                    ],
+                    [
+                        "5",
+                        "She played beautifully and the family was very pleased. You get $20 and go your separate ways; E234"
+                    ],
+                    [
+                        "6",
+                        "It was an unforgettable show! You and the mariachi player fall in love and become inseparable. You help her become a world class mariachi musician. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e222",
+        "title": "Ghost Town",
+        "desc": [
+            "You enter a deserted town to camp for the night. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The wind gusts cause the old buildings to groan. You don’t get a good rest. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "There are grimy bandits hiding here. They attack R110. Initiative R110b. Bandits: Finesse 2/2/1; Weapon: Pistol♦️️️; Loot Suit: ♦️️️ (Table D1) + E053"
+                    ],
+                    ["3", "E098"],
+                    [
+                        "4",
+                        "You have a restful sleep. You (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "5",
+                        "You have a restful sleep with pleasant dreams. +1 Karma. You (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "6",
+                        "A runaway is hiding here. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = The runaway trusts you to bring them to safety. Roll a 1d4 location: 1-1,6; 2-5,3; 3-8,1; 4-10,0. Record “Hex#/runaway/E016” R102. FAIL = The runaway disappears into the night."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e223",
+        "title": "Unaccountable Occurrence",
+        "desc": [
+            "If you are on a Town hex, go to 4",
+            "If you are on a Grassland hex, go to 4",
+            "If you are on a Mountain hex, go to 1",
+            "If you are on a Forest hex, go to 2",
+            "If you are on a Marshland hex, go to 3",
+            "If you are on a Desert hex, go to 5"
+        ],
+        "tables": [
+            {
+                "cols": ["Case", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You stumble upon an oddly dressed man who walks into a cave, followed by a sudden flash of light. If you wish to investigate the cave; E117. If not; E230"
+                    ],
+                    [
+                        "2",
+                        "During the night, you hear an unfamiliar growl in the distance. If you wish to investigate; E162. If not; the forest becomes silent again; E095"
+                    ],
+                    [
+                        "3",
+                        "During the night, you hear a mixture of horrified screams and laughter in the distance. If you wish to investigate; E072. If not; E215"
+                    ],
+                    [
+                        "4",
+                        "During the night, you witness an incorporeal stagecoach driven by an expressionless man. -2 Karma."
+                    ],
+                    [
+                        "5",
+                        "During the night, you hear unplaceable cries of a woman in mourning; E020"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e224",
+        "title": "Recruitment",
+        "desc": [
+            "You arrive in town and find the recruitment station. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "+1 Karma. They didn’t show; E226"],
+                    [
+                        "2",
+                        "You openly ridicule the recruitment station and head to the saloon; R106"
+                    ],
+                    [
+                        "3",
+                        "If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. You enlist and are sent to a military training camp. Roll a 1d4 for location: 1-1,7; 2-7,20; 3-11,4; 4-20,11. Move your token; E018"
+                    ],
+                    [
+                        "4-5",
+                        "You enlist and are sent to a military training camp. Roll a 1d4 for location: 1-1,7; 2-7,20; 3-11,4; 4-20,11. Move your token; E018"
+                    ],
+                    [
+                        "6",
+                        "The captain notices your fervor and assigns you a secret mission to blow up a bridge. Roll a 1d4 for location: 1-2,6; 2-5,7; 3-9,3; 4-19,8. Record “Hex#/bridge/E193” R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e225",
+        "title": "Quiet",
+        "desc": [
+            "It was an uneventful and peaceful day followed by an excellent night’s rest. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    ["1", "Your horse is feeling ill; E007"],
+                    [
+                        "2",
+                        "You take your time starting the day. Roll on the Event Table (Table A)."
+                    ],
+                    ["3", "+1 Karma. Your body feels achy."],
+                    ["4", "You (and any partners) heal one Wound Level."],
+                    [
+                        "5",
+                        "+1 Karma. You (and any partners) heal one Wound Level."
+                    ],
+                    ["6", "You (and any partners) heal one Wound Level; E234"]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e226",
+        "title": "Destroyed Town",
+        "desc": [
+            "A town has been ravaged by war.",
+            "A town of your choice is no longer available for the rest of the game."
+        ]
+    },
+    {
+        "tag": "e227",
+        "title": "Bounty",
+        "desc": [
+            "You tracked your target to this location but he isn’t here.",
+            "Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111.",
+            "PASS = You continue to track him.",
+            "Roll a D6 for direction of the tracks:",
+            "1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW",
+            "and then roll a D4, to determine how many hexes away.",
+            "Record “Hex#/bounty/E201” under your Points of Interest R102.",
+            "FAIL = You lost him; E225"
+        ]
+    },
+    {
+        "tag": "e228",
+        "title": "Lost Opportunity",
+        "desc": [
+            "One of your Points of Interest has become unavailable due to unforeseen circumstances.",
+            "Remove a Point of Interest (of your choice) from your Tracking Sheet."
+        ]
+    },
+    {
+        "tag": "e229",
+        "title": "Recollection (Town)",
+        "desc": ["You recall the location of a town. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "After further reflection, you are mistaken. Should probably lay off the spirits. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "Place a Town on any Forest Hex. This town is permanent and can be visited (R103)."
+                    ],
+                    [
+                        "3",
+                        "Place a Town on any Grassland Hex. This town is permanent and can be visited (R103)."
+                    ],
+                    [
+                        "4",
+                        "Place a Town on any Desert Hex. This town is permanent and can be visited (R103)."
+                    ],
+                    [
+                        "5",
+                        "Place a Town on any Marshland Hex. This town is permanent and can be visited (R103)."
+                    ],
+                    [
+                        "6",
+                        "Place a Town on any Hex. This town is permanent and can be visited (R103)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e230",
+        "title": "Town Recollection",
+        "desc": ["You recall the location of a town. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "After further deliberation, you are mistaken. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2-3",
+                        "There is a town in a random hex. Roll a 1d6 direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW) and a 1d4 distance. Place a town in that hex. This town is permanent and can be visited (R103)."
+                    ],
+                    [
+                        "4-5",
+                        "There is a town in an adjacent hex. Roll a 1d6 direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW). This town is permanent and can be visited (R103). Roll on Event Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "Recollection. Place a town on any hex of your choosing. Mark the mapboard. This town is permanent and can be visited (R103)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e231",
+        "title": "Reward",
+        "desc": [
+            "You arrive at the hotel to receive your reward from the young girl. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If you have a Bounty Suit of ♥️️️️ or ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. She never shows, so you release the captive."
+                    ],
+                    [
+                        "2",
+                        "If you have a Bounty Suit of ♠️️️ you are spotted and the authorities give chase; E155. She never shows. You take him into the Sheriff’s office for a reward. You get $10."
+                    ],
+                    [
+                        "3",
+                        "She is visibly pleased to see that you captured the man who killed her father. She pays you $20. You go to the market area of town; R104."
+                    ],
+                    [
+                        "4-5",
+                        "She is visibly pleased to see that you captured the man who killed her father. She shoots him between the eyes and hands you the $75 reward."
+                    ],
+                    [
+                        "6",
+                        "She is visibly pleased to see that you captured the man who killed her father. She shoots him between the eyes and hands you the $75 reward; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e232",
+        "title": "Fugitive",
+        "desc": [
+            "You arrive in town and set out to meet the fugitive. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You meet the fugitive and he takes you along on an “easy heist”. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Loot Suit: ♣️️️ (Table D1). You part ways. Move to any adjacent hex; E095. FAIL = The fugitive gets away with the loot. He abandons you and you are arrested; E075"
+                    ],
+                    [
+                        "2",
+                        "If you have a Bounty Suit of ♥️️️️ or ♠️️️ you are spotted and the authorities give chase; E155. +1 Karma. He has been incarcerated...again."
+                    ],
+                    [
+                        "3-4",
+                        "He is happy to see you again and insists on buying you drinks; E128"
+                    ],
+                    [
+                        "5",
+                        "He is impersonating a sheriff. Lower your Bounty Suit by three."
+                    ],
+                    [
+                        "6",
+                        "He has crept his way into being the local bank’s “security”. He turns a blind eye for you. Loot Suit: ♠️️️ (Table D1); E233"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e233",
+        "title": "Concert",
+        "desc": [
+            "You arrive with the mariachi player at the saloon. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. She played beautifully to empty seats and she leaves; R106"
+                    ],
+                    [
+                        "2",
+                        "An obnoxious patron gets too touchy with the mariachi player. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = +1 Karma. The patron backs off. Go to Roll Result 6. FAIL = He attacks you R110. Initiative R110b. Drunk patron: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1). If you win the combat, go to Roll Result 6"
+                    ],
+                    [
+                        "3-4",
+                        "She played beautifully to a small crowd. You are paid $2 and then you part ways."
+                    ],
+                    [
+                        "5",
+                        "She played beautifully to a good sized crowd. You are paid $6 and then you part ways."
+                    ],
+                    [
+                        "6",
+                        "She played beautifully to a full house. You are paid $15. She asks you to escort her to a private concert at a rich family’s home. She will once again pay you half of what they pay. Roll a 1d4 for location: 1-4,20; 2-11,10; 3-14,16; 4-any town. Record “Hex#/private concert/E221” R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e234",
+        "title": "Spirited Horse",
+        "desc": [
+            "Your horse is feeling in top form and can cover twice as much ground.",
+            "If your next action is a Travel Action (R101b), you may move two hexes instead of the usual one."
+        ]
+    },
+    {
+        "tag": "e235",
+        "title": "Bandits",
+        "desc": [
+            "You are being chased by four masked bandits on horseback. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "Attempt a Finesse skill test (Table C/♥️️️️/Finesse-2) R111. PASS = You evade their pursuit; E007. FAIL = +1 Karma. Go to Roll Result 7"
+                    ],
+                    [
+                        "2",
+                        "Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 7"
+                    ],
+                    [
+                        "3",
+                        "Attempt a Finesse skill test (Table C/♥️️️️/Finesse-1) R111. PASS = You evade their pursuit; E095. FAIL = Go to Roll Result 8"
+                    ],
+                    [
+                        "4",
+                        "Attempt a Finesse skill test (Table C/♦️️️/Finesse-2) R111. PASS = +1 Karma. You evade their pursuit. FAIL = Go to Roll Result 8"
+                    ],
+                    [
+                        "5",
+                        "Attempt a Finesse skill test (Table C/♦️️️/Finesse-1) R111. PASS = You evade their pursuit; E234. FAIL = +1 Karma. Go to Roll Result 8"
+                    ],
+                    ["6", "You evade their pursuit; E053"],
+                    [
+                        "7",
+                        "You engage them in combat R110. Initiative R110c. Bandits: Finesse 2/2/2/2; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1). If you win, Bounty Suit up one."
+                    ],
+                    [
+                        "8",
+                        "You engage them in combat R110. Initiative R110b. Bandits: Finesse 2/2/1/1; Weapon: Pistol♦️️️; Loot Suit: ♣️️️ (Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e236",
+        "title": "Railroad Worksite",
+        "desc": [
+            "You arrive at the railroad worksite. There are many tattered workers. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You are shunned by the foreman. Later; E172"
+                    ],
+                    [
+                        "2-3",
+                        "The railroad workers start a revolt and begin to throw stones. Attempt a Finesse skill test (Table C/♦️️️/Finesse-2) R111. PASS = You get away without injury. Roll on the Event Table (Table A). FAIL = Roll damage for you and each partner (Table B/♦️️️)."
+                    ],
+                    [
+                        "4",
+                        "You are hired by a foreman to track a runaway worker. Roll a 1d6 direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW) and a 1d6 distance. Record “Hex#/runaway/E191” R102."
+                    ],
+                    [
+                        "5",
+                        "You engage a well dressed man who is overseeing this project. Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111. PASS = He takes you to his railcar; E194. FAIL = +1 Karma. He has no need for you and you leave. Roll on Event Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "You quietly rob the company wagon. Loot Suit: ♥️️️️ (Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e237",
+        "title": "Family",
+        "desc": ["You refuse any monetary payment. Roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. The family thanks you and will not forget your kindness; E234"
+                    ],
+                    [
+                        "2",
+                        "The father insists you take their family heirloom; E242"
+                    ],
+                    [
+                        "3",
+                        "You spend the day with the family. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = Go to Roll Result 5. FAIL = You are thanked and you part ways; E234"
+                    ],
+                    [
+                        "4-5",
+                        "You spend quality time with the family. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-1) R111. PASS = Go to Roll Result 6. FAIL = The family gives you a family heirloom; E019"
+                    ],
+                    [
+                        "6",
+                        "The daughter is smitten with you and you with her. Her family’s land is vast and you build a large farm there. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e238",
+        "title": "Ruthless Businessman",
+        "desc": [
+            "You find the businessman as he is leaving his office. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. Wrong person, he no longer works here. You decide to go to the saloon; R106"
+                    ],
+                    [
+                        "2",
+                        "If your Bounty Suit is ♠️️️ you are spotted and the authorities give chase; E155. He convinces you to invest in his company. You pay him $10."
+                    ],
+                    [
+                        "3",
+                        "He explains that he has been taking money to pay bandits who kidnapped his daughter. Roll a 1d4: 1-3,8; 2-8,15; 3-13,20; 4-19,3. Record “Hex#/kidnapping/E197” R102; E234"
+                    ],
+                    [
+                        "4",
+                        "You confront him. Attempt a Hunch skill test (Table C/♥️️️️/Hunch-2) R111. PASS = He pays you to keep quiet. Bounty Suit up one. He gives you $5 + Loot Suit: ♥️️️️ (Table D1). FAIL = His lawman relative arrives; E155"
+                    ],
+                    [
+                        "5",
+                        "You confront him. He discloses when a train full of payroll is scheduled. Roll a 1d6: 1-10,2; 2-11,5; 3-15,21; 4-12,18; 5-8,8; 6-13,11. Record “Hex#/train robbery/E126” R102; E234"
+                    ],
+                    [
+                        "6",
+                        "You confront him and he pays you hush money. He gives you $25 + Loot Suit: ♠️️️ (Table D1)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e239",
+        "title": "Epidemic",
+        "desc": [
+            "If you are not on a Town hex; E035",
+            "A terrible plague is spreading around town and into the surrounding area.",
+            "Attempt a Hunch skill test (Table C/♦️️️/Hunch-2) R111.",
+            "PASS = You recognize the signs and keep your distance from any of the infected. Move to any adjacent hex. Roll on the Event Table (Table A).",
+            "FAIL = You fail to recognize the signs and find yourself infected with the terrible disease. Roll a 1d6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome (FAIL)"],
+                "rows": [
+                    [
+                        "1",
+                        "Your remaining days are spent in discomfort and pain. You are dead. ❌"
+                    ],
+                    [
+                        "2",
+                        "+1 Karma. Pain is intense. Roll damage for you and each partner (Table B/♠️️️); E007"
+                    ],
+                    [
+                        "3-4",
+                        "Pain is intense. Roll damage for you and each partner (Table B/♥️️️️); E007"
+                    ],
+                    [
+                        "5",
+                        "Pain is intense. Roll damage for you and each partner (Table B/♦️️️); E234"
+                    ],
+                    [
+                        "6",
+                        "Your body manages to fight off the illness without serious consequences."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e240",
+        "title": "Bounty",
+        "desc": ["Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d10", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. They have a Wanted poster with your face on it. Bounty Suit up one."
+                    ],
+                    [
+                        "2",
+                        "They have a wanted poster with a familiar face and you know where to find him. $20 Reward - Wanted Alive. Roll 1d4 for location: 1-2,3; 2-6,20; 3-16,3; 4-any town. Record “hex#/Bounty/E003” R102."
+                    ],
+                    [
+                        "3",
+                        "You make a point of checking the available bounties on your next visit in town. Record “Hex#any town/Bounties/E087” R102."
+                    ],
+                    [
+                        "4",
+                        "They have a wanted poster with a familiar face and you know where to find him. $75 Reward - Wanted Dead or Alive. Record “Hex#any town/Bounty/E024” R102."
+                    ],
+                    [
+                        "5",
+                        "They have a captured fugitive. You tie him up and stow him on your horse. Record “Hex#any town/fugitive/E192” R102."
+                    ],
+                    ["6-7", "E142"],
+                    [
+                        "8-9",
+                        "They have a wanted poster with target location nearby. $20 Reward - Wanted Alive. Roll 1d6 direction (N, NE, SE, S, SW, NW). Record “hex#/Bounty/E003” R102."
+                    ],
+                    [
+                        "10",
+                        "They have a wanted poster with target location nearby. $100 Reward - Wanted Dead or Alive. Roll 1d6 direction (N, NE, SE, S, SW, NW). Record “hex#/Bounty/E195” R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e241",
+        "title": "Stagecoach",
+        "desc": ["You pay to ride the stagecoach. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You are intercepted by someone from your past and the stagecoach leaves; E146"
+                    ],
+                    [
+                        "2",
+                        "The stagecoach is ambushed by masked Bandits R110. Initiative R110d. You cannot flee this combat. Bandit: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ❌ (Table D1). Bandit: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: -. Bandit: Finesse 1; Weapon: Pistol♦️️️; Loot Suit: -. If you win the combat, the stagecoach is too damaged to continue. Go to Roll Result 7"
+                    ],
+                    [
+                        "3",
+                        "There is another passenger with you. Attempt Hunch test (♥️️️️ / Hunch-3) R111. PASS = She tells you about her uncle. Roll 1d4: 1-12,20; 2-11,12; 3-11,9; 4-12,6. Record “Hex#/dapperman/E194” R102. Go to Roll Result 6. FAIL = You are kicked off. Bounty Suit up one. Go to Roll Result 7"
+                    ],
+                    [
+                        "4",
+                        "There is another passenger with you. Attempt Hunch test (♦️️️ / Hunch-2) R111. PASS = He offers ranch work. Roll 1d6: 1-1,4; 2-16,4; 3-19,13; 4-2,21; 5-2,18; 6-Any Town. Record “Hex#/Ranch Work/E210” R102. Go to Roll Result 6. FAIL = You are kicked off. Go to Roll Result 7"
+                    ],
+                    [
+                        "5",
+                        "You arrive at your destination. Place your token on any hex. Roll on Event Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "You arrive at your destination. Place your token on any hex; E095"
+                    ],
+                    [
+                        "7",
+                        "Choose a direction from your starting hex, then roll a 1d6 for distance. Place your token on that hex. Roll on Event Table (Table A)."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e242",
+        "title": "Antiquities",
+        "desc": [
+            "You can try to sell this in town.",
+            "Record “Hex#any town/antiques/E173” under your Points of Interest R102."
+        ]
+    },
+    {
+        "tag": "e243",
+        "title": "Dangerous Weather",
+        "desc": [
+            "If you are on a desert hex; E020",
+            "If you are on a Marshland, Grassland or Forest Hex; E002",
+            "If you are on a Mountain hex; E015"
+        ]
+    },
+    {
+        "tag": "e244",
+        "title": "Rescued Women",
+        "desc": ["Move to any adjacent hex and then roll a 1d6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. She thanks you and rides off. Roll on Event Table (Table A)."
+                    ],
+                    ["2", "She thanks you and rides off; E234"],
+                    ["3", "She gives you a peculiar totem and leaves; E047"],
+                    [
+                        "4",
+                        "She joins you as a partner R131. Women: Finesse 2; Weapon: Pistol♦️️️; Loot Suit: ❌ (Table D1)."
+                    ],
+                    [
+                        "5",
+                        "She reveals a corrupt mayor and provides evidence. Record “Hex#any town/Confront Mayor/E144” R102. She then leaves."
+                    ],
+                    ["6", "She gives you a gold charm and then leaves; E040"]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e245",
+        "title": "Important Letter",
+        "desc": ["You arrive at the letters delivery location."],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You deliver the letter but nobody is there. If your Bounty Suit is ♥️️️️ or ♠️️️; E103"
+                    ],
+                    [
+                        "2",
+                        "You deliver the letter and receive $2. A short while later; E107"
+                    ],
+                    [
+                        "3-4",
+                        "You deliver the letter and receive $3. You are given an “urgent letter”. Roll direction (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW) and distance (1d6). Record “Hex#/letter/E245” R102."
+                    ],
+                    [
+                        "5",
+                        "You deliver the letter to a large home and receive $8. Roll on Event Table (Table A)."
+                    ],
+                    [
+                        "6",
+                        "+1 Karma. You deliver the letter to an affluent home and receive $12."
+                    ]
+                ]
+            }
+        ]
+    }
+]
