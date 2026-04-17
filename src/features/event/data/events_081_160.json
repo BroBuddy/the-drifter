@@ -1151,6 +1151,305 @@
         ]
     },
     {
+        "tag": "e112",
+        "title": "Dancers Home",
+        "desc": ["You visit the dancer at her modest home. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The husband comes home and attacks you R110. Initiative R110d. Husband: Finesse: 2; Weapon: Rifle♥️; Loot Suit:- If you win the combat, Bounty Suit up one; E007"
+                    ],
+                    [
+                        "2-3",
+                        "You spend a nice evening together but you keep it short. You are later ambushed by a one-armed Bandit R110. Initiative R110b. Bandit: Finesse: 2; Weapon: Pistol♦️; Loot Suit:X(Table D1) If you win the combat, Bounty Suit up one; E240"
+                    ],
+                    [
+                        "4",
+                        "+1 Karma. You spend a nice evening together with drink and laughter. You (and any partners) heal one Wound Level. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "5",
+                        "She isn't home. You search the house for valuables. Loot Suit:♦️(Table D1)"
+                    ],
+                    [
+                        "6",
+                        "You both fall deeply in love with each other. You hang up the gun and live a quaint life raising a family. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e113",
+        "title": "Medicine Man",
+        "desc": [
+            "If you are not on a Marshland hex; E107",
+            "A Medicine man is passing through. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He has a contagious disease. Attempt a Hunch Skill Test (Table C/♦️/Hunch-1) R111. PASS = You keep your distance. FAIL = You get too close. A Partner of your choice dies. If you have no partners, you are dead."
+                    ],
+                    [
+                        "2",
+                        "If you have a Red Trinket, go to Roll Result 5 Something is wrong with him. He lunges R110. Initiative R110b. Rabid Man: Finesse: 2; Weapon: Bite♦️; Loot Suit:X(Table D1) If you win the combat, Bounty Suit up one; E207"
+                    ],
+                    [
+                        "3",
+                        "You are ignored. Shortly after you are jumped by two voracious bumpkins R110. Initiative R110g. Bumpkin: Finesse: 2; Weapon: Machete♦️; Loot Suit:X(Table D1) Bumpkin: Finesse: 1; Weapon: Knife♣️; Loot Suit:-"
+                    ],
+                    ["4", "+1 Karma. You are ignored; E215"],
+                    ["5", "He heals you (and any partners) one Wound Level."],
+                    [
+                        "6",
+                        "He heals you (and any partners) two Wound Levels; E234"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e114",
+        "title": "Gunshop",
+        "desc": ["Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If you have a Bounty Suit of ♦️, ♥️ or ♠️ you are chased by the authorities; E155 +1 Karma. You just missed a big sale, he is sold out of everything."
+                    ],
+                    [
+                        "2",
+                        "You find nothing of interest and leave to the saloon; E012"
+                    ],
+                    [
+                        "3",
+                        "Nothing of interest. Shortly after you run into someone who has been tailing you; E146"
+                    ],
+                    [
+                        "4",
+                        "For Sale: Knife♣️ for $2. If you purchase this item, record it under your Weapons."
+                    ],
+                    [
+                        "5",
+                        "For Sale: Rifle♥️ $14. If you purchase this item, record it under your Weapons."
+                    ],
+                    [
+                        "6",
+                        "For Sale: Rifle♥️ $8. If you purchase this item, record it under your Weapons."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e115",
+        "title": "Good Samaritan",
+        "desc": ["You assist in repairing the wagon. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "The man has a deadly disease. Attempt a Hunch skill test (Table C/♦️/Hunch-1) R111. PASS = You avoid getting too close and scuttle off; E045 FAIL = You get too close and your body is unable to fight off the disease. You don't live much longer and have an uncomfortable death. You are dead."
+                    ],
+                    [
+                        "2",
+                        "You accidentally damage the wagon further. Bounty Suit up one. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "3",
+                        "Roll a Hunch skill test (Table C/♠️/Hunch-1) R111. PASS = Go to Roll Result 7 FAIL = Go to Roll Result 8"
+                    ],
+                    [
+                        "4",
+                        "Roll a Hunch skill test (Table C/♥️/Hunch-1) R111. PASS = Go to Roll Result 7 FAIL = Go to Roll Result 8"
+                    ],
+                    [
+                        "5",
+                        "Roll a Hunch skill test (Table C/♦️/Hunch-1) R111. PASS = Go to Roll Result 7 FAIL = Go to Roll Result 8"
+                    ],
+                    ["6", "You repair the wagon. Go to Roll Result 7"],
+                    ["7", "You repair the wagon. Roll a D6: (see table below)"],
+                    [
+                        "8",
+                        "+1 Karma. He thanks you for trying. Roll on the Event Table (Table A)."
+                    ]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He thanks you for your time. A short while later; E243"
+                    ],
+                    [
+                        "2",
+                        "+1 Karma. He thanks you for your time and invites you to drop by his home. Roll a D6 to determine the direction of his home: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll the D6 to determine how many hexes away. Record \"Hex#/abode/E107\" under Points of Interest R102."
+                    ],
+                    [
+                        "3",
+                        "He warns you of a Bandit hideout. Roll a D6 to determine which adjacent hex the bandit hideout is located: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW. Record \"Hex#/Bandit Hideout/E085\" under your Points of Interest R102."
+                    ],
+                    ["4", "E125"],
+                    [
+                        "5",
+                        "Offers you to drop by his family's ranch, if you are looking for work. Roll a D6 to determine the direction of the ranch: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6 to determine how many hexes away. Record \"Hex#/Ranch Work/E210\" under your Points of Interest R102."
+                    ],
+                    ["6", "+1 Karma. He thanks you. Loot Suit:♣️(Table D1)."]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e116",
+        "title": "Delivery",
+        "desc": ["You meet the pharmacist at his home. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "He regrets to inform you that it's the wrong plant. Shortly after, You are confronted by a bitter person from your past. Draw! Attempt a Finesse skill test (Table C/♦️/Finesse-2) R111. PASS = You shot him first, right between the eyes. Bounty Suit up one. Loot Suit:♣️(Table D1). FAIL = He shot you first, right between your eyes. You are dead."
+                    ],
+                    [
+                        "2",
+                        "If you have a Bounty Suit of ♦️, ♥️ or ♠️ you are chased by the authorities; E155 He is pleased and pays you $3. Shortly after, You help an elderman to his feet. He bows in gratitude and invites you to visit his Opium Den. Record \"Hex#any town/opium den/E165\" under your Points of Interest R102."
+                    ],
+                    [
+                        "3",
+                        "He is pleased and pays you $3. His sister is ill and wants you to deliver a special medicine to her. The sister will pay you on its delivery. To determine sisters hex, roll a D4: 1- 3,18; 2- 8,10; 3- 12,17; 4- 15,11 Record \"Hex#/medicine/E067\" under your Points of Interest R102."
+                    ],
+                    [
+                        "4",
+                        "He is very pleased and pays you $5 for the plant. He is looking for another rare plant. Roll a D4 to determine hex of the plant: 1- 1,3; 2- 14,4; 3- 19,18; 4- 1,17 Record \"Hex#/plant/E070\" under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "He is very pleased and pays you. Loot Suit:$3 + ♥️(Table D1)."
+                    ],
+                    [
+                        "6",
+                        "He is incredibly impressed you were able to locate the rare plant and feels you must have a knack for it. He gives you a job as his apprentice healing the sick. You find it to be a rewarding life, full of purpose, seeking new remedies to heal the less fortunate. You win the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e117",
+        "title": "Cave",
+        "desc": ["You investigate a cave. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. It is a small alcove and has nothing of interest. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "Nothing of interest and you leave. Sometime later.. If your Bounty Suit is X; E068 You get ambushed by two hardened Bounty Hunters R110. Initiative R110c. Bounty Hunter: Finesse: 2; Weapon: Rifle♥️; Loot Suit:♣️(Table D1) Bounty Hunter: Finesse: 2; Weapon: Rifle♥️; Loot Suit:-"
+                    ],
+                    [
+                        "3",
+                        "You rest for the night in the cave. You (and any partners) heal one Wound Level."
+                    ],
+                    [
+                        "4",
+                        "Its walls are covered in ancient drawings. Attempt a Hunch skill test (Table C/♥️/Hunch-2) R111. PASS = +1 Karma. You deduce it tells the rise and fall of a lost civilization. You (and any partners) heal one Wound Level. FAIL = It looks like nonsense and you leave. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "5",
+                        "It contains a beautiful cenote. It is oddly invigorating and you decide to camp here for the night. +1 Karma. You (and any partners) heal up three Wound Levels; E234"
+                    ],
+                    [
+                        "6",
+                        "Its walls are covered in ancient drawings. Attempt a Hunch skill test (Table C/♥️/Hunch-2) R111. FAIL = It looks like nonsense and you leave; E234 PASS = It tells the rise and fall of a lost civilization along with the location of their sovereignty's tomb. Roll a D6 to determine the direction of the tomb: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6 to determine how many hexes away. Record \"Hex#/Tomb/E158\" under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e118",
+        "title": "Town",
+        "desc": ["Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You meander around town for the rest of the day. If you are on a Marshland Hex; E029 If you are not on a Marshland Hex; E026"
+                    ],
+                    ["2", "You decide to get a drink at the saloon; R106"],
+                    ["3", "You leave the pharmacy. Shortly after; E146"],
+                    [
+                        "4",
+                        "If you have a Bounty Suit of ♦️, ♥️ or ♠️ the doctor tells the authorities about you; E155 You meander around town for the rest of the day; E234"
+                    ],
+                    [
+                        "5",
+                        "You meet an old farmer who is advertising ranch work. Roll a D6 to determine the direction of the ranch: 1-N; 2-NE; 3-SE; 4-S; 5-SW; 6-NW and then roll a D6 to determine how many hexes away. Record \"Hex#/Ranch Work/E210\" under your Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "The doctor likes you and gives you D4 bitters to take with you. They are a one time use. You can use them as a Heal Action (R101c). Record the \"bitters\" under Equipment."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e119",
+        "title": "Cemetery",
+        "desc": [
+            "You arrive at the cemetery and search for the buried treasure. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "+1 Karma. You find the coffin but it is empty. Roll on the Event Table (Table A)."
+                    ],
+                    [
+                        "2",
+                        "You find the coffin but it is empty. Short time after.. If your Bounty Suit is X; E154 You are ambushed by two grubby Bounty Hunters R110. Initiative R110c. Bounty Hunter: Finesse: 2; Weapon: Rifle♥️; Loot Suit:♣️(Table D1) + E240 Bounty Hunter: Finesse: 2; Weapon: Pistol♦️; Loot Suit:- If you win the combat, Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "Attempt a Hunch skill test (Table C/♦️/Hunch-2) R111. PASS = You find the coffin. It contains a well dressed corpse. Loot Suit:♦️(Table D1). FAIL = You fail to locate the correct grave; E234"
+                    ],
+                    [
+                        "4",
+                        "You find the coffin. It contains a well dressed corpse. Loot Suit:♥️(Table D1)."
+                    ],
+                    [
+                        "5",
+                        "You find the coffin but before you can open it an \"old Friend\" shows up with a drawn pistol. You begin combat R110. Initiative R110f. Old Friend: Finesse: 3; Weapon: Pistol♦️; Loot Suit:♣️(Table D1) If you win the combat, You open the coffin. Loot Suit:$10 + ♠️(Table D1)."
+                    ],
+                    ["6", "You find the coffin. Loot Suit:$20 + ♠️(Table D1)."]
+                ]
+            }
+        ]
+    },
+    {
         "tag": "e120",
         "title": "The Organization",
         "desc": [
