@@ -663,6 +663,7 @@
     {
         "tag": "e021",
         "title": "Travelling Musician",
+        "image": true,
         "desc": ["You meet a charming, travelling mariachi player. Roll a D6:"],
         "tables": [
             {
@@ -699,6 +700,7 @@
     {
         "tag": "e022",
         "title": "Ambush",
+        "image": true,
         "desc": [
             "If you are on a Marshland hex; E207",
             "Attempt a Hunch skill test (Table C/♦️️/Hunch-2) R111"
@@ -763,6 +765,7 @@
     {
         "tag": "e023",
         "title": "Loot",
+        "image": true,
         "desc": ["Roll a D6:"],
         "tables": [
             {
@@ -787,6 +790,7 @@
     {
         "tag": "e024",
         "title": "Bounty",
+        "image": true,
         "desc": [
             "You find the target tending to crops on a small farm. You sneak up to apprehend him. Roll a D6:"
         ],
@@ -830,6 +834,7 @@
     {
         "tag": "e025",
         "title": "Prospectors",
+        "image": true,
         "desc": [
             "You approach the prospectors in a kindly manner. Roll a D10:"
         ],
@@ -873,6 +878,7 @@
     {
         "tag": "e026",
         "title": "Preacher",
+        "image": true,
         "desc": ["You meet a preacher. Roll a D6:"],
         "tables": [
             {
@@ -920,6 +926,7 @@
     {
         "tag": "e027",
         "title": "Reward",
+        "image": true,
         "desc": [
             "You visit the trapper to sell your albino Bear pelt. Roll a D6:"
         ],
@@ -954,6 +961,7 @@
     {
         "tag": "e028",
         "title": "Trapper",
+        "image": true,
         "desc": ["You meet a trapper. Roll a D6:"],
         "tables": [
             {
@@ -984,6 +992,7 @@
     {
         "tag": "e029",
         "title": "Voodoo Ceremony",
+        "image": true,
         "desc": [
             "You have come upon a large group taking part in a public, voodoo ceremony. Roll a D6:"
         ],
@@ -1022,6 +1031,7 @@
     {
         "tag": "e030",
         "title": "Bounty",
+        "image": true,
         "desc": [
             "You track down the bounty in their wagon of fraudulent wares. He is a con man wanted for many infractions. You confront him and he says he has information worth much more than him. Roll a D6:"
         ],
@@ -1053,6 +1063,7 @@
     {
         "tag": "e031",
         "title": "Bandit Brother",
+        "image": true,
         "desc": [
             "You find the hideout of the monks bandit brother. Roll a D6:"
         ],
@@ -1087,6 +1098,7 @@
     {
         "tag": "e032",
         "title": "Assassin",
+        "image": true,
         "desc": [
             "You get away. To receive your payment you must meet the Affluent man.",
             "Roll a D4 to determine the hex of the Afflents man's residence:",
@@ -1097,6 +1109,7 @@
     {
         "tag": "e033",
         "title": "People in Bonds",
+        "image": true,
         "desc": [
             "You arrive at a large beautifully kept plantation, in an attempt to free the slaves. Roll a D6:"
         ],
@@ -1132,6 +1145,7 @@
     {
         "tag": "e034",
         "title": "“Old Friend”",
+        "image": true,
         "desc": ["You arrive at the home of your “old friend”. Roll a D6:"],
         "tables": [
             {
@@ -1186,6 +1200,7 @@
     {
         "tag": "e035",
         "title": "Soldiers",
+        "image": true,
         "desc": [
             "There are numerous soldiers marching your way.",
             "You can approach them or try to hide.",
@@ -1223,6 +1238,7 @@
     {
         "tag": "e036",
         "title": "Prospector",
+        "image": true,
         "desc": [
             "If you are on a Desert hex; E093",
             "You come upon a lone prospector searching for gold in a small stream. Roll a D6:"
@@ -1262,6 +1278,8 @@
     {
         "tag": "e037",
         "title": "Traveling Circus - Greet",
+        "image": true,
+        "desc": ["You passively ride up to the coaches. Roll a D6:"],
         "tables": [
             {
                 "cols": ["1d6", "Outcome"],
@@ -1297,6 +1315,7 @@
     {
         "tag": "e038",
         "title": "Rockslide",
+        "image": true,
         "desc": ["If you are on a Grassland, Marshland or Desert hex; E068"],
         "tables": [
             {
@@ -1333,6 +1352,7 @@
     {
         "tag": "e039",
         "title": "Salesman",
+        "image": true,
         "desc": [
             "The salesman offers to sell you one of his wares. Roll a D6:"
         ],
@@ -1365,6 +1385,7 @@
     {
         "tag": "e040",
         "title": "Gold",
+        "image": true,
         "desc": [
             "You find gold.",
             "You will need to sell the gold in a town.",
