@@ -275,23 +275,14 @@ const ruleData: Rule[] = [
         ],
         tables: [
             {
-                cols: ['1d6', 'Outcome', '', '', ''],
+                cols: ['1d6', 'Outcome'],
                 rows: [
-                    ['1', 'Military Presence R130', '', '', ''],
-                    ['2', 'Saloon R106', 'Train Station R108**', '', ''],
-                    [
-                        '3-4',
-                        'Saloon R106',
-                        'Shops R104',
-                        'Train Station R108**',
-                        '',
-                    ],
+                    ['1', 'Military Presence R130'],
+                    ['2', 'Saloon R106, Train Station R108**'],
+                    ['3-4', 'Saloon R106, Shops R104, Train Station R108**'],
                     [
                         '5-6',
-                        'Saloon R106',
-                        'Shops R104',
-                        "Sheriff's Office R132",
-                        'Train Station R108**',
+                        "Saloon R106, Shops R104, Sheriff's Office R132, Train Station R108**",
                     ],
                 ],
             },

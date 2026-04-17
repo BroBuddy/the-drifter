@@ -1,0 +1,1 @@
+import{c as e}from"./rule-ubnFPU3z.js";import{t}from"./TableView-BYB33BOB.js";var n=e();function r(){return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(t,{tag:`r201b`})})}export{r as default};
