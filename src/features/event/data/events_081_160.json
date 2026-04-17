@@ -1460,6 +1460,133 @@
         ]
     },
     {
+        "tag": "e121",
+        "title": "Pharmacy",
+        "desc": ["You arrive at the pharmacy. Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If you have a Bounty Suit of ♦️, ♥️ or ♠️ you are spotted and the authorities give chase; E155 +1 Karma. It is closed. You go to the saloon; R106"
+                    ],
+                    [
+                        "2",
+                        "It is closed. If your Bounty Suit is X; You go for a drink; E111 Shortly after, you are confronted by two eager Bounty Hunters R110. Initiative R110f. Bounty Hunter: Finesse: 3; Weapon: Rifle♥️; Loot Suit:♦️(Table D1) Bounty Hunter: Finesse: 2; Weapon: Pistol♦️; Loot Suit:- If you win the combat, Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "He is happy to see you again. He heals you (and any partner) one Wound Level. You meet an attractive lady who is also there. She is an entertainer and asks you to come by sometime to see her show. Record \"Hex#any town/entertainer/E066\" under your Points of Interest R102."
+                    ],
+                    [
+                        "4",
+                        "He heals you (and any partners) two Wound Levels. His sister is ill and wants you to deliver a special medicine to her. The sister will pay you on its delivery. To determine sisters hex, roll a D4: 1- 3,18; 2- 8,10; 3- 12,17; 4- 15,11 Record \"Hex#/medicine/E067\" under your Points of Interest R102."
+                    ],
+                    [
+                        "5",
+                        "If you have a Bounty Suit of ♠️ you are spotted and the authorities give chase; E155 He is happy to see you again. He gives you D6 balms to take with you. They are a one time use. You can use them as a Heal Action (R101c). Record the balms under your Equipment (Tracking Sheet)."
+                    ],
+                    [
+                        "6",
+                        "He asks you to locate a rare plant. You (and any partners) heal one Wound Level. Roll a D4 to determine hex of the plant: 1- 1,3; 2- 14,4; 3- 19,18; 4- 1,17 Record \"Hex#/plant/E070\" under your Points of Interest R102."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e122",
+        "title": "Saloon",
+        "desc": ["Roll a D6:"],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "If you don't have any money, go to Roll Result 2 You get pickpocketed by a lurcher. Roll a D4 to determine how much money he steals: 1- $10; 2- $4; 3- $3; 4- $1."
+                    ],
+                    [
+                        "2",
+                        "If you have a Bounty Suit of ♠️; E103 You get drunk and boast about your criminal misdeeds. Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "Attempt a Hunch skill test (Table C/♥️/Hunch-1) R111. PASS = Go to Roll Result 5 FAIL = A kind stranger buys you a drink; R106"
+                    ],
+                    [
+                        "4",
+                        "There is a stagecoach driver offering rides to any hex for $5. If you pay the $5; E241 If you don't pay the $5, you leave; E234"
+                    ],
+                    [
+                        "5",
+                        "You overhear the location of an old mine. Roll a D6 to determine hex of the mine: 1- 2,4; 2- 5,1; 3- 13,3; 4- 5,10; 5- 3,12; 6- 11,10 Record \"Hex#/mine/E152\" under your Points of Interest R102."
+                    ],
+                    [
+                        "6",
+                        "You chat with the bartender. Attempt a Hunch skill test (Table C/♥️/Hunch-1) R111. PASS = He tells you about a ruthless businessman. Record \"Hex#any town/Businessman/E238\" under your Points of Interest R102. FAIL = Re-roll on this Table."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "e123",
+        "title": "Old Book",
+        "desc": [
+            "You find an old book bound in freakish leather, full of peculiar symbols.",
+            "Attempt a Hunch skill test (Table C/♠️/Hunch-1) R111.",
+            "PASS = You inspect the disturbing tome. Roll a D6:"
+        ],
+        "tables": [
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You are compelled to read it again. Attempt the Hunch skill test again."
+                    ],
+                    ["2", "-1 Karma. A chill runs down your spine."],
+                    ["3", "A chill runs down your spine; E007"],
+                    ["4", "+1 Karma. You find it to be nonsense."],
+                    [
+                        "5",
+                        "You find it to be nonsense. You (and any partners) heal one Wound Level; E234"
+                    ],
+                    ["6", "+1 Karma. Maybe it's worth something; E242"]
+                ]
+            },
+            {
+                "cols": ["1d6", "Outcome"],
+                "rows": [
+                    [
+                        "1",
+                        "You feel paranoid, accompanied by a morbid compulsion. -1 Hunch. If your Hunch score is 1, go to Roll Result 7 Re-roll on this Table."
+                    ],
+                    [
+                        "2",
+                        "-1 Karma. You wake up with bloodied hands. A partner of your choice is dead. If you don't have a partner, Bounty Suit up one."
+                    ],
+                    [
+                        "3",
+                        "You wake up with bloodied hands. A partner of your choice is dead. If you don't have a partner, Bounty Suit up one; E007"
+                    ],
+                    [
+                        "4",
+                        "You wake up feeling ill and take extra rest. Unforeseen circumstances - remove a Point of Interest (of your choice) from your Tracking Sheet; E095"
+                    ],
+                    ["5", "+1 Karma. You wake up in a pool of sweat."],
+                    ["6", "+1 Karma. You wake up with a headache; E234"],
+                    [
+                        "7",
+                        "Attempt a Hunch skill test (Table C/♥️/Hunch-1) R111. PASS = Re-roll on this Table. FAIL = You have slipped into an irrecoverable insanity. You lose the game."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "tag": "e128",
         "title": "Bender",
         "desc": [
