@@ -1,12 +1,7 @@
-import type { ReactNode } from 'react'
+import type { Section } from '@/types/SectionTypes'
 import { Link } from 'react-router-dom'
 
-type IntroSection = {
-    title?: string
-    content: ReactNode
-}
-
-const introSections: IntroSection[] = [
+const sections: Section[] = [
     {
         content: (
             <p>
@@ -85,7 +80,7 @@ const introSections: IntroSection[] = [
 function IntroPage() {
     return (
         <>
-            {introSections.map((section, index: number) => (
+            {sections.map((section, index: number) => (
                 <section key={index}>
                     {section.title && <strong>{section.title}</strong>}
                     {section.content}

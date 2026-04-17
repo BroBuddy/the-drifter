@@ -1,7 +1,8 @@
 import Tabs, { type TabItem } from '@/components/Tabs'
-import CharacterCreationPage from './CharacterCreationPage'
-import { ClipboardList, User } from 'lucide-react'
+import KeywordPage from './KeywordPage'
+import { BookText, ClipboardList, Sun } from 'lucide-react'
 import IntroPage from './IntroPage'
+import ActionPage from './ActionPge'
 
 const tabs: TabItem[] = [
     {
@@ -10,9 +11,14 @@ const tabs: TabItem[] = [
         content: <IntroPage />,
     },
     {
-        label: 'Character Creation',
-        icon: <User size={16} />,
-        content: <CharacterCreationPage />,
+        label: 'Actions',
+        icon: <Sun size={16} />,
+        content: <ActionPage />,
+    },
+    {
+        label: 'Keywords',
+        icon: <BookText size={16} />,
+        content: <KeywordPage />,
     },
 ]
 

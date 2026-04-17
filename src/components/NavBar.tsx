@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import styles from './NavBar.module.scss'
-import { Coffee, Home } from 'lucide-react'
+import { BookText, Home } from 'lucide-react'
 import type { ReactNode } from 'react'
 
 type Links = {
@@ -15,7 +15,7 @@ const links: Links[] = [
     { to: '/table/b', label: 'TB' },
     { to: '/table/c', label: 'TC' },
     { to: '/table/d', label: 'TD' },
-    { to: '/rule/r101a', label: 'Actions', icon: <Coffee /> },
+    { to: '/booklet', label: 'Booklets', icon: <BookText /> },
 ]
 
 const NavBar = () => {

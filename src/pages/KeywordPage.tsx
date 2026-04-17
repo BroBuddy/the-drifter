@@ -1,11 +1,6 @@
-import type { ReactNode } from 'react'
+import type { Section } from '@/types/SectionTypes'
 
-type CharacterSection = {
-    title?: string
-    content: ReactNode
-}
-
-const characterSections: CharacterSection[] = [
+const sections: Section[] = [
     {
         title: 'Character Creation:',
         content: (
@@ -177,10 +172,10 @@ const characterSections: CharacterSection[] = [
     },
 ]
 
-function CharacterCreationPage() {
+function KeywordPage() {
     return (
         <>
-            {characterSections.map((section, index: number) => (
+            {sections.map((section, index: number) => (
                 <section key={index}>
                     <strong>{section.title}</strong>
                     {section.content}
@@ -190,4 +185,4 @@ function CharacterCreationPage() {
     )
 }
 
-export default CharacterCreationPage
+export default KeywordPage
