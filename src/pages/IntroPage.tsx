@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const sections: Section[] = [
     {
+        title: 'Start Here:',
         content: (
             <p>
                 This game will be a new experience. You are about to become a
@@ -13,41 +14,6 @@ const sections: Section[] = [
                 provides rules about the choices and actions you can make. There
                 are hundreds of events and situations, so each game will be a
                 new, fresh experience.
-            </p>
-        ),
-    },
-    {
-        title: 'Booklets:',
-        content: (
-            <p>
-                Each of the two booklets contain numbered sections. These are
-                the Rule booklet and the Events booklet. The booklets should be
-                combined into one book for ease of access.
-            </p>
-        ),
-    },
-    {
-        title: 'Mapboard:',
-        content: (
-            <p>
-                The colour mapboard is gridded into hexagons for ease in
-                movement and location. Each hex has a numerical identification
-                code. You do not leave the mapboard, instead stop at the edge
-                and use that hex instead. Each hex has a single dominant terrain
-                type, illustrated on the game map key. Some hexes may have extra
-                structures in them (a town).
-            </p>
-        ),
-    },
-    {
-        title: 'Edge of the Game Map:',
-        content: (
-            <p>
-                During the game, the Drifter cannot leave the game map. If an
-                event or rule would normally land him off the map, he simply
-                stops at the map edge instead. In other cases, “points of
-                interest” and other locations may be off the game map, in which
-                case they are simply not available.
             </p>
         ),
     },
@@ -64,7 +30,6 @@ const sections: Section[] = [
         ),
     },
     {
-        title: 'Start:',
         content: (
             <p>
                 To begin, open the Events booklet and read{' '}

@@ -5,23 +5,19 @@ import RulePage from '@/features/rule/pages/RulePage'
 
 const tabs: TabItem[] = [
     {
-        label: 'Rules',
-        icon: <BookOpenText size={16} />,
-        content: <RulePage />,
-    },
-    {
         label: 'Events',
         icon: <Zap size={16} />,
         content: <EventPage />,
     },
+    {
+        label: 'Rules',
+        icon: <BookOpenText size={16} />,
+        content: <RulePage />,
+    },
 ]
 
 function BookletPage() {
-    return (
-        <>
-            <Tabs title="Booklets" tabs={tabs} />
-        </>
-    )
+    return <Tabs title="Booklets" tabs={tabs} />
 }
 
 export default BookletPage

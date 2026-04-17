@@ -17,11 +17,7 @@ const tabs: TabItem[] = [
 ]
 
 function GamePage() {
-    return (
-        <>
-            <Tabs title="The Drifter" tabs={tabs} />
-        </>
-    )
+    return <Tabs title="The Drifter" tabs={tabs} />
 }
 
 export default GamePage
