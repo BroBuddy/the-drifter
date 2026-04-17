@@ -834,6 +834,7 @@
     {
         "tag": "e025",
         "title": "Prospectors",
+        "image": true,
         "desc": [
             "You approach the prospectors in a kindly manner. Roll a D10:"
         ],
@@ -1394,6 +1395,7 @@
     {
         "tag": "e041",
         "title": "Deception",
+        "image": true,
         "desc": ["Roll a D6:"],
         "tables": [
             {
@@ -1423,6 +1425,7 @@
     {
         "tag": "e042",
         "title": "Mexican Army",
+        "image": true,
         "desc": [
             "If you are not on a Desert Hex; E035",
             "You find yourself in the presence of Mexican rurales that are hunting criminals. Roll a D6:"
@@ -1459,6 +1462,7 @@
     {
         "tag": "e043",
         "title": "Showdown",
+        "image": true,
         "desc": [
             "You scowl towards your opponent with your hand hovering over your pistol. Roll a D6:"
         ],
@@ -1497,11 +1501,13 @@
     {
         "tag": "e044",
         "title": "Sloppy Robbery",
+        "image": true,
         "desc": ["Bounty Suit up two.", "Loot Suit:♦️(Table D1)."]
     },
     {
         "tag": "e045",
         "title": "Outpost",
+        "image": true,
         "desc": ["You stop at a trading post for some respite. Roll a D10:"],
         "tables": [
             {
@@ -1563,6 +1569,7 @@
     {
         "tag": "e046",
         "title": "Prospect",
+        "image": true,
         "desc": [
             "You meet up with the old prospector and begin panning. Roll a D6:"
         ],
@@ -1595,6 +1602,7 @@
     {
         "tag": "e047",
         "title": "Trinket",
+        "image": true,
         "desc": ["You gain a trinket. Roll a D6:"],
         "tables": [
             {
@@ -1625,6 +1633,7 @@
     {
         "tag": "e048",
         "title": "Important Letter",
+        "image": true,
         "desc": [
             "You arrive at the general store to deliver the “important letter”. Roll a D6:"
         ],
@@ -1659,6 +1668,7 @@
     {
         "tag": "e049",
         "title": "Check on the Family",
+        "image": true,
         "desc": ["You check on the family. Roll a D6:"],
         "tables": [
             {
@@ -1689,6 +1699,7 @@
     {
         "tag": "e050",
         "title": "Manor of Widow",
+        "image": true,
         "desc": ["You have brought the Charming Widow home. Roll a D6:"],
         "tables": [
             {
@@ -1725,6 +1736,7 @@
     {
         "tag": "e051",
         "title": "Reservation",
+        "image": true,
         "desc": [
             "You are escorted to the comanche reservation as a guest. Roll a D6:"
         ],
@@ -1760,6 +1772,7 @@
     {
         "tag": "e052",
         "title": "Reward",
+        "image": true,
         "desc": [
             "You bring your bounty to the sheriff's office to claim your reward. Roll a D6:"
         ],
@@ -1795,6 +1808,7 @@
     {
         "tag": "e053",
         "title": "Hideout",
+        "image": true,
         "desc": [
             "You learn the location of a Bandit hideout.",
             "Roll a D6 to determine the direction of the hideout:",
@@ -1806,6 +1820,7 @@
     {
         "tag": "e054",
         "title": "Abandoned Abode",
+        "image": true,
         "desc": [
             "You stop at an abandoned home to rest for the night. Roll a D6:"
         ],
@@ -1841,6 +1856,7 @@
     {
         "tag": "e055",
         "title": "Broken Wagon",
+        "image": true,
         "desc": [
             "Someone is struggling to fix their wagon.",
             "You can rob them or you can be friendly.",
@@ -1851,6 +1867,7 @@
     {
         "tag": "e056",
         "title": "Robbery",
+        "image": true,
         "desc": ["You rob the store. Roll a D6:"],
         "tables": [
             {
@@ -1877,6 +1894,7 @@
     {
         "tag": "e057",
         "title": "Gold",
+        "image": true,
         "desc": ["You meet with a jeweller to sell your gold. Roll a D6:"],
         "tables": [
             {
@@ -1898,6 +1916,7 @@
     {
         "tag": "e058",
         "title": "Reward",
+        "image": true,
         "desc": [
             "You arrive at the affluent man's mansion to receive your reward. Roll a D6:"
         ],
@@ -1933,6 +1952,7 @@
     {
         "tag": "e059",
         "title": "Treasure Map",
+        "image": true,
         "desc": ["Roll a D6:"],
         "tables": [
             {
@@ -1961,6 +1981,7 @@
     {
         "tag": "e060",
         "title": "High Rivers",
+        "image": true,
         "desc": [
             "If you are on a Desert hex; E093",
             "The surrounding rivers are too high to cross today.",
