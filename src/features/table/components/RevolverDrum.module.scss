@@ -1,0 +1,62 @@
+.revolverDrum {
+    background-image: url('/images/revolver_drum.png');
+    background-size: contain;
+    border-radius: 100%;
+    background-position: 0 4px;
+    position: relative;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rolling {
+    transform: rotate(720deg);
+}
+
+.ammoA,
+.ammoB,
+.ammoC,
+.ammoD,
+.ammoE {
+    background-color: var(--grey);
+    border: 4px solid var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    height: 55px;
+    width: 45px;
+
+    &:hover {
+        background-color: var(--white);
+        border-color: var(--dark-grey);
+    }
+}
+
+.ammoA {
+    left: 59px;
+    top: 29px;
+}
+
+.ammoB {
+    left: 166px;
+    top: 33px;
+}
+
+.ammoC {
+    left: 190px;
+    top: 134px;
+}
+
+.ammoD {
+    left: 97px;
+    top: 190px;
+}
+
+.ammoE {
+    left: 16px;
+    top: 123px;
+}
