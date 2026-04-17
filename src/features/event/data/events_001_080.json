@@ -2,6 +2,7 @@
     {
         "tag": "e001",
         "title": "The Adventure Begins",
+        "image": true,
         "desc": [
             "You are a gunslinger who has been living a hazy existence. Your brief time in this world has been mostly spent on the outside of the law, killing, stealing, carousing with undesirables, living a dangerous life full of excess and violence. Recently, you feel life might have more to offer. You know this way of life will not last and now are looking to maybe put your wild ways away, buy a ranch and settle into obscurity. You determined you need $300 and are willing to get it by any means you feel necessary.",
             "The Wild West isn’t a place for the faint of heart, you will encounter many dangers in your travels, dangers that could take your life. There is also the law that is lurking, waiting in the wind for you to make the wrong move and have you locked away to rot in a cell or even shot dead were you stand!",
@@ -31,6 +32,7 @@
     {
         "tag": "e002",
         "title": "Downpour",
+        "image": true,
         "desc": ["A raging thunderstorm enters the area. Roll a D10:"],
         "tables": [
             {
@@ -75,6 +77,7 @@
     {
         "tag": "e003",
         "title": "Bounty",
+        "image": true,
         "desc": [
             "You locate the target working on a ranch under a false name. Roll a D6:"
         ],
@@ -110,6 +113,7 @@
     {
         "tag": "e004",
         "title": "Soldiers",
+        "image": true,
         "desc": [
             "You are confronted by the Lieutenant.",
             "Attempt a Hunch Skill Test (Table C/♦️/Hunch-2) R111."
@@ -168,6 +172,7 @@
     {
         "tag": "e005",
         "title": "Aggressive",
+        "image": true,
         "desc": ["You approach with your gun drawn. Roll a D10:"],
         "tables": [
             {
@@ -216,6 +221,7 @@
     {
         "tag": "e006",
         "title": "Rescue",
+        "image": true,
         "desc": ["You rescue the hotel owner from the lout. Roll a D6:"],
         "tables": [
             {
@@ -249,6 +255,7 @@
     {
         "tag": "e007",
         "title": "Fatigued Horse",
+        "image": true,
         "desc": ["Your horse is fatigued and needs to rest. Roll a D6:"],
         "tables": [
             {
@@ -279,6 +286,7 @@
     {
         "tag": "e008",
         "title": "Strange Woman",
+        "image": true,
         "desc": [
             "You arrive at a dark dilapidated house in the middle of a swamp. Roll a D6:"
         ],
@@ -317,6 +325,7 @@
     {
         "tag": "e009",
         "title": "Knife",
+        "image": true,
         "desc": [
             "You find a Knife♣️.",
             "If you keep the knife, add it to your Weapons (Tracking Sheet)."
@@ -325,6 +334,7 @@
     {
         "tag": "e010",
         "title": "Rifle",
+        "image": true,
         "desc": [
             "You find a Rifle♥️.",
             "If you keep the rifle, add it to your Weapons (Tracking Sheet)."
@@ -333,6 +343,7 @@
     {
         "tag": "e011",
         "title": "Safe",
+        "image": true,
         "desc": ["You inspect the contents of the safe. Roll a D6:"],
         "tables": [
             {
@@ -357,6 +368,7 @@
     {
         "tag": "e012",
         "title": "Saloon",
+        "image": true,
         "desc": ["The saloon is bustling. Roll a D6:"],
         "tables": [
             {
@@ -390,6 +402,7 @@
     {
         "tag": "e013",
         "title": "Congregation Member",
+        "image": true,
         "desc": [
             "You find the target in the saloon carousing with an escort. Roll a D6:"
         ],
@@ -428,6 +441,7 @@
     {
         "tag": "e014",
         "title": "Accountant",
+        "image": true,
         "desc": [
             "You have located the hotel where the accountant is taking residence. Roll a D6:"
         ],
@@ -466,6 +480,7 @@
     {
         "tag": "e015",
         "title": "Blizzard",
+        "image": true,
         "desc": [
             "There is an intense blizzard forming in this area. Roll a D10:"
         ],
@@ -508,6 +523,7 @@
     {
         "tag": "e016",
         "title": "Runaway Contact",
+        "image": true,
         "desc": ["You arrive at the runaways contact location. Roll a D6:"],
         "tables": [
             {
@@ -544,6 +560,7 @@
     {
         "tag": "e017",
         "title": "Reparation",
+        "image": true,
         "desc": [
             "You arrive at the sheriff's office. You may lower your Bounty Suit for a price:"
         ],
@@ -562,6 +579,7 @@
     {
         "tag": "e018",
         "title": "Military Camp",
+        "image": true,
         "desc": [
             "+2 Karma. You push aside all other priorities, remove all your Points of Interest from your Tracking Sheet.",
             "You (and any partners) heal three Wound Levels. You arrive at the military camp. Roll a D6:"
@@ -601,6 +619,7 @@
     {
         "tag": "e019",
         "title": "Jewellery",
+        "image": true,
         "desc": [
             "You find jewellery.",
             "You figure you could sell them in any town.",
@@ -610,6 +629,7 @@
     {
         "tag": "e020",
         "title": "Sandstorm",
+        "image": true,
         "desc": ["A powerful sandstorm forms all around this area. Roll a D6:"],
         "tables": [
             {
